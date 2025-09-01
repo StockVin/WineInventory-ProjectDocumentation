@@ -46,10 +46,10 @@
 
 
 
-### 2.3.5. Big Picture Event Storming ###
+## _2.4. Big Picture Event Storming_ ##
 
 
 
-## _2.4. Ubiquitous Language_ ##
+## _2.5. Ubiquitous Language_ ##
 
 
