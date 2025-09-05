@@ -43,6 +43,29 @@ Para validar de manera más precisa nuestra propuesta de solución, se elaborar�
 
 *Preguntas principales*
 
+- ¿Me podrías contar un poco sobre ti y tu negocio?
+- ¿Cómo sueles llevar el control de tu inventario actualmente?
+- ¿Qué problemas has tenido con productos que se vencen, se dañan o no se venden?
+- ¿Qué tan fácil o difícil te resulta saber cuándo y qué productos necesitas reponer?
+- ¿Qué sabes sobre el almacenamiento correcto de los licores que vendes?
+
+*Preguntas sobre la solución*
+
+- ¿Actualmente utilizas herramientas digitales en tu negocio?
+- ¿Qué harías si tuvieras una herramienta que te avise cuándo reponer productos y cómo almacenarlos bien?
+- ¿Qué funcionalidades crees que debería tener una herramienta que te ayude a gestionar el stock de tus productos?
+- ¿Cómo te imaginas el futuro de tu negocio si logras reducir pérdidas y tener un mejor control del stock?
+
+**Segmento Objetivo 2**
+
+*Preguntas personales*
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿En qué distrito resides?
+
+*Preguntas principales*
+
 -  ¿Podrías contarme sobre tu rol como proveedor y tu experiencia en el sector?
 -  ¿Qué tipo de información proporcionas actualmente a tus clientes sobre tus productos?
 -  ¿Has notado problemas de conservación o manejo inadecuado de tus productos en los puntos de venta?
