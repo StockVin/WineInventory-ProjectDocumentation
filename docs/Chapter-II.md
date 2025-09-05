@@ -25,7 +25,10 @@ A través de un análisis comparativo, hemos recopilado la información más rel
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Una vez realizado la identificación de fortalezas, oportunidades, debilidades y amenazas con el análisis FODA de nuestros competidores en el sector del mercado, pasaremos a plantear las estrategias y tácticas para hacerle frente a estos mismos.
 
+* Expansión de integraciones: Con nuevas plataformas para agregar funciones que faciliten la gestión de inventario, sistemas de puntos de ventas (POS) y cooperar con proveedores como BEES
+* Soporte Postventa:  Soporte y asesorías personalizadas para garantizar al cliente el máximo provecho de cada función y asegurar la fidelidad del cliente
 
 ## _2.2. Entrevistas_ ##
 
@@ -84,7 +87,15 @@ En esta sección, se registra cada uno de las entrevistas realizadas. Se detalla
 
 ### 2.2.3. Análisis de entrevistas ###
 
+Segmento Objetivo 1: Dueños de Licorerías
 
+Entrevista 1:
+
+| Entrevista | Registro |
+| ----- | ----- |
+| <p align="center"><img src=""/></p>   | **Distrito:** Villa María del Triunfo <br>**Entrevistado:** Farid Sebastian |
+| [Link]()|  **Entrevistador:** Matías Sebastian Diaz Quispe |
+| Timing: Minuto 0:15-4:10| **Resumen:** |
 
 ## _2.3. Needfinding_ ##
 
