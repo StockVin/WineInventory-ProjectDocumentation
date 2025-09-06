@@ -32,7 +32,10 @@
 
 ### 2.3.1. Users Persona ###
 
+Para desarrollar la propuesta de solución, se realizarán un User Persona para cada segmento objetivo está basado en la entrevista realizada y resume los puntos más importantes sobre el negocio, sus metas y los desafíos que enfrenta. La idea es tener una visión clara de quién es el usuario, qué lo motiva y qué dificultades encuentra, para así orientar mejor las soluciones que se propongan.
 
+**User Persona 1: Dueños de Licorerías**
+<img src="" alt ="user_persona1">
 
 ### 2.3.2. User Task Matrix ###
 
