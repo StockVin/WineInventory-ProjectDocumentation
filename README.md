@@ -27,8 +27,8 @@
     <td>u202311938</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Meza Solòrzano Didier Sebastiàn</td>
+    <td>u202319950</td>
   </tr>
   <tr>
     <td></td>
