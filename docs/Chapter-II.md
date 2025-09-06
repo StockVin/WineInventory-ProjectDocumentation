@@ -45,6 +45,25 @@ Para desarrollar la propuesta de solución, se realizarán un User Persona para 
 
 ### 2.3.2. User Task Matrix ###
 
+El User Task Matrix muestra las actividades más relevantes que cada User Persona realiza en su día a día. A cada actividad se le da un puntaje según su frecuencia y otro según la importancia que tiene para el usuario. Con esta herramienta se pueden identificar qué tareas son realmente clave, cómo las llevan a cabo y en qué puntos hay oportunidad de mejora para el producto.
+
+En este caso, se toman como base los dos User Persona: dueños de licorerías y proveedores. En cada tabla se registran las actividades que realizan para alcanzar sus objetivos, usando una escala de cuatro niveles para medir frecuencia e importancia: Muy Alta, Alta, Media y Baja.
+
+|                                                            | Farid Sebastián |              |
+|------------------------------------------------------------|-----------------|--------------|
+|                                                            | Frecuencia      | Importancia  |
+| Gestión de inventario                                      | Muy Alta        | Muy Alta     |
+| Atención al cliente                                        | Alta            | Muy Alta     |
+| Mantenimiento de los ambientes (almacenes, local de venta) | Media           | Alta         |
+| Organización de los productos                              | Media           | Media        |
+| Contactar con proveedores                                  | Alta            | Muy Alta     |
+| Mantener relaciones comerciales                            | Alta            | Alta         | 
+| Distribución y entrega de productos                        | Baja            | Media        |
+| Promoción de productos                                     | Media           | Muy Alta     |
+| Gestión administrativa del negocio                         | Alta            | Muy Alta     |
+| Analizar el mercado de bebidas alcoholicas                 | Media           | Alta         |
+
+El cuadro muestra que ambos User Persona realizan tareas muy similares y de gran importancia. El dueño de licorería se enfoca en manejar inventario, atender clientes, llevar la parte administrativa, promocionar productos y coordinar con proveedores. El proveedor, en cambio, además de estas tareas, se encarga de la distribución y entrega de productos, así como de mantener relaciones comerciales. En general, las diferencias son mínimas, ya que ambos venden bebidas alcohólicas, pero a distintos niveles.
 
 
 ### 2.3.3. User Journey Mapping ###
