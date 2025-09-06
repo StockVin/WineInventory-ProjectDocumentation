@@ -65,8 +65,6 @@ Para validar de manera más precisa nuestra propuesta de solución, se elaborar�
 
 En esta sección, se registra cada uno de las entrevistas realizadas. Se detalla la información de nuestro entrevistado y el entrevistador. Además, se redacta el resumen del contenido de la entrevista.
 
-### 2.2.3. Análisis de entrevistas ###
-
 Segmento Objetivo 1: Dueños de Licorerías
 
 Entrevista 1:
@@ -75,9 +73,9 @@ Entrevista 1:
 | ----- | ----- |
 | <p align="center"><img src=""/></p>   | **Distrito:** Villa María del Triunfo <br>**Entrevistado:** Farid Sebastian |
 | [Link](https://upcedupe-my.sharepoint.com/personal/u202311938_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311938%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DDistribuidor%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4971e398%2Dda8c%2D42da%2Da672%2D8676e06e3ccc)|  **Entrevistador:** Matías Sebastian Diaz Quispe |
-| Timing: Minuto 0:15-4:10| **Resumen:** Farid Sebastian explicó durante la entrevista que su rol esta enfocado en la compra y venta de vinos. Su negocio está ubicado en Villa María del Triunfo y cuenta con aproximadamente dos años de experiencia en la distribución de vinos artesanlaes, principalmente Borgoña y Rosé. Mencionó que los productos con mayor salida son aquellos que ofrecen un mejor margen de ganancia, por lo que prioriza su distribución. Entre los principales desafíos que enfrenta destacó la presentación del producto y el marketing, ya que considera complicado llegar al público para incentivar la compra. En este sentido, señaló que requiere mayor apoyo y experiencia para fortalecer las ventas. Actualmente gestiona su inventario con herramientas básicas como Excel, aunque manifestó interés en contar con un software especializado que le permita optimizar la administración de su neg |
+| Timing: Minuto 0:15-4:10| **Resumen:** Farid Sebastian explicó durante la entrevista que su rol esta enfocado en la compra y venta de vinos. Su negocio está ubicado en Villa María del Triunfo y cuenta con aproximadamente dos años de experiencia en la distribución de vinos artesanlaes, principalmente Borgoña y Rosé. Mencionó que los productos con mayor salida son aquellos que ofrecen un mejor margen de ganancia, por lo que prioriza su distribución. Entre los principales desafíos que enfrenta destacó la presentación del producto y el marketing, ya que considera complicado llegar al público para incentivar la compra. En este sentido, señaló que requiere mayor apoyo y experiencia para fortalecer las ventas. Actualmente gestiona su inventario con herramientas básicas como Excel, aunque manifestó interés en contar con un software especializado que le permita optimizar la administración de su negocio. |
 
-
+### 2.2.3. Análisis de entrevistas ###
 
 
 ## _2.3. Needfinding_ ##
