@@ -38,6 +38,11 @@ Para desarrollar la propuesta de solución, se realizarán un User Persona para 
 <img src="../img/Chapter II/UserPersona1.png" alt ="user_persona1">
 <p align="center">User Persona del primer segmento objetivo</p>
 
+
+**User Persona 2: Proveedores de productos de licorerías** <br/>
+<img src="" alt ="user_persona2">
+<p align="center">User Persona del segundo segmento objetivo</p>
+
 ### 2.3.2. User Task Matrix ###
 
 
