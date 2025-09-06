@@ -49,7 +49,7 @@ El User Task Matrix muestra las actividades más relevantes que cada User Person
 
 En este caso, se toman como base los dos User Persona: dueños de licorerías y proveedores. En cada tabla se registran las actividades que realizan para alcanzar sus objetivos, usando una escala de cuatro niveles para medir frecuencia e importancia: Muy Alta, Alta, Media y Baja.
 
-|                                                            | Farid Sebastián |              |
+|                                                            |         Farid Sebastián        |
 |------------------------------------------------------------|-----------------|--------------|
 |                                                            | Frecuencia      | Importancia  |
 | Gestión de inventario                                      | Muy Alta        | Muy Alta     |
