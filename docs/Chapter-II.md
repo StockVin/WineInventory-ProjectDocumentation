@@ -68,11 +68,27 @@ El cuadro muestra que ambos User Persona realizan tareas muy similares y de gran
 
 ### 2.3.3. User Journey Mapping ###
 
+El User Journey Mapping nos permite visualizar de manera detallada las actividades que el usuario realiza para alcanzar algún objetivo. A través de esto, es posible comprender mejor su experiencia, ya que al describir el recorrido podemos ponernos en su lugar e identificar qué acciones lleva a cabo, cómo se siente y qué obstáculos enfrenta en el camino hacia cumplir una meta.
+
+**User Persona 1**
+
+En la siguiente imagen se presenta el journey map del primer user persona. En este se describe el proceso que atraviesa cuando detecta que sus productos comienzan a escasear y necesita reabastecerlos. Para resolverlo, recurre a su software de gestión, donde registra los artículos faltantes y, finalmente, actualiza de forma manual el stock.
+
+<img src="../img/Chapter II/.png" alt ="user_journey_mapping_1">
+<p align="center">User Journey Mapping del User Persona 1</p>
+
+**User Persona 2**
 
 
 ### 2.3.4. Empathy Mapping ###
 
+El Empathy Mapping es una herramienta que nos permite profundizar en la comprensión de nuestros User Persona. A través de esto, se representan lo que el usuario piensa, siente, dice y hace, desde su perspectiva. También posibilita identificar sus dolores y aspiraciones, información que resulta esencial para generar ideas de diseño que aporten a nuestro producto.
 
+**User Persona 1**
+
+
+
+**User Persona 2**
 
 ### 2.3.5. Big Picture Event Storming ###
 
