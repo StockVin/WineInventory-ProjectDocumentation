@@ -74,7 +74,7 @@ El User Journey Mapping nos permite visualizar de manera detallada las actividad
 
 En la siguiente imagen se presenta el journey map del primer user persona. En este se describe el proceso que atraviesa cuando detecta que sus productos comienzan a escasear y necesita reabastecerlos. Para resolverlo, recurre a su software de gestión, donde registra los artículos faltantes y, finalmente, actualiza de forma manual el stock.
 
-<img src="../img/Chapter II/.png" alt ="user_journey_mapping_1">
+<img src="../img/Chapter II/CustomerJourneyMappingUser1.png" alt ="user_journey_mapping_1">
 <p align="center">User Journey Mapping del User Persona 1</p>
 
 **User Persona 2**
