@@ -86,7 +86,8 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 
 **User Persona 1**
 
-
+<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="user_journey_mapping_1">
+<p align="center">Empathy Mapping del User Persona 1</p>
 
 **User Persona 2**
 
