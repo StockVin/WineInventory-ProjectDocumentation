@@ -36,12 +36,12 @@ Para desarrollar la propuesta de solución, se realizarán un User Persona para 
 
 **User Persona 1: Dueños de Licorerías** <br/>
 <img src="../img/Chapter II/UserPersona1.png" alt ="user_persona1">
-<p align="center">User Persona del primer segmento objetivo</p>
+> <p align="center">User Persona del primer segmento objetivo</p>
 
 
 **User Persona 2: Proveedores de productos de licorerías** <br/>
 <img src="" alt ="user_persona2">
-<p align="center">User Persona del segundo segmento objetivo</p>
+> <p align="center">User Persona del segundo segmento objetivo</p>
 
 ### 2.3.2. User Task Matrix ###
 
@@ -75,7 +75,7 @@ El User Journey Mapping nos permite visualizar de manera detallada las actividad
 En la siguiente imagen se presenta el journey map del primer user persona. En este se describe el proceso que atraviesa cuando detecta que sus productos comienzan a escasear y necesita reabastecerlos. Para resolverlo, recurre a su software de gestión, donde registra los artículos faltantes y, finalmente, actualiza de forma manual el stock.
 
 <img src="../img/Chapter II/CustomerJourneyMappingUser1.png" alt ="user_journey_mapping_1">
-<p align="center">User Journey Mapping del User Persona 1</p>
+> <p align="center">User Journey Mapping del User Persona 1</p>
 
 **User Persona 2**
 
@@ -87,7 +87,7 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 **User Persona 1**
 
 <img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="user_journey_mapping_1">
-<p align="center">Empathy Mapping del User Persona 1</p>
+> <p align="center">Empathy Mapping del User Persona 1</p>
 
 **User Persona 2**
 
@@ -99,14 +99,22 @@ El Big Picture Event Storming nos permite tener una visión clara y completa de 
 
 El proceso de autenticación incluye el registro y el inicio de sesión. Para mayor seguridad, se utilizan tokens y la verificación de cuenta a través de Gmail, asegurando que solo usuarios válidos accedan a la aplicación.
 
+<img src="../img/Chapter II/AuthenticationProcess.png" alt ="Authentication_Process">
+> <p align="center">Proceso de autenticación</p>
+
 **Inventory Process**
 
 El proceso de inventario permite registrar nuevos vinos, actualizar existencias, consultar el stock disponible, entre otras funciones que facilitan el control de los productos en la gestión diaria.
+
+<img src="../img/Chapter II/InventoryProcess.png" alt ="Inventory_Process">
+> <p align="center">Proceso de la gestión del inventario</p>
 
 **Report Process**
 
 El proceso de reportes incluye la generación de guías de remisión interna, guías de conservación y cuidados, además de reportes de pérdidas y facturas. Con ello, el usuario obtiene un mejor control y seguimiento de su negocio.
 
+<img src="../img/Chapter II/ReportProcess.png" alt ="Report_Process">
+> <p align="center">Proceso de un creación de algún reporte</p>
 
 ## _2.4. Ubiquitous Language_ ##
 
