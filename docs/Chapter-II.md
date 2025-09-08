@@ -93,6 +93,19 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 
 ### 2.3.5. Big Picture Event Storming ###
 
+El Big Picture Event Storming nos permite tener una visión clara y completa de cómo funcionan los procesos dentro de nuestra aplicación. A través de esta técnica visual identificamos los eventos más importantes, los posibles problemas y también las oportunidades de mejora. De esta manera, podemos centrarnos en procesos clave para analizarlos de forma más detallada. Algunos de estos procesos claves son los siguientes:
+
+**Authentication Process**
+
+El proceso de autenticación incluye el registro y el inicio de sesión. Para mayor seguridad, se utilizan tokens y la verificación de cuenta a través de Gmail, asegurando que solo usuarios válidos accedan a la aplicación.
+
+**Inventory Process**
+
+El proceso de inventario permite registrar nuevos vinos, actualizar existencias, consultar el stock disponible, entre otras funciones que facilitan el control de los productos en la gestión diaria.
+
+**Report Process**
+
+El proceso de reportes incluye la generación de guías de remisión interna, guías de conservación y cuidados, además de reportes de pérdidas y facturas. Con ello, el usuario obtiene un mejor control y seguimiento de su negocio.
 
 
 ## _2.4. Ubiquitous Language_ ##
