@@ -116,6 +116,27 @@ El proceso de reportes incluye la generación de guías de remisión interna, gu
 <img src="../img/Chapter II/ReportProcess.png" alt ="Report_Process">
 > <p align="center">Proceso de un creación de algún reporte</p>
 
+**Payment Process**
+
+El proceso de pago inicia con la selección de un plan y continúa con la pasarela de pago, donde se verifica la disponibilidad de sus fondos. Una vez realizado el cobro, el plan se activa o se renueva automáticamente. Por último, el usurio recibe un correo de verificación del pago realizado.
+
+<img src="../img/Chapter II/PaymentProcess.png" alt ="Payment_Process">
+> <p align="center">Proceso de pago</p>
+
+**Order Process**
+
+El proceso de ordenar le permite a un proveedor realizar planes de restablecimiento, aplicar descuentos y promociones, publicar catálogos y gestionar órdenes de venta. Desde el lado del comprador, abarca todo lo relacionado con la adquisición de productos al proveedor.
+
+<img src="../img/Chapter II/OrderProcess.png" alt ="Order_Process">
+> <p align="center">Proceso de realizar alguna orden</p>
+
+**Notification Process**
+
+El proceso de notificaciones informa al distribuidor sobre el estado de sus órdenes, alerta cuando los productos se quedan sin stock y comunica cuando un producto se ha vencido, manteniendo actualizado al distribuidor en todo momento.
+
+<img src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process">
+> <p align="center">Proceso de una notificación</p>
+
 ## _2.4. Ubiquitous Language_ ##
 
 
