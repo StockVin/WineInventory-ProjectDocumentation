@@ -74,7 +74,7 @@ El User Journey Mapping nos permite visualizar de manera detallada las actividad
 
 En la siguiente imagen se presenta el journey map del primer user persona. En este se describe el proceso que atraviesa cuando detecta que sus productos comienzan a escasear y necesita reabastecerlos. Para resolverlo, recurre a su software de gestión, donde registra los artículos faltantes y, finalmente, actualiza de forma manual el stock.
 
-<img src="../img/Chapter II/CustomerJourneyMappingUser1.png" alt ="user_journey_mapping_1">
+<img src="../img/Chapter II/CustomerJourneyMappingUser1.png" alt ="user_journey_mapping_1"> <br/>
 > <p align="center">User Journey Mapping del User Persona 1</p>
 
 **User Persona 2**
@@ -86,7 +86,7 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 
 **User Persona 1**
 
-<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="user_journey_mapping_1">
+<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="user_journey_mapping_1"><br/>
 > <p align="center">Empathy Mapping del User Persona 1</p>
 
 **User Persona 2**
@@ -99,42 +99,42 @@ El Big Picture Event Storming nos permite tener una visión clara y completa de 
 
 El proceso de autenticación incluye el registro y el inicio de sesión. Para mayor seguridad, se utilizan tokens y la verificación de cuenta a través de Gmail, asegurando que solo usuarios válidos accedan a la aplicación.
 
-<img src="../img/Chapter II/AuthenticationProcess.png" alt ="Authentication_Process">
+<img src="../img/Chapter II/AuthenticationProcess.png" alt ="Authentication_Process"><br/>
 > <p align="center">Proceso de autenticación</p>
 
 **Inventory Process**
 
 El proceso de inventario permite registrar nuevos vinos, actualizar existencias, consultar el stock disponible, entre otras funciones que facilitan el control de los productos en la gestión diaria.
 
-<img src="../img/Chapter II/InventoryProcess.png" alt ="Inventory_Process">
+<img src="../img/Chapter II/InventoryProcess.png" alt ="Inventory_Process"><br/>
 > <p align="center">Proceso de la gestión del inventario</p>
 
 **Report Process**
 
 El proceso de reportes incluye la generación de guías de remisión interna, guías de conservación y cuidados, además de reportes de pérdidas y facturas. Con ello, el usuario obtiene un mejor control y seguimiento de su negocio.
 
-<img src="../img/Chapter II/ReportProcess.png" alt ="Report_Process">
+<img src="../img/Chapter II/ReportProcess.png" alt ="Report_Process"><br/>
 > <p align="center">Proceso de un creación de algún reporte</p>
 
 **Payment Process**
 
 El proceso de pago inicia con la selección de un plan y continúa con la pasarela de pago, donde se verifica la disponibilidad de sus fondos. Una vez realizado el cobro, el plan se activa o se renueva automáticamente. Por último, el usurio recibe un correo de verificación del pago realizado.
 
-<img src="../img/Chapter II/PaymentProcess.png" alt ="Payment_Process">
+<img src="../img/Chapter II/PaymentProcess.png" alt ="Payment_Process"><br/>
 > <p align="center">Proceso de pago</p>
 
 **Order Process**
 
 El proceso de ordenar le permite a un proveedor realizar planes de restablecimiento, aplicar descuentos y promociones, publicar catálogos y gestionar órdenes de venta. Desde el lado del comprador, abarca todo lo relacionado con la adquisición de productos al proveedor.
 
-<img src="../img/Chapter II/OrderProcess.png" alt ="Order_Process">
+<img src="../img/Chapter II/OrderProcess.png" alt ="Order_Process"><br/>
 > <p align="center">Proceso de realizar alguna orden</p>
 
 **Notification Process**
 
 El proceso de notificaciones informa al distribuidor sobre el estado de sus órdenes, alerta cuando los productos se quedan sin stock y comunica cuando un producto se ha vencido, manteniendo actualizado al distribuidor en todo momento.
 
-<img src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process">
+<img src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process"><br/>
 > <p align="center">Proceso de una notificación</p>
 
 ## _2.4. Ubiquitous Language_ ##
