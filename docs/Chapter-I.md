@@ -72,7 +72,7 @@
 
 - Disminuyen el uso de hojas de cálculo y otros métodos manuales de control.
   
-##### 1.2.2.2.4 Features
+##### 1.2.2.2.5 Features
 
 **Features para el Segmento Objetivo 1: Dueños de licorerías pequeñas y medianas**
 
