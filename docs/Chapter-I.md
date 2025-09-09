@@ -59,7 +59,7 @@
 - Una de sus principales preocupaciones es la pérdida de productos debido al vencimiento o a una mala rotación.
 
 - Prefieren tener una visualización clara de su inventario, ya que esto les ayuda a tomar decisiones en su día a día.
-- 
+  
 ##### 1.2.2.2.4 User Outcomes
 
 - Los usuarios comienzan a tener un inventario más organizado y cometen menos errores al reponer productos.
