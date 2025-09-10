@@ -44,7 +44,26 @@
 
 # Registro de Versiones del Informe
 
-
+<table>
+    <tr>
+        <td> Versión </td>
+        <td> Fecha </td>
+        <td> Autor </td>
+        <td> Descripción de los cambios </td>
+    </tr>
+    <tr>
+        <td> 1.0 </td>
+        <td> 09/09/25 </td>
+        <td> Matias Diaz </td>
+        <td> 	Se añadió la sección de User Stories para el capítulo 2. </td>
+    </tr>
+    <tr>
+        <td> 1.0 </td>
+        <td> 09/09/25 </td>
+        <td> Matias Diaz </td>
+        <td> 	Se añadió la sección de Product Backlog para el capítulo 2. </td>
+    </tr>
+</table>
 
 # Project Report Collaboration Insights
 
