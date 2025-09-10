@@ -19,28 +19,28 @@
     <th>Código</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Giovany Smith Torres Apolinario</td>
+    <td>u202311601</td>
   </tr>
   <tr>
     <td>Diaz Quispe Matías Sebastian</td>
     <td>u202311938</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Didier Sebastian Meza Solórzano</td>
+    <td>u202319950</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Bryan Norberto Hermoza Paredes</td>
+    <td>u202313453</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Anaely Zarely Burga Loarte</td>
+    <td>u202118264</td>
   </tr>
 </table>
 
-###### Agosto 2025
+###### Septiembre 2025
 
 # Registro de Versiones del Informe
 
