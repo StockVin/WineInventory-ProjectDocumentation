@@ -79,7 +79,7 @@ En esta sección se presentarán los mockups de la aplicación web, los cuales s
 ### Alertas ###
 
 <p align="center">
-  <img src="../img/Chapter IV/alaertas-mockup.png"/>
+  <img src="../img/Chapter IV/alertas-mockup.png"/>
 </p>
 
 ### DashBoard ###
@@ -129,7 +129,7 @@ En esta sección se presentarán los mockups de la aplicación web, los cuales s
 ### Perfil ###
 
 <p align="center">
-  <img src="../img/Chapter IV/perfil-1-mockup.pngg"/>
+  <img src="../img/Chapter IV/perfil-1-mockup.png"/>
   <img src="../img/Chapter IV/perfil-2-mockup.png"/>
 </p>
 
