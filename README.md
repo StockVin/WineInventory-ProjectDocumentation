@@ -40,7 +40,7 @@
   </tr>
 </table>
 
-###### Agosto 2025
+###### Septiembre 2025
 
 # Registro de Versiones del Informe
 
