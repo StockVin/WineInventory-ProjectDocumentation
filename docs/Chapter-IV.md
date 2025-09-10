@@ -306,7 +306,84 @@ Luego, se muestra el resultado de la traducción de acción a pantallas. A conti
 
 ### 4.4.3. Web Applications Mock-ups ###
 
+En esta sección se presentarán los mockups de la aplicación web, los cuales son bosquejos de media o alta fidelidad sobre las funcionalidades principales de nuestra solución. Para el diseño de los mockups, se partió de los wireframes realizados previamente.
 
+### Inicio de Sesion/Registro ###
+
+<p align="center">
+  <img src="../img/Chapter IV/inicio-1-mockup.png"/>
+  <img src="../img/Chapter IV/inicio-2-mockup.png"/>
+  <img src="../img/Chapter IV/inicio-3-mockup.png"/>
+  <img src="../img/Chapter IV/inicio-4-mockup.png"/>
+</p>
+
+### Inventario ###
+
+<p align="center">
+  <img src="../img/Chapter IV/inventario-1-mockup.png"/>
+  <img src="../img/Chapter IV/inventario-2-mockup.png"/>
+  <img src="../img/Chapter IV/inventario-3-mockup.png"/>
+  <img src="../img/Chapter IV/inventario-4-mockup.png"/>
+  <img src="../img/Chapter IV/inventario-5-mockup.png"/>
+  <img src="../img/Chapter IV/inventario-6-mockup.png"/>
+</p>
+
+### Alertas ###
+
+<p align="center">
+  <img src="../img/Chapter IV/alertas-mockup.png"/>
+</p>
+
+### DashBoard ###
+
+<p align="center">
+  <img src="../img/Chapter IV/dashboard-mockup.png"/>
+</p>
+
+### Planes de reabastecimiento ###
+
+<p align="center">
+  <img src="../img/Chapter IV/reabastecimiento-1-mockup.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-2-mockup.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-3-mockup.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-4-mockup.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-5-mockup.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-6-mockup.png"/>
+</p>
+
+### Guias de conservacion ###
+
+<p align="center">
+  <img src="../img/Chapter IV/conservacion-1-mockup.png"/>
+  <img src="../img/Chapter IV/conservacion-2-mockup.png"/>
+  <img src="../img/Chapter IV/conservacion-3-mockup.png"/>
+  <img src="../img/Chapter IV/conservacion-4-mockup.png"/>
+  <img src="../img/Chapter IV/conservacion-5-mockup.png"/>
+  <img src="../img/Chapter IV/conservacion-6-mockup.png"/>
+</p>
+
+### Ordenes de compra ###
+
+<p align="center">
+  <img src="../img/Chapter IV/ordenes-1-mockup.png"/>
+  <img src="../img/Chapter IV/ordenes-2-mockup.png"/>
+  <img src="../img/Chapter IV/ordenes-3-mockup.png"/>
+  <img src="../img/Chapter IV/ordenes-4-mockup.png"/>
+</p>
+
+### Reportes ###
+
+<p align="center">
+  <img src="../img/Chapter IV/reportes-1-mockup.png"/>
+  <img src="../img/Chapter IV/reportes-2-mockup.png"/>
+</p>
+
+### Perfil ###
+
+<p align="center">
+  <img src="../img/Chapter IV/perfil-1-mockup.png"/>
+  <img src="../img/Chapter IV/perfil-2-mockup.png"/>
+</p>
 
 ### 4.4.4. Web Applications Userflow Diagrams ###
 
