@@ -54,7 +54,84 @@
 
 ### 4.4.3. Web Applications Mock-ups ###
 
+En esta sección se presentarán los mockups de la aplicación web, los cuales son bosquejos de media o alta fidelidad sobre las funcionalidades principales de nuestra solución. Para el diseño de los mockups, se partió de los wireframes realizados previamente.
 
+### Inicio de Sesion/Registro ###
+
+<p align="center">
+  <img src="../img/Chapter IV/inicio-1.png"/>
+  <img src="../img/Chapter IV/inicio-2.png"/>
+  <img src="../img/Chapter IV/inicio-3.png"/>
+  <img src="../img/Chapter IV/inicio-4.png"/>
+</p>
+
+### Inventario ###
+
+<p align="center">
+  <img src="../img/Chapter IV/inventario-1.png"/>
+  <img src="../img/Chapter IV/inventario-2.png"/>
+  <img src="../img/Chapter IV/inventario-3.png"/>
+  <img src="../img/Chapter IV/inventario-4.png"/>
+  <img src="../img/Chapter IV/inventario-5.png"/>
+  <img src="../img/Chapter IV/inventario-6.png"/>
+</p>
+
+### Alertas ###
+
+<p align="center">
+  <img src="../img/Chapter IV/alaertas.png"/>
+</p>
+
+### DashBoard ###
+
+<p align="center">
+  <img src="../img/Chapter IV/dashboard.png"/>
+</p>
+
+### Planes de reabastecimiento ###
+
+<p align="center">
+  <img src="../img/Chapter IV/reabastecimiento-1.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-2.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-3.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-4.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-5.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-6.png"/>
+</p>
+
+### Guias de conservacion ###
+
+<p align="center">
+  <img src="../img/Chapter IV/conservacion-1.png"/>
+  <img src="../img/Chapter IV/conservacion-2.png"/>
+  <img src="../img/Chapter IV/conservacion-3.png"/>
+  <img src="../img/Chapter IV/conservacion-4.png"/>
+  <img src="../img/Chapter IV/conservacion-5.png"/>
+  <img src="../img/Chapter IV/conservacion-6.png"/>
+</p>
+
+### Ordenes de compra ###
+
+<p align="center">
+  <img src="../img/Chapter IV/ordenes-1.png"/>
+  <img src="../img/Chapter IV/ordenes-2.png"/>
+  <img src="../img/Chapter IV/ordenes-3.png"/>
+  <img src="../img/Chapter IV/ordenes-4.png"/>
+</p>
+
+### Reportes ###
+
+<p align="center">
+  <img src="../img/Chapter IV/reportes-1.png"/>
+  <img src="../img/Chapter IV/reportes-2.png"/>
+</p>
+
+### Perfil ###
+
+<p align="center">
+  <img src="../img/Chapter IV/perfil-1.png"/>
+  <img src="../img/Chapter IV/perfil-2.png"/>
+</p>
 
 ### 4.4.4. Web Applications Userflow Diagrams ###
 
