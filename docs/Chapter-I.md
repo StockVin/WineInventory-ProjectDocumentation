@@ -55,10 +55,11 @@
 ### 1.2.2.4. Lean UX Canvas ###
 
 <p align="center">
-  <img src="[../img/Chapter I/lean_ux_canvas.jpg" alt="lean_ux_canvas](https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/refs/heads/feature/chap1-lean-ux-canvas/img/Chapter%20I/lean_ux_canvas.jpg)"/>
+  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/2c57afb514e0efe38d51c226d622d68d16ce7581/img/Chapter%20I/lean_ux_canvas.jpg"/>
 
   > <p align="center">Lean Ux Canvas</p>
 </p>
+
 
 ## _1.3. Segmentos objetivo_ ##
 
