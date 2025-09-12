@@ -13,7 +13,7 @@ En esta sección, se presentarán los mapas de impacto para cada segmento objeti
 ●	Segmento objetivo 1: Dueños de licorerías
 
 <p align="center">
-  <img src="../img/Chapter IV/Impact-1.png"
+  <img src="../img/Chapter III/Impact-1.png"
     alt="Impact-1"/>
 </p>
 
@@ -23,7 +23,7 @@ El mapa de impacto del primer segmento objetivo nos permitió visualizar con muc
 ●	Segmento objetivo 2: Proveedores de licores
 
 <p align="center">
-  <img src="../img/Chapter IV/Impact-2.png"
+  <img src="../img/Chapter III/Impact-2.png"
     alt="Impact-2"/>
 </p>
 
