@@ -58,7 +58,7 @@
   A continuación, se presentan los enlaces de acceso para cada repositorio donde se almacenarán los archivos relacionados al Landing Page, Frontend Web Applications y Web Services.
 
   
-* **Landing Page: [https:](https:)**
+* **Landing Page: [https://github.com/StockVin/WineInventory-LandingPage](https://github.com/StockVin/WineInventory-LandingPagev)**
 * **Frontend Web Applications: [https:](https:)**
 * **Web Services: [https:](https:)**
 
