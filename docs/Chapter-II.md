@@ -96,7 +96,7 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 <img src="../img/Chapter II/EmpathyMappingUser2.png" alt ="mpathy_mapping_user2"><br/>
 > <p align="center">Empathy Mapping del User Persona 2</p>
 
-### 2.3.5. Big Picture Event Storming ###
+## _2.4. Big Picture Event Storming_ ##
 
 El Big Picture Event Storming nos permite tener una visión clara y completa de cómo funcionan los procesos dentro de nuestra aplicación. A través de esta técnica visual identificamos los eventos más importantes, los posibles problemas y también las oportunidades de mejora. De esta manera, podemos centrarnos en procesos clave para analizarlos de forma más detallada. Algunos de estos procesos claves son los siguientes:
 
@@ -142,6 +142,6 @@ El proceso de notificaciones informa al distribuidor sobre el estado de sus órd
 <img src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process"><br/>
 > <p align="center">Proceso de una notificación</p>
 
-## _2.4. Ubiquitous Language_ ##
+## _2.5. Ubiquitous Language_ ##
 
 
