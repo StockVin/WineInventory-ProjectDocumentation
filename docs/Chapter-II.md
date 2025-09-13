@@ -40,7 +40,7 @@ Para desarrollar la propuesta de solución, se realizarán un User Persona para 
 
 
 **User Persona 2: Proveedores de productos de licorerías** <br/>
-<img src="" alt ="user_persona2">
+<img src="../img/Chapter II/UserPersona2.png" alt ="user_persona2">
 > <p align="center">User Persona del segundo segmento objetivo</p>
 
 ### 2.3.2. User Task Matrix ###
@@ -49,19 +49,19 @@ El User Task Matrix muestra las actividades más relevantes que cada User Person
 
 En este caso, se toman como base los dos User Persona: dueños de licorerías y proveedores. En cada tabla se registran las actividades que realizan para alcanzar sus objetivos, usando una escala de cuatro niveles para medir frecuencia e importancia: Muy Alta, Alta, Media y Baja.
 
-|                                                            | Farid Sebastián |              | 
-|------------------------------------------------------------|-----------------|--------------|
-|                                                            | Frecuencia      | Importancia  |
-| Gestión de inventario                                      | Muy Alta        | Muy Alta     |
-| Atención al cliente                                        | Alta            | Muy Alta     |
-| Mantenimiento de los ambientes (almacenes, local de venta) | Media           | Alta         |
-| Organización de los productos                              | Media           | Media        |
-| Contactar con proveedores                                  | Alta            | Muy Alta     |
-| Mantener relaciones comerciales                            | Alta            | Alta         | 
-| Distribución y entrega de productos                        | Baja            | Media        |
-| Promoción de productos                                     | Media           | Muy Alta     |
-| Gestión administrativa del negocio                         | Alta            | Muy Alta     |
-| Analizar el mercado de bebidas alcoholicas                 | Media           | Alta         |
+|                                                            | Farid Coronel |              | Sebastian Ch.|              |
+|------------------------------------------------------------|---------------|--------------|--------------|--------------|
+|                                                            | Frecuencia    | Importancia  | Frecuencia   | Importancia  |
+| Gestión de inventario                                      | Muy Alta      | Muy Alta     | Muy Alta     | Muy Alta     |
+| Atención al cliente                                        | Alta          | Muy Alta     | Alta         | Muy Alta     |
+| Mantenimiento de los ambientes (almacenes, local de venta) | Media         | Alta         | Alta         | Muy Alta     |
+| Organización de los productos                              | Media         | Media        | Alta         | Media        |
+| Contactar con proveedores                                  | Alta          | Muy Alta     | Alta         | Alta         |
+| Mantener relaciones comerciales                            | Alta          | Alta         | Muy Alta     | Muy Alta     |
+| Distribución y entrega de productos                        | Baja          | Media        | Muy Alta     | Muy Alta     |
+| Promoción de productos                                     | Media         | Muy Alta     | Alta         | Muy Alta     |
+| Gestión administrativa del negocio                         | Alta          | Muy Alta     | Alta         | Muy Alta     |
+| Analizar el mercado de bebidas alcoholicas                 | Media         | Alta         | Alta         | Alta         | 
 
 El cuadro muestra que ambos User Persona realizan tareas muy similares y de gran importancia. El dueño de licorería se enfoca en manejar inventario, atender clientes, llevar la parte administrativa, promocionar productos y coordinar con proveedores. El proveedor, en cambio, además de estas tareas, se encarga de la distribución y entrega de productos, así como de mantener relaciones comerciales. En general, las diferencias son mínimas, ya que ambos venden bebidas alcohólicas, pero a distintos niveles.
 
@@ -79,6 +79,8 @@ En la siguiente imagen se presenta el journey map del primer user persona. En es
 
 **User Persona 2**
 
+<img src="../img/Chapter II/CustomerJourneyMappingUser2.png" alt ="user_journey_mapping_2"> <br/>
+> <p align="center">User Journey Mapping del User Persona 1</p>
 
 ### 2.3.4. Empathy Mapping ###
 
@@ -86,10 +88,13 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 
 **User Persona 1**
 
-<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="user_journey_mapping_1"><br/>
+<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="empathy_mapping_user1"><br/>
 > <p align="center">Empathy Mapping del User Persona 1</p>
 
 **User Persona 2**
+
+<img src="../img/Chapter II/EmpathyMappingUser2.png" alt ="mpathy_mapping_user2"><br/>
+> <p align="center">Empathy Mapping del User Persona 2</p>
 
 ### 2.3.5. Big Picture Event Storming ###
 
