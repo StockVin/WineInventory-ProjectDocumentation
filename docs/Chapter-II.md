@@ -119,6 +119,9 @@ Entrevista 6:
 
 ### 2.2.3. Análisis de entrevistas ###
 
+Tanto como los proveedores como los dueños de licorerías comparten el desafío de mantener la calidad de sus productos y hacer crecer las ventas en un mercado que cada dia esta mucho más competitivo. Los proveedores destacan la importancia de garantizar que sus productos lleguen en óptimas condiciones hasta el consumidor final, pero enfrentean dificultades para transimitir a los puntos de venta una información técnica sobre la consevación y fechas de vencimiento. Tmabién le preocupa los errores de almacenamiento en las licorerias que afectan la reputación de la marca al cual representan. Por otro lado, los dueños las licorerías centran sus esfuerzos en distribuir productos con mayor margen de ganancia, pero reconocen que la presentación y el marketing resultan claves para incentivar la compra y, a la vez, son sus principales retos. Suelen gestionar inventarios con herramientas básicas, lo que limita el control y la planificación a largo plazo, y expresan interés en sistemas que permitan una administración más eficiente.
+
+En ambos casos, la necesidad de digitalización y el uso de herramientas especializadas par el desarrollo de su empresa es evidente e imprescindible. Para los proveedores, como medio de compartir información clara y técnica con sus clientes; y para los dueños, como soporte en la gestión de sus inventarios y en el impulso de  sus ventas. Un software que conecte ambos segmentos y facilite su trabajo mejorará la calidad de los productos, optimizará los procesos y fortalecerá la relación comercial entre ellos.
 
 ## _2.3. Needfinding_ ##
 
