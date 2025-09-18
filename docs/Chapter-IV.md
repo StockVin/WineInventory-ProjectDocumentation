@@ -4,6 +4,12 @@
 
 ### 4.1.1. General Style Guidelines ###
 
+La propuesta de marca para Wine Inventory se centra en proyectar una imagen de profesionalismo y confiabilidad tecnológica. El objetivo es ofrecer una herramienta de gestión de inventario que sea clara, funcional y moderna, ideal para licorerías y proveedores.
+
+La marca "Wine Inventory" se posiciona como una solución inteligente y especializada en el control de inventario de vinos y licores. El logo combina una copa estilizada o una botella minimalista con una tipografía limpia, lo que transmite una sensación de sofisticación y control.
+
+La paleta de colores se inspira en el mundo del vino, utilizando tonos oscuros y cálidos como el burdeos, el dorado suave y los marrones profundos. Estos colores no solo evocan la calidad y tradición asociadas a las bebidas selectas, sino que también refuerzan la elegancia de la marca.
+
 
 
 ### 4.1.2. Web Style Guidelines ###
