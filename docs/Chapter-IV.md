@@ -36,35 +36,27 @@
 
 ### 4.3.1. Landing Page Wireframe ###
 
-<p align="center">
-  <img src="../img/Chapter IV/Home.png"/>
-</p>
 
-<p align="center">
-  <img src="../img/Chapter IV/about-us.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/services.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/plans.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/faq.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/app.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/footer.png"/>
-</p>
 
 ### 4.3.2. Landing Page Mock-up ###
+
+Para el desarrollo del Landing Page de WineInventory, se realizaron bosquejos de alta fidelidad en la aplicación Figma. Para el desarrollo de estas pantallas, se tomó como base los Wireframes previamente diseñados, sin embargo, estas pantallas poseen colores adecuados y la tipografía definida para las distintas secciones del Landing Page.
+
+<p align="center">
+  <img src="../img/Chapter IV/home-mockup.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/about-us-mockup.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/services-mockup.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/plans-mockup.png"/>
+</p>
 
 <p align="center">
   <img src="../img/Chapter IV/faq-mockup.png"/>
