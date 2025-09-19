@@ -63,48 +63,12 @@ Para el desarrollo del Landing Page de WineInventory, se realizaron diversos bos
 </p>
 
 <p align="center">
-  <img src="../img/Chapter IV/contact.png"/>
-</p>
-
-<p align="center">
   <img src="../img/Chapter IV/footer.png"/>
 </p>
 
 ### 4.3.2. Landing Page Mock-up ###
 
-Para el desarrollo del Landing Page de WineInventory, se realizaron bosquejos de alta fidelidad en la aplicación Figma. Para el desarrollo de estas pantallas, se tomó como base los Wireframes previamente diseñados, sin embargo, estas pantallas poseen colores adecuados y la tipografía definida para las distintas secciones del Landing Page.
 
-<p align="center">
-  <img src="../img/Chapter IV/home-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/about-us-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/services-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/plans-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/faq-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/app-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/contact-mockup.png"/>
-</p>
-
-<p align="center">
-  <img src="../img/Chapter IV/footer-mockup.png"/>
-</p>
 
 ## _4.4. Web Applications UX/UI Design_ ##
 
