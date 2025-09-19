@@ -41,18 +41,18 @@ En definitiva, "WineInventory" busca convertirse en la herramienta esencial para
 
 **Antecedentes:**
 
-Actualmente, la gestión de inventarios en licorerías suele realizarse con procesos manuales o sistemas ya obsoletos, lo que dificulta conocer con precisión la cantidad de stock disponible y las fechas de vencimiento. Ante la creciente competencia y el avance tecnológico, la digitalización se vuelve necesaria para optimizar estas tareas.
+Actualmente, la gestión de inventarios en licorerías suele realizarse con procesos manuales o sistemas obsoletos, lo que dificulta conocer con precisión la cantidad de stock disponible y las fechas de vencimiento (QuadMinds, s.f.). Ante la creciente competencia y el avance tecnológico, la digitalización se vuelve necesaria para optimizar estas tareas.
 
-A esto se suma que muchos comerciantes carecen de información técnica sobre la conservación y cuidado de los licores, lo cual afecta directamente la calidad del producto y la satisfacción del consumidor. En un mercado competitivo, resulta fundamental contar con herramientas que permitan tomar decisiones rápidas y bien fundamentadas.
+A esto se suma que muchos comerciantes carecen de información técnica sobre la conservación y cuidado de los licores, lo cual afecta directamente la calidad del producto y la satisfacción del consumidor (LicoresEsurez, s.f.). En un mercado competitivo, resulta fundamental contar con herramientas que permitan tomar decisiones rápidas y bien fundamentadas.
 
-Frente a esta situación, surge "WineInventory", una propuesta tecnológica pensada para cubrir estas necesidades. Su plataforma intuitiva permite controlar inventarios en tiempo real y acceder a datos clave de cada producto, facilitando la gestión y mejorando la eficiencia operativa.
+Informes de control realizados en establecimientos comerciales han evidenciado la venta de productos vencidos, lo que además de afectar la rentabilidad, compromete la salud del consumidor (Cámara de Comercio de Lima [CCL], 2022).
 
 **Técnica de las 5W’s y 2H’s:**
 
 - **What?**
 
 **¿Cuál es el problema?**  
-El problema radica en la falta de información precisa sobre la conservación de los productos y en la gestión ineficiente del inventario de licores, lo que genera pérdidas económicas por vencimiento o mal almacenamiento.
+El problema radica en la falta de información precisa sobre la conservación de los productos y en la gestión ineficiente del inventario de licores (QuadMinds, s.f.; LicoresEsurez, s.f.).
 
 **¿Cuál es la relación con la persona en cuestión?**  
 Los dueños y encargados de licorerías enfrentan directamente esta problemática, ya que deben mantener un stock adecuado, asegurar la calidad de los productos y garantizar la operatividad de sus negocios.
@@ -84,7 +84,7 @@ Principalmente los dueños y responsables de inventario en licorerías, junto co
 - **Why?**
 
 **¿Cuál es la causa del problema?**  
-Entre las principales causas se encuentran: la falta de digitalización, el desconocimiento de herramientas disponibles, la deficiente comunicación técnica entre proveedores y minoristas, y la ausencia de alertas automáticas para el control de stock.
+Entre las principales causas se encuentran la falta de digitalización, el desconocimiento de buenas prácticas de almacenamiento y la ausencia de alertas automáticas para el control de stock (CCL, 2022).
 
 - **How?**
 
@@ -100,7 +100,7 @@ Las pérdidas económicas por vencimiento, las compras innecesarias o tardías, 
 - **How much?**
 
 **¿Cuánto impacto genera este problema en los negocios de licorería?**  
-El impacto es considerable. Una mala gestión puede derivar en pérdidas económicas, ventas no registradas y problemas de reputación. Informes locales han detectado productos vencidos en licorerías, lo que además de afectar la rentabilidad, compromete la salud del consumidor.
+El impacto es considerable: los problemas de gestión pueden derivar en pérdidas económicas y en la venta de productos vencidos, como lo han demostrado operativos de control en el país (CCL, 2022).
 
 **Diagrama de Ishikawa**
 
