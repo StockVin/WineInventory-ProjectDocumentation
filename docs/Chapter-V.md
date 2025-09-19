@@ -58,7 +58,7 @@
   A continuación, se presentan los enlaces de acceso para cada repositorio donde se almacenarán los archivos relacionados al Landing Page, Frontend Web Applications y Web Services.
 
   
-* **Landing Page: [https://github.com/StockVin/WineInventory-LandingPage](https://github.com/StockVin/WineInventory-LandingPagev)**
+* **Landing Page: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)**
 * **Frontend Web Applications: [https:](https:)**
 * **Web Services: [https:](https:)**
 
@@ -194,7 +194,7 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
 * **Paso 5: Acceder al Landing Page**  
   Como paso final, el entorno otorgará un enlace para poder acceder al proyecto desplegado.
 
-  <img src="">
+  <img src="../img/Chapter V/paso 5.PNG">
 
 
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
