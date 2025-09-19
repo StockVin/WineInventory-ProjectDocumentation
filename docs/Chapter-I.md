@@ -237,7 +237,7 @@ En la mayoría de casos, los dueños de licorerías no cuentan con sistemas que 
 ### 1.2.2.4. Lean UX Canvas ###
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/2c57afb514e0efe38d51c226d622d68d16ce7581/img/Chapter%20I/lean_ux_canvas.jpg"/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/develop/img/Chapter%20I/Lean_ux_wineiventory.PNG?raw=true"/>
 
   > <p align="center">Lean Ux Canvas</p>
 </p>
