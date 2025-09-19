@@ -36,8 +36,6 @@
 
 ### 4.3.1. Landing Page Wireframe ###
 
-Para el desarrollo del Landing Page de WineInventory, se realizaron diversos bosquejos de baja fidelidad en la aplicación de diseño de interfaz Figma para crear la estructura de las pantallas del Landing Page de la solución.
-
 <p align="center">
   <img src="../img/Chapter IV/Home.png"/>
 </p>
@@ -68,7 +66,17 @@ Para el desarrollo del Landing Page de WineInventory, se realizaron diversos bos
 
 ### 4.3.2. Landing Page Mock-up ###
 
+<p align="center">
+  <img src="../img/Chapter IV/faq-mockup.png"/>
+</p>
 
+<p align="center">
+  <img src="../img/Chapter IV/app-mockup.png"/>
+</p>
+
+<p align="center">
+  <img src="../img/Chapter IV/footer-mockup.png"/>
+</p>
 
 ## _4.4. Web Applications UX/UI Design_ ##
 
