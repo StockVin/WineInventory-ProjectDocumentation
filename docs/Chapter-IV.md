@@ -187,7 +187,6 @@ Los componentes cumplen con lineamientos de accesibilidad:
 ### 4.3.2. Landing Page Mock-up ###
 
 
-
 ## _4.4. Web Applications UX/UI Design_ ##
 
 ### 4.4.1. Web Applications Wireframes ###
