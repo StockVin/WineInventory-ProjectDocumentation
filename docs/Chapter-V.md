@@ -50,9 +50,25 @@
 
 ### 5.2.1.1. Sprint Planning 1 ###
 
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+
+| Sprint #                                     | Sprint 1                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                                                                                                                                                                                                                                                                                                |
+| Date                                         | 2025/08/20                                                                                                                                                                                                                                                                                                                        |
+| Time                                         | 02:30 PM                                                                                                                                                                                                                                                                                                                          |
+| Location                                     | Reunión mediante llamada virtual en Google meet                                                                                                                                                                                                                                                                                       |
+| Prepared By                                  | Diaz Quispe, Matias Sebastian                                                                                                                                                                                                                                                                                                     |
+| Attendees                                    | Diaz Quispe, Matias Sebastian / Torres Apolinario Giovany Smith / Hermoza Paredes Bryan Norberto / Burga Loarte Anaely Zarely / Meza Solòrzano Didier Sebastiàn                                                                                                                                                          |
+| <b> Sprint Goal & User Stories </b>          | --                                                                                                                                                                                                                                                                                                                                |
+| Sprint 1 Goal                                | <b> Nos enfocamos en el desarrollo e implementación de la versión inicial de la página de destino nuestra landing page. Consideramos que brinda una primera aproximación a lo que nuestro producto ofrece a los segmentos objetivo. Esto se validará cuando dichos segmentos visiten el sitio y puedan explorar y comprender las ventajas de utilizar nuestro producto. |
+| Sprint 1 Velocity                            | 16                                                                                                                                                                                                                                                                                                                                |
+| Sum of Story Points                          | 16                                                                                                                                                                                                                                                                                                                                |
 
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
+
+
 
 
 
