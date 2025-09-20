@@ -123,7 +123,38 @@ Fluidez y Conversión: La estructura en "Z" crea una ruta de lectura fluida y no
 
 ### 4.1.2. Web Style Guidelines ###
 
+Esta sección establece las pautas visuales y de interfaz destinadas al desarrollo de la aplicación en **Angular**, tomando a **Angular Material** como la librería principal de componentes. El propósito se orienta a garantizar una experiencia uniforme, accesible y optimizada para cualquier usuario, sin importar el dispositivo desde el que acceda.  
+<br>  
 
+### Responsive Design  
+
+La interfaz de **StockSip** se ajusta de manera automática mediante **Angular Flex Layout** y el uso de breakpoints estándar para el diseño adaptable:  
+
+- `xs` ≤ 576px (dispositivos móviles)  
+- `sm` 577–768px (tablets)  
+- `md` 769–1024px (laptops)  
+- `lg` > 1024px (escritorios)  
+
+El empleo de directivas como `fxLayout`, `fxFlex`, `fxHide`, `fxShow` y sus variantes permite estructurar la interfaz de forma flexible y adaptable.  
+
+### Supported components and patterns  
+
+- **Barra de navegación/Menú:** Uso de `<mat-toolbar>` junto con `<mat-menu>` o `mat-sidenav` para la navegación principal, integrados con rutas mediante `routerLink`.  
+
+- **Tarjetas:** Implementación de `<mat-card>` como contenedores de información, aplicables a productos, alertas o resúmenes.  
+
+- **Botones:** Inclusión de `<button mat-button>`, `<button mat-icon-button>` y `<button mat-raised-button>` de acuerdo con el contexto, acompañados de íconos con `<mat-icon>`.  
+
+- **Notificaciones y Diálogos:** Integración de `MatSnackBar` para mostrar mensajes de éxito, error o alerta, así como `MatDialog` para desplegar detalles o acciones contextuales, administrados mediante inyección de servicios.  
+
+### Accessibility 
+
+Los componentes cumplen con lineamientos de accesibilidad:  
+
+- **Angular Material** proporciona soporte nativo para atributos `aria-*` en los componentes correspondientes.  
+- La navegación mediante teclado es plenamente compatible (Tab, Enter, Space, Escape, entre otros).  
+- El contraste visual se ajusta a los estándares de la **WCAG 2.1 AA**.  
+- El uso de tipografías y layouts con unidades relativas (`rem/em`) favorece la escalabilidad en distintos dispositivos.  
 
 ## _4.2. Information Architecture_ ##
 
