@@ -768,6 +768,13 @@ En esta ruta esperada, el propietario de la licorería inicia sesión en su cuen
 
 ## _4.5. Web Applications Prototyping_ ##
 
+El prototipado web resulta fundamental, ya que facilita la visualización y prueba del diseño y las funcionalidades de una aplicación antes de su desarrollo definitivo. Gracias a este proceso, es posible identificar problemas de usabilidad con anticipación y garantizar que el producto final responda a las expectativas tanto de los usuarios como de los clientes.
+
+![prototype](https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/a172618fc5205eb85d9ea0f9cb3438ffe85b7c1e/img/Chapter%20IV/image-prototype.PNG)
+
+
+Enlace del video: 
+[Prototype WineInventory](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/Ebsw4tQlNadClYxfQbts1GoBNaELoFKMii2SXz7rZG_dGQ?e=hVbX5c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ## _4.6. Domain-Driven Software Architecture_ ##
