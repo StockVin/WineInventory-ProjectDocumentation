@@ -144,15 +144,15 @@ Seguidamente, se presenta una tabla que recopila la información de los commits 
 | StockVin/WineInventory-LandingPage         | feature/how-it-works             | b35b8a1   | chore: add image file.                                           | 05/09/2025  |
 | StockVin/WineInventory-LandingPage         | feature/how-it-works             | f730632   | feat(how-it-works): add how it works html                        | 26/09/2025  |
 | StockVin/WineInventory-LandingPage         | feature/how-it-works                     | ece8b35   | feat(how-it-works): add how it works style css                   | 24/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/premium-plans            | c11a1db   | feat(section-premium-plans): add premium plans section and styles| 24/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/premium-plans            | a441e10   | feat(section-premium-plans): add premium plans section and styles| 24/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/benefits                 | 1985575   | feat(benefits): add benefits section                             | 25/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/benefits                 | 4ac613f   | feat(benefits): add css styles                                   | 25/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/how-it-works             | bc1c0ae   | fix(how-it-works): fix styles.                                   | 25/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/how-it-works             | 34bbff6   | fix(how-it-works): fix index html.                               | 25/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/testimonials             | 5274230   | feat(testimonials): add html structure for testimonials section. | 26/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/testimonials             | 2f4f14a   | feat(testimonials): add css styles for testimonials section.     | 26/04/2025  |
-| StockVin/WineInventory-LandingPage         | feature/testimonials             | d2ca22d   | docs: add testimonials images.                                   | 26/04/2025  |
+| StockVin/WineInventory-LandingPage         | feature/premium-plans            | c11a1db   | feat(section-premium-plans): add premium plans section and styles| 24/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/premium-plans            | a441e10   | feat(section-premium-plans): add premium plans section and styles| 24/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/benefits                 | 1985575   | feat(benefits): add benefits section                             | 25/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/benefits                 | 4ac613f   | feat(benefits): add css styles                                   | 25/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/how-it-works             | bc1c0ae   | fix(how-it-works): fix styles.                                   | 25/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/how-it-works             | 34bbff6   | fix(how-it-works): fix index html.                               | 25/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/testimonials             | 5274230   | feat(testimonials): add html structure for testimonials section. | 26/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/testimonials             | 2f4f14a   | feat(testimonials): add css styles for testimonials section.     | 26/08/2025  |
+| StockVin/WineInventory-LandingPage         | feature/testimonials             | d2ca22d   | docs: add testimonials images.                                   | 26/08/2025  |
 
 
 
