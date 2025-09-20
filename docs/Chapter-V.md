@@ -158,7 +158,39 @@ Seguidamente, se presenta una tabla que recopila la información de los commits 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
+El objetivo de este sprint fue realizar, en collaboration con todo el equipo, la creación de la landing page. A continuación, se explica a detalle la evidencia del proceso de ejecución del sitio web estático.
 
+Se implementó la sección de inicio que contiene información general sobre el producto y sobre la startup detrás del producto. Además, se incluye la visión general de la startup relacionada con el producto y los valores del equipo de desarrollo. Esto tiene un motivo de implementación y es el de llamar la atención de los visitantes del sitio web estático.
+
+<p align="center">
+  <img src="../img/Chapter V/review 1.PNG"/>
+</p>
+
+También, se implementó una sección con un resumen de nosotros en la cual se da a conocer el equipo de trabajo  y sobre nuestra vision y mision como equipo de trabajo.
+<p align="center">
+  <img src="../img/Chapter V/review 2.PNG"/>
+</p>
+
+También, se implementó la sección de servicios donde se da a conocer el servicio que brindamos mediante nuestra app WineInvetory, tanto para proveedores como propietarios de negocios.
+<p align="center">
+  <img src="../img/Chapter V/review 3.PNG"/>
+</p>
+
+Además, se implementó una sección de planes donde se da a conocer los planes disponibles que cuenta nuestra app de Wineinventory.
+<p align="center">
+  <img src="../img/Chapter V/review 4.PNG"/>
+</p>
+
+También, se implementó la sección de "Preguntas Frecuentes", donde se ponen algunas preguntas comunes para que las personas que visiten nuestra pagina tengan un poco de informacion sobre nuestra app.
+<p align="center">
+  <img src="../img/Chapter V/review 5.PNG"/>
+</p>
+
+Finalmente, se agrego la seccion de "Acerca de", donde brindamos un video explicativo sobre nuestra startup y sobre algunas cualidades con las que cuenta WineInventory.
+
+<p align="center">
+    <img src="../img/Chapter V/review 6.PNG">
+</p>
 
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
 
