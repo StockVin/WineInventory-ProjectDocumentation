@@ -194,6 +194,11 @@ Finalmente, se agrego la seccion de "Acerca de", donde brindamos un video explic
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review ###
 
+En el primer sprint el equipo de desarrollo de StockVin ha diseñado, programado y puesto en funcionamiento el sitio web(Landing Page) Para presentar la aplicacion web propuesta denominada "WineInventory". En este sitio webm se logra visualizar varias secciones que ilustran en que consiste WineInventory, cada integrante del equipo de desarrollo de StockVin estuvo a cargo de una seccion en especifico.
+
+| End Point                             | Funciones | 
+|----------------------------------------|----------------------------------|
+|https://wineinventory-landing-page.web.app/ | Mostrar Landing Page desplegada|
 
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review ###
