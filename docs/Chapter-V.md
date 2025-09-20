@@ -202,6 +202,30 @@ Se adjunta el enlace para acceder al sitio web estático desplegado:
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review ###
 
+En esta sección, se explica la colaboración aportada por cada miembro del equipo durante este sprint. Este proyecto se realizo mediante repositorio en GitHub con los siguientes integrantes participantes:
+
+<p align="center">
+  <img src="../img/Chapter V/deployev 1.jpeg">
+</p>
+
+Respecto del avance realizado por cada integrante en este sprint, se detallan las secciones realizadas por cada integrante: A continuacion, se detallara el trabajo que realizo cada integrante del equipo:
+
+- El integrante Giovany Torres fue responsable de implementar la sección de "Nosotros" y "FAQ" en el Landing page.
+- La integrante Matias Diaz implementó las seccion "Servicios" en el Landing page.
+- El integrante Bryan Hermosa fue responsable de implementar la seccion "Acerca de" en el landing page.
+- El integrante Anaely Burga implementó la seccion de "Planes" en el Landing page.
+- El integrante Didier Meza implementó la seccion de "Inicio" en el Landing page.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la primera versión del sitio web estático:
+<p align="center">
+  <img src="../img/Chapter V/commit 1.PNG"/>
+</p>
+
+Finalmente, se muestra el gráfico los avances realizados por los integrantes en las ramas creadas para cada característica que se implementó al sitio web estático en este sprint:
+<p align="center">
+  <img src="../img/Chapter V/commit 2.jpg"/>
+</p>
 
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint ###
