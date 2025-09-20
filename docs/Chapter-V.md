@@ -192,7 +192,7 @@ Finalmente, se agrego la seccion de "Acerca de", donde brindamos un video explic
     <img src="../img/Chapter V/review 6.PNG">
 </p>
 
-### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
+### 5.2.1.6. Services Documentation Evidence for Sprint Review ###
 
 
 
