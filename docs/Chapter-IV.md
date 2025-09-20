@@ -86,11 +86,11 @@
 
 ## _4.7. Software Object-Oriented Design_ ##
 
-
-
 ### 4.7.1. Class Diagram ###
 
+**Despliegue del diagrama de clase de WineInventory**
 
+![diagram](../img/Chapter%20IV/class-diagram.png)
 
 ## _4.8. Database Design_ ##
 
