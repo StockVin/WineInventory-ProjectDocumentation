@@ -54,6 +54,78 @@
 
 ### 4.4.3. Web Applications Mock-ups ###
 
+En esta sección se presentan los mockups de la aplicación web, los cuales corresponden a representaciones de media o alta fidelidad que ilustran las funcionalidades principales de la solución. Para su elaboración, se tomó como base los wireframes desarrollados previamente.
+
+### Inicio de Sesion/Registro
+
+<p align="center">
+    <img src="../img/Chapter IV/inicio-1-mockup.png"/>
+  <img src="../img/Chapter IV/inicio-2-mockup.png"/>
+    <img src="../img/Chapter IV/inicio-3-mockup.png"/>
+    <img src="../img/Chapter IV/inicio-4-mockup.png"/>
+</p>
+
+### Alertas
+
+<p align="center">
+    <img src="../img/Chapter IV/alertas-mockup.png"/>
+</p>
+
+
+### Inventario
+
+<p align="center">
+    <img src="../img/Chapter IV/inventario-1-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-2-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-3-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-4-mockup.png"/>
+      <img src="../img/Chapter IV/inventario-5-mockup.png"/>
+      <img src="../img/Chapter IV/inventario-6-mockup.png"/>
+</p>
+
+
+### DashBoard
+
+<p align="center">
+    <img src="../img/Chapter IV/dashboard-mockup.png"/>
+</p>
+
+
+### Reabastecimiento
+
+<p align="center">
+    <img src="../img/Chapter IV/reabastecimiento-1-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-2-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-3-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-4-mockup.png"/>
+      <img src="../img/Chapter IV/reabastecimiento-5-mockup.png"/>
+      <img src="../img/Chapter IV/reabastecimiento-6-mockup.png"/>
+</p>
+
+
+### Ordenes 
+
+<p align="center">
+    <img src="../img/Chapter IV/ordenes-1-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-2-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-3-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-4-mockup.png"/>
+</p>
+
+
+### Reportes
+
+<p align="center">
+    <img src="../img/Chapter IV/reportes-1-mockup.png"/>
+    <img src="../img/Chapter IV/reportes-2-mockup.png"/>
+</p>
+
+### Perfil
+
+<p align="center">
+    <img src="../img/Chapter IV/perfil-1-mockup.png"/>
+    <img src="../img/Chapter IV/perfil-2-mockup.png"/>
+</p>
 
 
 ### 4.4.4. Web Applications Userflow Diagrams ###
