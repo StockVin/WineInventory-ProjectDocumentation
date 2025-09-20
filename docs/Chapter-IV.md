@@ -96,4 +96,6 @@
 
 ### 4.8.1. Database Diagram ###
 
+Despliegue total del Data Base Diagram de WineInventory
 
+![diagrama-erd](../img/Chapter%20IV/diagrama-erd.png)
