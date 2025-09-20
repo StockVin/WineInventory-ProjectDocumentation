@@ -473,19 +473,298 @@ Para el desarrollo del Landing Page de WineInventory, se realizaron bosquejos de
 
 ### 4.4.1. Web Applications Wireframes ###
 
+En esta parte se presentan los wireframes de la aplicación, los cuales consisten en bocetos de baja fidelidad que ilustran las principales funcionalidades de la solución.  Finalmente, se dividieron estos wireframes en ocho secciones.
 
+### Sección inicio de sesión/registro
+
+En esta sección, la persona usuaria tiene la posibilidad de crear una cuenta o acceder con una previamente registrada. Además, puede seleccionar el rol con el que desea ingresar, ya sea como dueño de licorería o como proveedor. También se incluye la opción de recuperación de contraseña mediante un código de confirmación, el cual será enviado al correo electrónico registrado durante la creación de la cuenta.
+
+<p align="center">
+  <img src="../img/Chapter IV/inicio-sesion.png"/>
+</p>
+<p align="center">
+  <img src="../img/Chapter IV/inicio-1.png"/>
+    <img src="../img/Chapter IV/inicio-3.png"/>
+    <img src="../img/Chapter IV/inicio-4.png"/>
+    <img src="../img/Chapter IV/inicio-5.png"/>
+</p>
+
+### Perfil ###
+
+En esta sección se muestran los perfiles correspondientes a los dos tipos de usuarios. Dentro de esta área, las personas usuarias pueden actualizar su información personal, modificar sus características y gestionar el tipo de plan, eligiendo entre el Plan Free, el Plan plus y Plan Pro.
+
+<p align="center">
+  <img src="../img/Chapter IV/perfil-1.png"/>
+    <img src="../img/Chapter IV/perfils-2.png"/>
+    <img src="../img/Chapter IV/perfil-3.png"/>
+</p>
+
+### DashBoard ###
+
+En esta sección se ofrece a ambos tipos de usuarios acceso a su dashboard, el cual presenta un resumen general, notificaciones de alertas recientes y accesos directos a las principales herramientas de la aplicación.
+
+<p align="center">
+  <img src="../img/Chapter IV/dashboard-1.png"/>
+  <img src="../img/Chapter IV/dashboard-2.png"/>
+  <img src="../img/Chapter IV/dashboard-3.png"/>
+  <img src="../img/Chapter IV/dashboard-4.png"/>
+</p>
+
+### Alertas ###
+
+En esta sección, el usuario tiene la posibilidad de visualizar las alertas con mayor detalle, incluyendo la cantidad de stock disponible de cada producto en su almacén, así como los artículos que se encuentran próximos a vencer.
+
+<p align="center">
+  <img src="../img/Chapter IV/alertas.png"/>
+</p>
+
+### Planes de reabastecimiento ##
+
+En esta sección, el usuario tiene la opción de generar planes de reabastecimiento para su almacén, estableciendo la frecuencia con la que renovará su inventario. Asimismo, puede consultar y administrar los planes previamente creados, lo que garantiza una organización más eficiente y un suministro continuo de productos.
+
+<p align="center">
+  <img src="../img/Chapter IV/reabastecimiento-1.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-2.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-3.png"/>
+  <img src="../img/Chapter IV/reabastecimiento-4.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-5.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-6.png"/>
+</p>
+
+### Reportes ###
+
+En esta sección, el usuario tiene la posibilidad de elaborar reportes vinculados a pérdidas, remisiones internas y aspectos relacionados con el cuidado y la conservación de sus productos, lo que le permite mantener un control preciso y optimizar la gestión de su inventario.
+
+<p align="center">
+  <img src="../img/Chapter IV/reportes-1.png"/>
+  <img src="../img/Chapter IV/reportes-2.png"/>
+</p>
+
+### Ordenes ###
+
+En esta sección, el sistema ofrece a los usuarios la opción de generar reportes sobre pérdidas, remisiones internas y prácticas de conservación de productos, facilitando un control más detallado y una administración más eficiente de su inventario.
+
+<p align="center">
+  <img src="../img/Chapter IV/ordenes-1.png"/>
+  <img src="../img/Chapter IV/ordenes-2.png"/>
+    <img src="../img/Chapter IV/ordenes-3.png"/>
+    <img src="../img/Chapter IV/ordenes-4.png"/>
+</p>
+
+### Inventario ###
+
+En esta sección, el sistema permite a los usuarios administrar su inventario mediante distintas herramientas: agregar, modificar y eliminar productos, registrar salidas especificando su tipo, y consultar un resumen general del estado del inventario, lo que favorece un control más organizado y eficiente.
+
+<p align="center">
+  <img src="../img/Chapter IV/inventario-1.png"/>
+  <img src="../img/Chapter IV/inventario-2.png"/>
+  <img src="../img/Chapter IV/inventario-3.png"/>
+  <img src="../img/Chapter IV/inventario-4.png"/>
+  <img src="../img/Chapter IV/inventario-5.png"/>
+</p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams ###
 
+Un wireflow, o flujo de pantalla, es un diagrama que integra distintos wireframes con el propósito de mostrar los objetivos que el usuario busca alcanzar dentro de la aplicación y la manera en que los consigue. El proceso de elaboración de cada diagrama comienza con la definición del objetivo del usuario, seguido por la identificación del flujo de tareas necesarias para cumplirlo. Finalmente, dichas tareas se representan a través de pantallas, incorporando también las decisiones asociadas a los botones dentro del wireframe.
 
+- **User Goal 1:** Usuario desea registrarse en la aplicación
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-1.png"/>
+</p>
+
+Posteriormente, se presenta el resultado de la traducción de las acciones en pantallas. En este flujo se ilustra el proceso de registro de una cuenta en la aplicación, el cual inicia cuando el usuario accede a la plataforma web y continúa con el ingreso de la información solicitada para completar la creación de su cuenta
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-1-1.png"/>
+</p
+
+- **User Goal 2:** Usuario desea iniciar sesión con su cuenta en la aplicación
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-2.png"/>
+</p>
+
+A continuación, se presenta el resultado de la traducción de las acciones en pantallas. En este flujo se detalla el proceso para acceder a la aplicación, el cual requiere que el usuario haya creado previamente una cuenta. Posteriormente, debe ingresar sus credenciales en los campos correspondientes para iniciar sesión.
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-2-2.png"/>
+</p>
+
+- **User Goal 3:** Usuario desea cambiar su contraseña
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-3.png"/>
+</p>
+
+Seguidamente, se presenta el resultado de la traducción de las acciones en pantallas. En este flujo se describe el proceso para recuperar la contraseña de una cuenta. El usuario accede a la sección destinada a esta función e ingresa el correo electrónico vinculado a su perfil. Posteriormente, recibe un código de verificación, el cual le permite avanzar al siguiente paso y establecer una nueva contraseña.
+
+<p align="center">
+  <img src="../img/Chapter IV/user-3-3.png"/>
+</p>
+
+- **User Goal 4:** Dueño de licorería desea visualizar su inventario
+
+Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-4.png"/>
+</p>
+
+Seguidamente, se presenta el resultado de la traducción de las acciones en pantallas. En este flujo se expone el proceso para visualizar el inventario. En primer lugar, el usuario debe iniciar sesión en la aplicación. Luego, accede al Dashboard, que corresponde a la vista principal tras autenticarse. Finalmente, al hacer clic en el botón de Inventario, podrá consultar el contenido completo de su stock.
+
+<p align="center">
+  <img src="../img/Chapter IV/user-goal-4-4.png"/>
+</p>
 
 ### 4.4.3. Web Applications Mock-ups ###
 
+En esta sección se presentan los mockups de la aplicación web, los cuales corresponden a representaciones de media o alta fidelidad que ilustran las funcionalidades principales de la solución. Para su elaboración, se tomó como base los wireframes desarrollados previamente.
 
+### Inicio de Sesion/Registro
+
+<p align="center">
+    <img src="../img/Chapter IV/inicio-1-mockup.png"/>
+  <img src="../img/Chapter IV/inicio-2-mockup.png"/>
+    <img src="../img/Chapter IV/inicio-3-mockup.png"/>
+    <img src="../img/Chapter IV/inicio-4-mockup.png"/>
+</p>
+
+### Alertas
+
+<p align="center">
+    <img src="../img/Chapter IV/alertas-mockup.png"/>
+</p>
+
+
+### Inventario
+
+<p align="center">
+    <img src="../img/Chapter IV/inventario-1-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-2-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-3-mockup.png"/>
+    <img src="../img/Chapter IV/inventario-4-mockup.png"/>
+      <img src="../img/Chapter IV/inventario-5-mockup.png"/>
+      <img src="../img/Chapter IV/inventario-6-mockup.png"/>
+</p>
+
+
+### DashBoard
+
+<p align="center">
+    <img src="../img/Chapter IV/dashboard-mockup.png"/>
+</p>
+
+
+### Reabastecimiento
+
+<p align="center">
+    <img src="../img/Chapter IV/reabastecimiento-1-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-2-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-3-mockup.png"/>
+    <img src="../img/Chapter IV/reabastecimiento-4-mockup.png"/>
+      <img src="../img/Chapter IV/reabastecimiento-5-mockup.png"/>
+      <img src="../img/Chapter IV/reabastecimiento-6-mockup.png"/>
+</p>
+
+
+### Ordenes 
+
+<p align="center">
+    <img src="../img/Chapter IV/ordenes-1-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-2-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-3-mockup.png"/>
+    <img src="../img/Chapter IV/ordenes-4-mockup.png"/>
+</p>
+
+
+### Reportes
+
+<p align="center">
+    <img src="../img/Chapter IV/reportes-1-mockup.png"/>
+    <img src="../img/Chapter IV/reportes-2-mockup.png"/>
+</p>
+
+### Perfil
+
+<p align="center">
+    <img src="../img/Chapter IV/perfil-1-mockup.png"/>
+    <img src="../img/Chapter IV/perfil-2-mockup.png"/>
+</p>
 
 ### 4.4.4. Web Applications Userflow Diagrams ###
 
+Un user flow o trayectoria del usuario se define como un diagrama que representa el recorrido que realiza un usuario mediante un flujo visual, señalando los pasos necesarios para alcanzar un objetivo específico dentro de la aplicación. Asimismo, este diagrama establece la secuencia de acciones requeridas para garantizar que la experiencia digital resulte clara y satisfactoria para el usuario.
 
+- **User Goal 1:** Usuario desea registrarse en la aplicación
+
+**Happy Path**
+
+En esta trayectoria prevista, el flujo se centra en el proceso de registro de una cuenta dentro de la aplicación. El usuario inicia en la pantalla principal, donde debe completar el formulario con la información solicitada para crear su cuenta. Una vez registrada, la cuenta permite continuar con el uso de la aplicación. Es importante señalar que este flujo no contempla la selección de un plan, ya que todos los usuarios registrados acceden automáticamente a un plan gratuito con funciones limitadas.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-1.png"
+    alt="userflow_1_happypath"/>
+
+**Unhappy Paths**
+
+Estas rutas alternativas consideran los casos en los que el usuario introduce información incorrecta que no supera la verificación o deja incompletos uno o varios campos obligatorios necesarios para avanzar con el registro.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-1-1.png"
+    alt="userflow_1_happypath"/>
+
+- **User Goal 2:** Usuario desea iniciar sesión con su cuenta en la aplicación
+
+**Happy Path**
+
+En esta ruta esperada, el flujo describe el proceso de inicio de sesión del usuario para ingresar a la aplicación. A diferencia de otros casos, este flujo sí contempla la elección de plan y, a partir de este punto, se considera que los usuarios cuentan con el plan pro.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-2.png"
+    alt="userflow_1_happypath"/>
+
+**Unhappy Paths**
+
+En esta ruta alterna, el usuario introdujo información de su cuenta de forma incorrecta, lo que impide el acceso a la cuenta en ese momento.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-2-2.png"
+    alt="userflow_1_happypath"/>
+
+- **User Goal 3:** Usuario desea cambiar su contraseña
+
+**Happy Path**
+
+En este escenario previsto, el usuario se encuentra inicialmente sin recordar su contraseña para acceder a la aplicación. Deberá iniciar el procedimiento de recuperación a través de su dirección de correo electrónico; posteriormente recibirá un código de verificación que tendrá que introducir en la aplicación para establecer una nueva contraseña.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-3.png"
+    alt="userflow_1_happypath"/>
+
+**Unhappy Paths**
+
+En esta ruta alterna, el usuario ha proporcionado una dirección de correo electrónico que no está registrada en la aplicación. (Si se introduce una dirección registrada, la aplicación enviará un código de verificación a ese correo aunque no pertenezca al solicitante). Como consecuencia, no recibirá ningún código de verificación y no podrá restablecer su contraseña.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-3-3.png"
+    alt="userflow_1_happypath"/>
+  
+- **User Goal 4:** Dueño de licorería desea visualizar su inventario
+
+**Happy Path**
+
+En esta ruta esperada, el propietario de la licorería inicia sesión en su cuenta para acceder a la pantalla principal. Posteriormente, mediante un clic, ingresa al inventario digital y visualiza los productos disponibles.
+
+<p align="center">
+  <img src="../img/Chapter IV/userflow-4.png"
+    alt="userflow_1_happypath"/>
 
 ## _4.5. Web Applications Prototyping_ ##
 
