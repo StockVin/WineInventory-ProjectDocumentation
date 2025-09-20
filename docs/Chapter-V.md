@@ -194,7 +194,11 @@ Finalmente, se agrego la seccion de "Acerca de", donde brindamos un video explic
 
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
 
+La organization de nuestro code se realizó en un repositorio en GitHub y para el despliegue de la landing page se utilizó GitHub Pages. Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
 
+Se adjunta el enlace para acceder al sitio web estático desplegado: 
+
+[WineInventory](https://wineinventory-landing-page.web.app/)
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review ###
 
