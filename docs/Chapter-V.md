@@ -68,8 +68,15 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este primer sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada sección y el estilo que debe contener este mismo: inicio, funcionamiento de la aplicación, beneficios para cada segmento, testimonios, exploración de la aplicación, planes y contacto.
 
-
+| Team Member                        | GitHub Username | Sección Inicio | Nosotros | Servicios | Planes | FAQ | Acerca |  
+|------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
+| Diaz Quispe, Matias Sebastian      | equinox-1092      |               |                                |L            |             |        |         |        |
+| Torres Apolinario Giovany Smith    | Giovany7x     |                | L                               |            |             |    L    |          |     |
+| Hermoza Paredes Bryan Norberto  | WasNeo          |                |                                 |          |             |        |L          |
+| Burga Loarte Anaely Zarely | userxx1000      |                |                                 |            | L           |        |          |
+| Meza Solòrzano Didier Sebastiàn      | Didier04x    |L                |                                 |            |             |      | 
 
 
 ### 5.2.1.3. Sprint Backlog 1 ###
