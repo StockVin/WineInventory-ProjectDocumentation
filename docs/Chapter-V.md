@@ -430,7 +430,7 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 [Link Trello](https://trello.com/invite/b/68d83b4319d6b611ef129eaa/ATTI9202e1ccd8750a16ea951f9bff9ce9ecA9336686/stockvin-sprint-backlog-2)
 
 <p align="center">
-  <img src="../img/Chapter v/sprint-2.png" 
+  <img src="../img/Chapter V/sprint-2.png" 
   alt="Sprint goal y Stories del Sprint #2"/>
 </P>
 
