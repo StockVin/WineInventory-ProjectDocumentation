@@ -427,10 +427,10 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es implementar secciones para que los usuarios puedan ser redirigidos a la aplicación web desde el sitio web estático e implementar secciones importantes como inventarios, almacenes, productos, alertas y guías en la aplicación front end del proyecto.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[https://trello.com/invite/b/68d83b4319d6b611ef129eaa/ATTI9202e1ccd8750a16ea951f9bff9ce9ecA9336686/stockvin-sprint-backlog-2](https://trello.com/invite/b/68d83b4319d6b611ef129eaa/ATTI9202e1ccd8750a16ea951f9bff9ce9ecA9336686/stockvin-sprint-backlog-2)
+[Link Trello](https://trello.com/invite/b/68d83b4319d6b611ef129eaa/ATTI9202e1ccd8750a16ea951f9bff9ce9ecA9336686/stockvin-sprint-backlog-2)
 
 <p align="center">
-  <img src="../img/Chapter v/sprint Back 2.PNG" 
+  <img src="../img/Chapter v/sprint-2.png" 
   alt="Sprint goal y Stories del Sprint #2"/>
 </P>
 
@@ -476,31 +476,155 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 
 En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
 
-A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+A continuación, se muestra una tabla que contiene la información sobre los commits hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
-| Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
-| ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
-| Wineinventory/StockVin-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 04/10/2025  |
-| Wineinventory/StockVin-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/dashboard           | 44a318c<br> | feat(analytics-and-reporting): update side navigation bar sections           | 05/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 04/10/2025  |
-| Wineinventory/StockVin-LandingPage   | feature/i18n                | ddf0f82     | feat(i18n): Add data-i18n attributes to FAQ and statistics sections          | 05/10/2025  |
-| Wineinventory/StockVin-LandingPage   | develop                     | ac735e5     | chore: add page icon                                                         | 05/10/2025  |
-| Wineinventory/StockVin-LandingPage   | feature/faq                 | f63ab33c    | feat(faq): add faq section and styles.                                       | 95/10/2025  |
-| Wineinventory/StockVin-LandingPage   | feature/exploration-off-app | 78e7985     | feat(exploration-of-the-app): add exploration of the application section<br> | 05/10/2025  |
+| Repository                           | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
+| ------------------------------------ | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
+| Wineinventory/StockVin-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/dashboard           | 44a318c     | feat(analytics-and-reporting): update side navigation bar sections           | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/order               | 7c500f7     | feat(orders): add distribution                                               | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/report              | 3c08d09     | feat(report-create): add section of report create                            | 06/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/report              | 14425ddb    | feat(care-guide): add compontents for the section and form of care guides    | 96/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/order               | 96e99b3     | feat(orders): update orders.routes                                           | 06/10/2025  |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif;">
+  <thead>
+    <tr style="background:#f2f2f2;">
+      <th>Endpoint</th>
+      <th>Acción</th>
+      <th>Verbo HTTP</th>
+      <th>Descripción</th>
+      <th>Sintaxis</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/users</td>
+      <td>Gestionar usuarios del sistema</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para usuarios administradores, distribuidores y productores</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","username":"string",<br>"password":"string","email":"string",<br>"role":"string","profileId":"number",<br>"createdAt":"string","updatedAt":"string","isActive":"boolean"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":1,"username":"admin",<br>"password":"******","email":"admin@example.com",<br>"role":"admin","profileId":10,<br>"createdAt":"2025-05-01T12:00:00Z","updatedAt":"2025-05-10T09:30:00Z","isActive":true}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/products</td>
+      <td>Gestionar productos básicos</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para productos como vinos, rones, piscos</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"name":"string","type":"string",<br>"description":"string","imageUrl":"string",<br>"id":"string"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"p1001","name":"Cabernet Sauvignon",<br>"type":"vino","description":"Vino tinto seco",<br>"imageUrl":"https://example.com/images/cabernet.png"}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/catalog</td>
+      <td>Gestionar catálogo de vinos</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para el catálogo completo de vinos con detalles específicos</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"string","name":"string",<br>"varietal":"string","vintage":"number",<br>"origin":"string","price":"number","imageUrl":"string",<br>"tastingNotes":"string"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"c2001","name":"Reserva Especial",<br>"varietal":"Cabernet Sauvignon","vintage":2018,<br>"origin":"Perú","price":120.5,"imageUrl":"https://example.com/images/reserva.png",<br>"tastingNotes":"Frutos rojos y roble"}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/inventory</td>
+      <td>Gestionar inventario</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para el inventario con stock, fechas de expiración y ubicaciones</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"string","name":"string",<br>"type":"string","expirationDate":"string",<br>"currentStock":"number","minStockLevel":"number",<br>"price":"number","location":"string","imageUrl":"string"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"inv3001","name":"Cabernet",<br>"type":"vino","expirationDate":"2028-12-31",<br>"currentStock":50,"minStockLevel":10,<br>"price":120.0,"location":"Almacén A","imageUrl":"https://example.com/images/stock_cab.png"}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/orders</td>
+      <td>Gestionar órdenes de venta</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para órdenes de clientes con items, cantidades y totales</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"string","code":"string",<br>"customerName":"string","customerEmail":"string",<br>"status":"string","createdAt":"string","expectedDelivery":"string",<br>"notes":"string","items":"array","subtotal":"number",<br>"tax":"number","total":"number"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"o4001","code":"ORD-0001",<br>"customerName":"Bodega El Sol","customerEmail":"ventas@el-sol.com",<br>"status":"Pendiente","createdAt":"2025-06-01T10:00:00Z","expectedDelivery":"2025-06-05",<br>"notes":"Entregar en la mañana","items":[{"productId":"p1001","quantity":10,"price":120}],<br>"subtotal":1200,"tax":216,"total":1416}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/purchase-orders</td>
+      <td>Gestionar órdenes de compra</td>
+      <td>GET, POST, PUT, DELETE</td>
+      <td>Operaciones CRUD para órdenes de compra a proveedores</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","date":"object",<br>"status":"string","buyer":"object","supplier":"object",<br>"items":"array","totalAmount":"number","totalItems":"number"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":5001,"date":"2025-06-01T09:00:00Z",<br>"status":"Pendiente","buyer":{"id":1,"name":"Bodega Central"},"supplier":{"id":20,"name":"Distribuidora XYZ"},<br>"items":[{"productId":"p1001","quantity":100,"unitPrice":12}],<br>"totalAmount":1200,"totalItems":1}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/reporting</td>
+      <td>Gestionar informes de productos</td>
+      <td>GET, POST, DELETE</td>
+      <td>Operaciones CRUD para informes de pérdidas y estadísticas de productos</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","products":"string",<br>"type":"string","price":"number","amount":"number",<br>"date":"string","lost":"number"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":7001,"products":"p1001",<br>"type":"pérdida","price":120,"amount":5,<br>"date":"2025-06-10","lost":600}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/careguides</td>
+      <td>Gestionar guías de cuidado</td>
+      <td>GET, POST, DELETE</td>
+      <td>Operaciones CRUD para guías de cuidado y conservación de vinos</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","name":"string",<br>"type":"string","description":"string",<br>"imageUrl":"string"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":8001,"name":"Guía Conservación Vinos",<br>"type":"vino","description":"Conservar a 14°C y evitar luz directa",<br>"imageUrl":"https://example.com/images/guide.png"}</div>
+      </td>
+    </tr>
+    <tr>
+      <td>/subscriptionPlans</td>
+      <td>Gestionar planes de suscripción</td>
+      <td>GET, POST, PUT</td>
+      <td>Operaciones CRUD para planes Free, Plus y Pro</td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"string","name":"string",<br>"price":"string","shortDescription":"string",<br>"benefits":"array"}</div>
+      </td>
+      <td>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"plan_free","name":"Free",<br>"price":"0","shortDescription":"Plan básico gratuito",<br>"benefits":["Acceso limitado","Soporte por correo"]}</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
