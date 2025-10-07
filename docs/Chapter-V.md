@@ -495,7 +495,7 @@ A continuación, se muestra una tabla que contiene la información sobre los com
 | Wineinventory/StockVin-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 06/10/2025  |
 | Wineinventory/StockVin-Front-End-App | feature/order               | 7c500f7     | feat(orders): add distribution                                               | 06/10/2025  |
 | Wineinventory/StockVin-Front-End-App | feature/report              | 3c08d09     | feat(report-create): add section of report create                            | 06/10/2025  |
-| Wineinventory/StockVin-Front-End-App | feature/report              | 14425ddb    | feat(care-guide): add compontents for the section and form of care guides    | 96/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/report              | 14425ddb    | feat(care-guide): add compontents for the section and form of care guides    | 06/10/2025  |
 | Wineinventory/StockVin-Front-End-App | feature/order               | 96e99b3     | feat(orders): update orders.routes                                           | 06/10/2025  |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -627,4 +627,96 @@ A continuación, se muestra una tabla que contiene la información sobre los com
 </table>
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: la Landing Page y el Frontend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
+
+#### Despliegue del Landing Page
+Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
+
+- Link al landing page: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)
+
+* Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para el sprint actual.
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v2.0". Desde esa rama, se realizará un nuevo despliegue del sitio web estático.
+<p align="center">
+  <img src="../img/Chapter V/paso 3.PNG"/>
+</p>
+
+* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
+<p align="center">
+  <img src="../img/Chapter V/Build pass2.PNG"/>
+</p>
+
+* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+<p align="center">
+  <img src="../img/Chapter V/Build pass.PNG"/>
+</p>
+
+* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="../img/Chapter V/deploy ev1.PNG"/>
+</p>
+
+* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
+<p align="center">
+  <img src="../img/Chapter V/paso 5.PNG"/>
+</p>
+
+#### Despliegue del Frontend
+Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
+
+Link a la aplicación: [https://stockvin-bc8a6.web.app/sign-in](https://stockvin-bc8a6.web.app/sign-in)
+
+* Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/front-end-app-v1.0". Desde esa rama, se realizará el primer despliegue de la aplicación front-end.
+
+* A continuación, se instaló Firebase CLI, lo que permite gestionar y desplegar aplicaciones en Firebase. Luego, se inicializó el proyecto de Firebase en la carpeta del Frontend. Inmediatamente, ejecutamos en la consola el comando "firebase --version" para verificar que se haya instalado correctamente.
+<p align="center">
+  <img src="../img/Chapter V/pas1 front.PNG"/>
+</p>
+
+* Luego, ejecutamos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="../img/Chapter V/pas2 front.PNG" alt="Execution of npm run build command">
+
+<p align="center">
+  <img src="../img/Chapter V/pas3 front.PNG" alt="Creation of the dist folder">
+
+* Luego, ingresamos a la página web Firebase e ingresamos con nuestra cuenta de Google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicación.
+
+<p align="center">
+  <img src="../img/Chapter V/pas4 front.PNG">
+
+* Después, nos ubicamos en el apartado de hosting.
+<p align="center">
+  <img src="../img/Chapter V/pas5 front.PNG">
+
+* Y se procede a agregar un nuevo sitio web, colocamos el nombre de nuestro sitio y damos clic en Agregar sitio.
+<p align="center">
+  <img src="../img/Chapter V/pas6 front.PNG">
+
+* Regresamos a WebStorm y en la consola ingresamos el comando "firebase login" y decimos NO. Luego, nos solicitará que ingresemos con nuestra cuenta de Google con la que creamos el proyecto.
+<p align="center">
+  <img src="../img/Chapter V/pas66 front.PNG"> 
+
+
+* Inmediatamente, inicializamos Firebase con el comando "firebase init".
+<p align="center">
+  <img src="../img/Chapter V/pas7 front.PNG"> 
+
+
+
+* A continuación, ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para construir una nueva versión del proyecto con todos los últimos cambios.
+<p align="center">
+  <img src="../img/Chapter V/pas8 front.PNG"> 
+
+* Finalmente, tras la ejecución del despliegue del Frontend a través de Firebase, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="../img/Chapter V/pas9 front.PNG"/>
+</p>
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+
