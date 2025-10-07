@@ -115,52 +115,52 @@ Luego, se tienen distintos tipos de mensajes de confirmación. Por ejemplo, se t
 
 * **Nomenclatura en HTML:**  
   Para la codificación del proyecto en HTML, se utilizará el artículo *“HTML Style Guide and Coding Conventions”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en HTML como si se debe escribir en minúsculas o mayúsculas las secciones del cuerpo del documento. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
-  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para el landing page de StockSip a desarrollar.
+  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para el landing page de StockVin a desarrollar.
 
 * **Nomenclatura en CSS:**  
   Para la codificación del proyecto en Cascading Style Sheets (CSS), se utilizará el artículo *“Google HTML/CSS Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en CSS como capitalización en código de colores, referencias a imágenes, etc. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
-  Finalmente, se aplicará el contenido del artículo para la nomenclatura en CSS para el estilo de colores que se quiere agregar al landing page de StockSip a desarrollar.
+  Finalmente, se aplicará el contenido del artículo para la nomenclatura en CSS para el estilo de colores que se quiere agregar al landing page de StockVin a desarrollar.
 
 * **Nomenclatura en TypeScript:**  
   Para la codificación del proyecto en TypeScript, se utilizará el artículo *“Google TypeScript Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que establece las convenciones de codificación que Google sigue para escribir código en TypeScript. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://google.github.io/styleguide/tsguide.html](https://google.github.io/styleguide/tsguide.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.  
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.  
     
 * **Nomenclatura en Angular:**  
   Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://angular.dev/style-guide](https://angular.dev/style-guide)  
-  Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockSip.  
+  Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockVin.  
     
 * **Nomenclatura en Java:**  
   Para la codificación del proyecto en Java, se utilizará el artículo *“Google Java Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Google sigue para escribir código en Java. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Google. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.
 
 * **Nomenclatura en Spring Boot:**  
   Para la codificación del proyecto en Spring Boot, se utilizará el artículo *“Spring Boot Features”.* Este artículo contiene información útil y necesaria para comprender las características fundamentales que ofrece Spring Boot para el desarrollo de aplicaciones en el ecosistema Spring. Su objetivo principal es presentar de forma estructurada los componentes clave del framework, promoviendo un desarrollo eficiente, coherente y escalable, especialmente para proyectos que buscan aprovechar la configuración automática, la modularidad y las mejores prácticas del desarrollo moderno con Java. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://docs.spring.io/spring-boot/reference/features/index.html](https://docs.spring.io/spring-boot/reference/features/index.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.
 En esta sección, se definen las referencias que se usaron para adoptar estrategias de nomenclatura de elementos de programación en los lenguajes que se usarán para la solución (HTML, CSS, JavaScript, TypeScript y Java). En general, la nomenclatura de los archivos y secciones en la programación se hará en inglés.
 
 * **Nomenclatura en HTML:**  
   Para la codificación del proyecto en HTML, se utilizará el artículo *“HTML Style Guide and Coding Conventions”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en HTML como si se debe escribir en minúsculas o mayúsculas las secciones del cuerpo del documento. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
-  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para el landing page de StockSip a desarrollar.
+  Finalmente, se aplicará el contenido del artículo para la nomenclatura en HTML para el landing page de StockVin a desarrollar.
 
 * **Nomenclatura en CSS:**  
   Para la codificación del proyecto en Cascading Style Sheets (CSS), se utilizará el artículo *“Google HTML/CSS Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que incluye la programación en CSS como capitalización en código de colores, referencias a imágenes, etc. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
-  Finalmente, se aplicará el contenido del artículo para la nomenclatura en CSS para el estilo de colores que se quiere agregar al landing page de StockSip a desarrollar.
+  Finalmente, se aplicará el contenido del artículo para la nomenclatura en CSS para el estilo de colores que se quiere agregar al landing page de StockVin a desarrollar.
 
 * **Nomenclatura en TypeScript:**  
   Para la codificación del proyecto en TypeScript, se utilizará el artículo *“Google TypeScript Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura de los diversos aspectos que establece las convenciones de codificación que Google sigue para escribir código en TypeScript. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://google.github.io/styleguide/tsguide.html](https://google.github.io/styleguide/tsguide.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.  
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.  
     
 * **Nomenclatura en Angular:**  
   Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://angular.dev/style-guide](https://angular.dev/style-guide)  
-  Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockSip.  
+  Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockVin.  
     
 * **Nomenclatura en Java:**  
   Para la codificación del proyecto en Java, se utilizará el artículo *“Google Java Style Guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Google sigue para escribir código en Java. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Google. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.
 
 * **Nomenclatura en Spring Boot:**  
   Para la codificación del proyecto en Spring Boot, se utilizará el artículo *“Spring Boot Features”.* Este artículo contiene información útil y necesaria para comprender las características fundamentales que ofrece Spring Boot para el desarrollo de aplicaciones en el ecosistema Spring. Su objetivo principal es presentar de forma estructurada los componentes clave del framework, promoviendo un desarrollo eficiente, coherente y escalable, especialmente para proyectos que buscan aprovechar la configuración automática, la modularidad y las mejores prácticas del desarrollo moderno con Java. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://docs.spring.io/spring-boot/reference/features/index.html](https://docs.spring.io/spring-boot/reference/features/index.html)  
-  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockVin.
 
 
 ### 5.1.4. Software Deployment Configuration ###
@@ -203,7 +203,7 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
 
 #### 5.2.1.1. Sprint Planning 1 ####
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockVin.
 
 | Sprint #                                     | Sprint 1                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -389,3 +389,46 @@ Finalmente, se muestra el gráfico los avances realizados por los integrantes en
 <p align="center">
   <img src="../img/Chapter V/commit 2.jpg"/>
 </p>
+
+
+## 5.2.2. Sprint 2
+### 5.2.2.1. Sprint Planning 2.
+
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockVin.
+
+| Sprint #                                     | Sprint 2                                               |
+|----------------------------------------------|--------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                     |
+| Date                                         | 2025/10/04                                             |
+| Time                                         | 11:00 AM                                               |
+| Location                                     | Reunión por Discord |
+| Prepared By                                  | Torres Apolinario Giovany Smith                        |
+| Attendees                                    | Diaz Quispe, Matias Sebastian / Torres Apolinario Giovany Smith / Burga Loarte Anaely Zarely / Meza Solòrzano Didier Sebastiàn   |
+| Sprint 1 Review Summary                      | En el sprint anterior, el equipo completó una primera vista de la Landing Page implementando las secciones y estilos básicos que necesitará, como Beneficios, Planes e Información sobre la Startup. |
+| Sprint 1 Retrospective Summary               | El principal aspecto que el equipo debe mejorar es la mayor comunicación entre los miembros para que se mantengan al tanto del progreso de cada uno. Ahora, el plan para el próximo sprint es trabajar de forma más organizada para que cada miembro sepa qué hacer.  |
+| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint 2 Goals                               | <b> Nuestro enfoque es ofrecer una visualización más detallada y una mayor adaptabilidad de la actual Landing Page de StockVin e implementar y desplegar la primera versión funcional de la aplicación Front-End con características clave como almacenes digitales, el panel de control, registro de productos, advertencias, guías de cuidado y navegación básica entre secciones. Creemos que ofrece diferentes formas de acceder a la Landing Page desde diferentes tamaños de pantalla e idiomas a los segmentos objetivo y visitantes y una primera visión completa de las funcionalidades que la aplicación ofrece a los segmentos objetivo. Esto se confirmará cuando nuestros segmentos objetivo y visitantes accedan a la Landing a través de diferentes dispositivos y cuando nuestros segmentos objetivo se registren en la aplicación y utilicen las principales funcionalidades como almacenes y guías de cuidado. | 
+| Sprint 2 Velocity                            | 100                                                    |
+| Sum of Story Points                          | 99                                                     |
+
+### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application. Para esto, hemos definido las siguientes secciones: Alertas, Reportes(cuidado y perdidas), Ordenes, Inventario y zona de almacenamiento y Cuenta de usuario(configuracion, registro, rol)
+
+| Team Member                        | GitHub Username | Alertas | Reportes | Ordenes | Inventario | Cuenta de usuario | 
+|------------------------------------|-----------------|---------------------|-----------|-------------------|---------------------------------------------------|---------|
+| Diaz Quispe, Matias Sebastian      | equinox-1092    |         |  L       |          |            |        |         
+| Torres Apolinario Giovany Smith    | Giovany7x       |         |          | L        |            | L      |     
+| Burga Loarte Anaely Zarely         | userxx1000      |         |          |          | L          |        | 
+| Meza Solòrzano Didier Sebastiàn    | Didier04x       |   L     |          |          |            |        |
+
+### 5.2.2.3. Sprint Backlog 2.
+  
+### 5.2.2.4. Development Evidence for Sprint Review.
+
+### 5.2.2.5. Execution Evidence for Sprint Review.
+
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+### 5.2.2.8. Team Collaboration Insights during Sprint.
