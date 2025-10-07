@@ -474,6 +474,30 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
   
 ### 5.2.2.4. Development Evidence for Sprint Review.
 
+En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+
+| Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
+| ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
+| Wineinventory/StockVin-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 04/10/2025  |
+| Wineinventory/StockVin-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/dashboard           | 44a318c<br> | feat(analytics-and-reporting): update side navigation bar sections           | 05/10/2025  |
+| Wineinventory/StockVin-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 04/10/2025  |
+| Wineinventory/StockVin-LandingPage   | feature/i18n                | ddf0f82     | feat(i18n): Add data-i18n attributes to FAQ and statistics sections          | 05/10/2025  |
+| Wineinventory/StockVin-LandingPage   | develop                     | ac735e5     | chore: add page icon                                                         | 05/10/2025  |
+| Wineinventory/StockVin-LandingPage   | feature/faq                 | f63ab33c    | feat(faq): add faq section and styles.                                       | 95/10/2025  |
+| Wineinventory/StockVin-LandingPage   | feature/exploration-off-app | 78e7985     | feat(exploration-of-the-app): add exploration of the application section<br> | 05/10/2025  |
+
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 
 
