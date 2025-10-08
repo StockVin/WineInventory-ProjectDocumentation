@@ -759,7 +759,7 @@ Para el paso inicial, nos basamos en la configuración inicial de los repositori
 #### Despliegue del Landing Page
 Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
 
-- Link al landing page: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)
+- Link al landing page: [WineInventory LandingPage](https://wineinventory-landing-page.web.app/)
 
 * Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para el sprint actual.
 
@@ -792,7 +792,7 @@ Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta
 Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
 Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
 
-Link a la aplicación: [https://stockvin-bc8a6.web.app/sign-in](https://stockvin-bc8a6.web.app/sign-in)
+Link a la aplicación: [WineInventory Frontend](https://wineinventory-front-end.web.app)
 
 * Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
 
