@@ -533,8 +533,98 @@ A continuación, se muestra una tabla que contiene la información sobre los com
 
 #### FronEnd:
 
+* Interfaz de Sign-in Sign-Up:
 
-Imagesssss
+<p align="center">
+  <img src="../img/Chapter V/ev1.jpg"/>
+</p>
+
+
+<p align="center">
+  <img src="../img/Chapter V/ev2.jpg"/>
+</p>
+
+* Sidevar de interfaces del FrontEnd
+<p align="center">
+  <img src="../img/Chapter V/ev3.jpg"/>
+</p>
+
+* Interfaz de Home
+
+<p align="center">
+  <img src="../img/Chapter V/ev4.jpg"/>
+</p>
+
+* Interfaz de Orders
+
+<p align="center">
+  <img src="../img/Chapter V/ev5.jpg"/>
+</p>
+
+* Interfaz de New-Orders
+
+<p align="center">
+    <img src="../img/Chapter V/ev6.jpg">
+</p>
+
+
+* Interfaz de Inventory
+
+<p align="center">
+  <img src="../img/Chapter V/ev7.jpg"/>
+</p>
+
+
+* Interfaz de New-Inventory
+
+<p align="center">
+  <img src="../img/Chapter V/ev8.jpg"/>
+</p>
+
+* Interfaz de NewProduct Output en Inventory
+
+<p align="center">
+    <img src="../img/Chapter V/ev9.jpg">
+</p>
+
+* Interfaz de Reports
+
+<p align="center">
+  <img src="../img/Chapter V/ev10.jpg"/>
+</p>
+
+* Interfaz de New-Reports
+
+<p align="center">
+  <img src="../img/Chapter V/ev11.jpg"/>
+</p>
+
+* Interfaz de New Care Guiode en Reports
+
+<p align="center">
+    <img src="../img/Chapter V/ev13.jpg">
+</p>
+
+* Interfaz de Alerts
+<p align="center">
+    <img src="../img/Chapter V/ev14.jpg">
+</p>
+
+* Interfaz de Settings
+
+<p align="center">
+    <img src="../img/Chapter V/ev15.jpg">
+</p>
+
+* Interfaz Edit Profile 
+
+<p align="center">
+    <img src="../img/Chapter V/ev16.jpg">
+</p>
+
+
+
+
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
