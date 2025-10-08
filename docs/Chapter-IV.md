@@ -807,7 +807,7 @@ El objetivo es alcanzar un mayor nivel de detalle en la comprensión del sistema
 
 Un diagrama de contexto constituye una representación gráfica que describe la manera en que un sistema se relaciona con actores externos y otros sistemas. En el caso de WineInventory, este diagrama refleja las interacciones entre la aplicación, sus usuarios y los sistemas vinculados de forma relevante.
 
-![WineInvetory Context Diagram](../img/Chapter%20IV/system-contextv2.png)
+![WineInvetory Context Diagram](../img/Chapter%20IV/context-v3.png)
 
 <p align = "center"> <em> Fuente: Elaborado con structurizr </em> </p>
 
@@ -815,7 +815,7 @@ Un diagrama de contexto constituye una representación gráfica que describe la 
 
 Un diagrama de contenedores es una representación gráfica que describe los distintos contenedores que conforman un sistema y la forma en que estos se relacionan entre sí. En el caso de WineInventory, dicho diagrama refleja la arquitectura global del sistema, mostrando la aplicación web, la base de datos y otros componentes esenciales que intervienen en su funcionamiento.
 
-![WineInvetory Context Diagram](../img/Chapter%20IV/system-containerv2.png)
+![WineInvetory Context Diagram](../img/Chapter%20IV/container-v3.png)
 
 <p align = "center"> <em> Fuente: Elaborado con structurizr </em> </p>
 
@@ -823,7 +823,7 @@ Un diagrama de contenedores es una representación gráfica que describe los dis
 
 Los diagramas de componentes ofrecen una visión de las interrelaciones entre los elementos clave de un sistema de software, mostrando la manera en que se implementan los módulos correspondientes dentro del programa.
 
-![WineInvetory Context Diagram](../img/Chapter%20IV/system-componentv2.png)
+![WineInvetory Context Diagram](../img/Chapter%20IV/component-v3.png)
 
 <p align = "center"> <em> Fuente: Elaborado con structurizr </em> </p>
 
@@ -831,7 +831,7 @@ Los diagramas de componentes ofrecen una visión de las interrelaciones entre lo
 
 ### 4.7.1. Class Diagram ###
 
-**Despliegue del diagrama de clase de WineInventory**
+El diagrama de clases representa un sistema para administrar usuarios, roles, productos, clientes, pedidos y suscripciones. La clase `Users` funciona como la base, mientras que `Consumers`, `Producers` y `Distributors` son roles especializados con responsabilidades concretas (consumo, producción e inventario, y gestión/distribución de pedidos). El catálogo se modela con `product` y `TypeProduct` —se recomienda que la relación sea 1:N para que un tipo pueda agrupar varios productos—; `client` y `clientList` contienen la información de clientes y sus vínculos comerciales o de contacto. `Orders` almacena los pedidos y `OrderHistory` registra los eventos y cambios de estado asociados a cada pedido. Las suscripciones (`Subscription`) se vinculan a distintos tipos de características (`Start`, `Pro`, `Premium`) que habilitan funciones del sistema; resulta conveniente tratar esas features como componentes reutilizables, definir claramente la herencia de los roles, revisar las multiplicidades y uniformar la nomenclatura de las claves para mejorar la coherencia.
 
 ![diagram](../img/Chapter%20IV/class-diagram.png)
 
@@ -839,7 +839,7 @@ Los diagramas de componentes ofrecen una visión de las interrelaciones entre lo
 
 ### 4.8.1. Database Diagram ###
 
-Despliegue total del Data Base Diagram de WineInventory
+El diagrama de base de datos muestra un sistema comercial relacional centrado en la tabla `users` (ID como PK), desde la cual se enlazan roles especializados mediante FKs: `producers`, `distributors` y `consumers` referencian a `users` para segregar responsabilidades. El catálogo se compone de `products` y `typeProducts` (cada producto referencia a su tipo vía `TypeProductID`), y la tabla `inventories` articula stock relacionando productos con `suppliers` y `producers` (ProductID, SupplierID, ProducerID) para controlar unidades y fechas de vencimiento. La gestión comercial y CRM se refleja en `clients` y `clientLists` (esta última almacena datos de contacto/comerciales y se vincula a pedidos mediante la tabla intermedia `clientLists_orders`), mientras que `orders` registra las ventas y `orderHistories` guarda los eventos y cambios de estado asociados (relación 1:N). La tabla `supports` modela los tickets de soporte ligados a usuarios, y las suscripciones aparecen en `subscriptions` junto a tablas de features (`StartFeature`, `ProFeature`, `PremiumFeature`); dado que `subscriptions.Features` es un campo string, se recomienda normalizarlo en una relación many-to-many con las features. Para mejorar integridad y flexibilidad conviene crear `order_items` para pedidos con varios productos, renombrar y clarificar `clientLists` (por ejemplo `client_contacts`), convertir `subscriptions.Features` en una tabla relacional, estandarizar nombres de columnas (id, user_id, product_id), añadir timestamps y reglas de borrado en cascada, e indexar las FKs más utilizadas. En conjunto, el modelo cubre autenticación, catálogo, inventario, pedidos y soporte, pero ganaría normalización y escalabilidad corrigiendo campos desnormalizados y añadiendo tablas intermedias donde proceda.
 
 ![diagrama-erd](../img/Chapter%20IV/diagrama-erd.png)
 
