@@ -83,6 +83,10 @@
 | 2.0     | 08-10-2025 | Matias Diaz  | Se corrigio las descripciones detalladas con respecto al C4 model                                |
 | 2.0     | 08-10-2025 | Matias Diaz  | Se corrigio la explicacion del class diagram                                                     |
 | 2.0     | 08-10-2025 | Matias Diaz  | Se corrigio la explicacion del database diagram                                                  |
+| 2.0     | 20-09-2025 | Giovany Torres | Se añadio la sección de Software Configuration Management en el capítulo 5.                   |
+| 2.0     | 20-09-2025 | Giovany Torres  | Se añadio la sección de Sprint 2 en el capítulo 5.                                            |
+| 2.0     | 08-10-2025 | Giovany Torres  | Se añadio la sección de Sprint planing 2 en el capítulo 5.                                    |
+
 
 
 # Project Report Collaboration Insights
@@ -146,6 +150,7 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
       <td>
         <strong>Torres Apolinario Giovany Smith</strong><br><br>
         TB1: Me asegure de comunicar de forma clara y efectiva las bases visuales, estructurales y técnicas del proyecto, ajustando el nivel de detalle según el tipo de audiencia. Gracias a ello, tanto los perfiles técnicos como los no técnicos lograron comprender y alinear su trabajo en torno a los mockups, las guías de estilo y la arquitectura de la información propuesta.<br><br>
+        TP1: Me asegure de comunicar de forma clara las tareas a realizar sobre el desarrollo del frontend y las reunios del equipo de trabajo dando a detalle a cada integrante del grupo, como tambien el desarrollo del sprint 2.
         <strong>Hermoza Paredes Bryan Norberto</strong><br><br>
         TB1: En esta entrega me aseguré de comunicar de manera clara los contenidos y hallazgos del capítulo 2, realizando el análisis de los competidores y las entrevistas, y usando esa información para las demás ramas del proyecto. Adapté la información de forma clara para todos los miembros del equipo, de modo que pudieran entender y aprovechar lo presentado.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
@@ -170,6 +175,7 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
       <td>
         <strong>Torres Apolinario Giovany Smith</strong><br><br>
         TB1: Elabore documentos claros y estructurados que transmitieron de manera efectiva las bases visuales, técnicas y de diseño del proyecto, adaptando el contenido a diferentes rangos de audiencia. Encargandome de Software Configuration Management y Sprint 1<br><br>
+        TP1: Desarrolle las partes de ordenes y profile en el frontend asegurandome su funcionalidad del programa, como tambien me encargue del desarrollo de todo el sprint 2 tanto como realizar las reuniones como las tareas a realizar en el sprint backlog 2.<br><br>
         <strong>Hermoza Paredes Bryan Norberto</strong><br><br>
         TB1: En esta entrega me aseguré de comunicar por escrito de manera clara los hallazgos del capítulo 2, incluyendo el análisis de competidores, entrevistas, journey mapping, empathy mapping y user personas, usando esta información para guiar las demás partes del proyecto y ayudar a alcanzar los objetivos para los distintos segmentos.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
