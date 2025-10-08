@@ -863,7 +863,7 @@ A continuacion de detallara el trabajo que realizo cada integrante del equipo:
 
 Commits de los integrantes en el Landing Page:
 <p align="center">
-  <img src="../img/Chapter V/sprint-2 ev1.PNG"/>
+  <img src="../img/Chapter V/sprint-2 ev1.png"/>
 </p>
 
 Grafico de los push y merge realizados por el equipo en el landing page:
