@@ -58,9 +58,9 @@
   A continuación, se presentan los enlaces de acceso para cada repositorio donde se almacenarán los archivos relacionados al Landing Page, Frontend Web Applications y Web Services.
 
   
-* **Landing Page: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)**
-* **Frontend Web Applications: [https:](https:)**
-* **Web Services: [https:](https:)**
+* **Landing Page: [Link Landing page ](https://wineinventory-landing-page.web.app/)**
+* **Frontend Web Applications: [Link Front end ](https://wineinventory-front-end.web.app)**
+* **Web Services: [Link Back end ](https:)**
 
 #### **5.1.2.2. GitFlow**
 
