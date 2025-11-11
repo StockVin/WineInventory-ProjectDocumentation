@@ -1030,6 +1030,87 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 | StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts): add alert commands.                                                     | NOV 20, 2025 |
 
 
+### 5.2.3.5. Execution Evidence for Sprint Review ###
+El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización del landing page, del frontend y la primera version del backend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
+
+
+#### **Landing Page**
+
+**Video about the team**
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+**Video about the product**
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+#### **Front End Application**
+
+**Ordenes dueño**
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+**Ordesnes proveedor**
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+**Nueva orden**
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
+
+#### **Back End Application**
+**Guias de conservacion**
+
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
+**Products**
+
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
+**Warehouses**
+
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
+**Alertas**
+
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
+**Cuentas de usuario**
+
+<p align="center">
+  <img src=""/>
+</p>
+<br>
+
+
 
 
 
