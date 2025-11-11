@@ -1007,3 +1007,30 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 |              |                                                          | TS023T002      | Implementar endpoint PUT para pedidos                                         | Crear lógica de actualización de estado y respuesta adecuada                                                                                                 | 3                  | Giovany torres  | Done   |
 |              |                                                          | TS023T003      | Agregar validaciones de negocio (estado entregado)                            | Bloquear cambios a pedidos entregados                                                                                                                        | 1                  | Giovany torres  | Done   |
 
+
+### 5.2.3.4. Development Evidence for Sprint Review ###
+
+En esta sección, se describen los principales avances de implementación realizados en este tercer sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
+
+| Repository                                 | Branch                   | Commit Id | Commit Message                                                                        | Commited On  |
+| ------------------------------------------ | ------------------------ | --------- | ------------------------------------------------------------------------------------- | ------------ |
+| StockVin/WineInventory-backend-application | inventories              | 2b40dbb   | feat: inventory.                                                                      | NOV 06, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | e429561   | feat(order): add controller orders.                                                   | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 5b8ee64   | feat(order): update repositories orders.                                              | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 8c72d1b   | feat(order): update query services orders.                                            | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | bc8fdbd   | feat(order): update entities orders.                                                  | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | c294c15   | feat(order): update command services orders.                                          | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 4627a57   | feat(order): update aggregates orders.                                                | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | b6e56e1   | feat(order): update assembler orders.                                                 | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | care-guides              | 0ab1890   | feat(care-guides): parameterize active alert lookup state for JPA compatibility.      | NOV 08, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts-and-notifications): add external service in inventory management context. | NOV 20, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts-and-notifications): add anti-corruption layer implementation.             | NOV 20, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts): add alert commands.                                                     | NOV 20, 2025 |
+
+
+
+
+
+
