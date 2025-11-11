@@ -1151,7 +1151,172 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 | Accounts    | `/api/v1/accounts/{accountId}/alerts`                                                            | Obtener alertas por cuenta                | GET        | `/accounts/1/alerts`                           | `accountId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
 
 
+## **Ejemplos Detallados**
 
+
+### Care Guides
+
+#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
+
+- **Descripción:** Obtiene una guía de cuidado específica sin necesidad de que esté vinculada a un producto.
+    
+- **Parámetros:**
+    
+    - `careGuideId` (path)
+    - `accountId` (path)
+        
+- **Ejemplo de llamada:**
+
+	- GET /api/v1/care-guides/123
+    
+- **Respuesta (`200 Ok`):**
+    
+{
+  "id": "123",
+  "accountId": "456",
+  "productId": "789",
+  "title": "Guía de Almacenamiento",
+  "summary": "Indicaciones para conservar el producto correctamente",
+  "minTemp": 5,
+  "maxTemp": 15,
+  "placeStorage": "Ambiente fresco",
+  "recommendation": "Evitar exposición directa al sol"
+}
+
+
+### Products
+
+### Endpoint: `/api/v1/products` – `POST`
+
+- **Descripción:** Registra un nuevo producto asociado a un proveedor..
+    
+- **Body:**
+
+{
+  "additionalName": "Whisky Etiqueta Azul",
+  "liquorType": "Whisky",
+  "brandName": "Blue Label",
+  "unitPriceAmount": 250,
+  "minimumStock": 10,
+  "imageUrl": "http://example.com/image.png",
+  "providerId": "sup123"
+}
+
+	
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "prod678",
+	  "imageUrl": "http://example.com/image.png",
+	  "name": "Whisky Etiqueta Azul",
+	  "brandName": "Blue Label",
+	  "liquorType": "Whisky",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta de error (`400`):**  
+    `"Product could not be created..."`
+
+
+### Warehouses
+
+### Endpoint: `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}` – `POST`
+
+- **Descripción:** Agrega existencias de un producto a un almacén específico, registrando su fecha de vencimiento.
+    
+- **Parámetros:**
+    
+    - `warehouseId`: ID del almacén
+        
+    - `productId`: ID del producto
+        
+ - Body:
+        
+	 {
+	  "expirationDate": "2025-12-01T00:00:00",
+	  "quantity": 100
+	 }
+        
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "inv123",
+	  "productId": "prod456",
+	  "warehouseId": "wh789",
+	  "bestBeforeDate": "2025-12-01T00:00:00",
+	  "stock": 100,
+	  "productState": "FRESH"
+	}
+
+
+
+### Alerts
+
+### Endpoint: `/api/v1/alerts/{alertId}` – `GET`
+
+- **Descripción:** Recupera la información de una alerta del sistema mediante su identificador único.
+    
+- **Parámetros:**
+    
+    - `alertId` (path): ID de la alerta.
+        
+- **Ejemplo de llamada:**
+    
+    `GET /api/v1/alerts/a123`
+    
+- **Ejemplo de respuesta (`200 OK`):**
+    
+    {
+	  "id": "a123",
+	  "title": "Alerta de Temperatura",
+	  "message": "La temperatura ha superado el límite permitido.",
+	  "severity": "HIGH",
+	  "type": "STORAGE_CONDITION",
+	  "productId": "p456",
+	  "warehouseId": "w789"
+	  }
+    
+- **Respuesta de error (`404 Not Found`):**
+    
+    `Alert not found...`
+
+
+### Account
+
+### Endpoint: `/api/v1/accounts/{accountId}/care-guides` – `POST`
+
+- **Descripción:** Crea una nueva guía de cuidado vinculada a una cuenta, sin asociarla directamente a un producto.
+    
+- **Parámetros:**
+    
+    - `accountId` (path): ID de la cuenta.
+        
+- **Body:**
+    
+	{
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+    
+- **Respuesta (`201 Created`):**
+    
+	{
+	  "id": "cg01",
+	  "accountId": "acc01",
+	  "productId": null,
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review ###
 
