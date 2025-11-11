@@ -1175,3 +1175,49 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 * Link publico:
 
+### 5.2.3.8. Team Collaboration Insights durint Sprint ###
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los tres principales productos: Landing Page, Web Application (Frontend) y Web Services(BackEnd). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../img/Chapter V/deployev 1.jpeg"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Didier Meza fue responsable de implementar la sección de alertas en el Frontend y creacion del bounded context alerts and notifications
+- El integrante Giovany Torres agrego los videos about the team y about the product. En el Frontend se encargo de realizar el apartado de las ordenes, como tambien en el backend su desarrollo de las ordenes.
+- El integrante Matias Diaz implementó la seccion de planes de reabastecimiento en el Frontend y creacion del bounded context analytics and reporting, la creacion del bounded context authentication, y profile management
+- La integrante Anaely Burga  implementó la creacion del bounded context inventory management
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="../img/Chapter V/commit 1.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="../img/Chapter V/sprint-2 ev1.PNG"/>
+</p>
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="../img/Chapter V/sprint-2 ev1F.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="../img/Chapter V/sprint-2 ev2F.PNG"/>
+</p>
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src=""/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd 
+
+<p align="center">
+  <img src=""/>
+</p>
