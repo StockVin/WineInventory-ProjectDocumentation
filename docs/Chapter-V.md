@@ -881,3 +881,25 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 <p align="center">
   <img src="../img/Chapter V/sprint-2 ev2F.PNG"/>
 </p>
+
+
+### 5.2.3. Sprint 3 ###
+
+### 5.2.3.1. Sprint Planning 3 ###
+
+En la siguiente tabla se ofrece información referente a la planificación del tercer sprint del proyecto. Para este sprint se estableció un objetivo que abarca los componentes del sitio web estático, la aplicación front-end y la aplicación back-end. Una parte de dicho objetivo se enfoca en implementar mejoras visuales en el sitio web estático, mientras que la segunda parte se orienta al desarrollo y despliegue de la versión mejorada de la aplicación front-end de StockVin.
+
+| Sprint #                                     | Sprint 3                                               |
+|----------------------------------------------|--------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                     |
+| Date                                         | 2025/10/25                                             |
+| Time                                         | 15:10 PM                                               |
+| Location                                     | Reunión virtual por la plataforma de Meet |
+| Prepared By                                  | Torres Apolinario, Giovany Smith                       |
+| Attendees                                    | Diaz Quispe, Matias Sebastian / Torres Apolinario, Giovany Smith / Burga Loarte, Anaely Zarely / Meza Solòrzano, Didier Sebastiàn |
+| Sprint 2 Review Summary                      | During the previous sprint, the team developed the initial version of the Landing Page, incorporating the essential sections and styles such as Benefits, Plans, and Startup Information. |
+| Sprint 2 Retrospective Summary               | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.|
+| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint 3 Goal                                | <b> Our primary objective </b> is to deliver comprehensive information, relevant content, and a product video, complemented by an introductory presentation of the team responsible for its development.<br> <b>We consider this strategy </b> oan effective means of ensuring accessibility to the landing page across multiple screen sizes and languages, thereby reaching a wider range of user segments and visitors.This hypothesis will be validated once our target users and visitors access the landing page through different devices.<br><br> <b> Our focus </b> for this stage is the implementation and deployment of the first functional version of the Front-End application, incorporating key modules such as digital warehouses, a dashboard interface, product registration, alert management, order processing, and seamless navigation between sections. We believe this release provides an integrated initial view of the core functionalities the application aims to offer to its intended user base. <br> <b> This assumption will be confirmed when </b> our target users register within the application and actively engage with essential features, including warehouse management and the product order module. |
+| Sprint 3 Velocity                            | 100                                                    |
+| Sum of Story Points                          | 156                                                    |
