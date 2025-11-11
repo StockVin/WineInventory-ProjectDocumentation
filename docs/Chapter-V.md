@@ -1153,3 +1153,25 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 
 
+### 5.2.3.7. Software Deployment Evidence for Sprint Review ###
+
+#### Despliegue del Back End
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/e31bJ1F.png"/>
+</p>
+
+* Tercero, se creó un proyecto en Rider y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama release, consolidando una versión estable del proyecto.
+* Séptimo, se configuraron los archivos Dockerfile y appsettings.production.json para preparar el entorno de despliegue en Railway.
+* Octavo, se configuró la base de datos en FreeSQLDatabase, vinculándola con Railway mediante las variables de entorno correspondientes para permitir la conexión remota.
+* Noveno, se realizó el despliegue del Backend a través de Railway, donde se ejecutó correctamente la aplicación y se verificó su funcionamiento en el entorno de producción. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src=""/>
+</p>
+
+* Link publico:
+
