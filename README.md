@@ -1,14 +1,14 @@
 <div style="text-align: center;">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png">
 
-### "Informe de Trabajo Final"  
-### A1SI0729 - Desarrollo de Aplicaciones Open Source  
-### Ingeniería de Software - 2025-20  
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+### Facultad de Ingenieria
+### Ingeniería de Software - 2025-20 
+### A1SI0729 - Desarrollo de Aplicaciones Open Source 
+### NRC: 7351  
 ### Profesor: Rafael Oswaldo Castro Veramendi  
-### Sección: 7351  
+### "Informe de Trabajo Final"  
 ### Startup: StockVin  
 ### Producto: WineInventory  
 ### Integrantes:
