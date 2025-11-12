@@ -1052,19 +1052,22 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 **Ordenes dueño**
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Owners_orders.PNG?raw=true" alt="Órdenes del dueño" width="600"/>
 </p>
 <br>
 
+
 **Ordesnes proveedor**
+
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/orders_proovedor.PNG?raw=true" alt="Órdenes proveedor" width="600"/>
 </p>
 <br>
 
 **Nueva orden**
+
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/new_order.PNG?raw=true" alt="Nueva orden" width="600"/>
 </p>
 <br>
 
@@ -1074,7 +1077,7 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 **Guias de conservacion**
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/careguides.PNG?raw=true" alt="Guías de conservación" width="600"/>
 </p>
 <br>
 
@@ -1082,23 +1085,23 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 **order**
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Orders.PNG?raw=true" alt="Order" width="600"/>
 </p>
 <br>
-
 
 **inventory**
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/inventory.PNG?raw=true" alt="Inventory" width="600"/>
 </p>
 <br>
+
 
 
 **Alertas**
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Alerts.PNG?raw=true" alt="Alertas" width="600"/>
 </p>
 <br>
 
@@ -1106,7 +1109,7 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 **Cuentas de usuario**
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Accounts.PNG?raw=true" alt="Cuentas de usuario" width="600"/>
 </p>
 <br>
 
@@ -1335,8 +1338,10 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 * Octavo, se configuró la base de datos en FreeSQLDatabase, vinculándola con Railway mediante las variables de entorno correspondientes para permitir la conexión remota.
 * Noveno, se realizó el despliegue del Backend a través de Railway, donde se ejecutó correctamente la aplicación y se verificó su funcionamiento en el entorno de producción. A continuación, se muestra la evidencia del despliegue:
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/evidente.PNG?raw=true" alt="Evidence" width="600"/>
 </p>
+<br>
+
 
 * Link publico:
 
@@ -1384,5 +1389,6 @@ Commits de los integrantes en el BackEnd:
 Grafico de los push y merge realizados por el equipo en el BackEnd 
 
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/main/img/Chapter%20V/networkghrapg.PNG?raw=true" alt="Gráfico de push y merge del equipo en el BackEnd" width="600"/>
 </p>
+<br>
