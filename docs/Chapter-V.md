@@ -1343,7 +1343,7 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 <br>
 
 
-* Link publico:
+* Link publico: [Backend Desplegado](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)
 
 ### 5.2.3.8. Team Collaboration Insights durint Sprint ###
 En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los tres principales productos: Landing Page, Web Application (Frontend) y Web Services(BackEnd). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
@@ -1367,8 +1367,9 @@ Commits de los integrantes en el Landing Page:
 
 Grafico de los push y merge realizados por el equipo en el landing page:
 <p align="center">
-  <img src="../img/Chapter V/sprint-2 ev1.PNG"/>
+  <img src="https://imgur.com/5JbEW7W.png"/>
 </p>
+
 
 Commits de los integrantes en el Frontend:
 <p align="center">
@@ -1383,7 +1384,7 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 
 Commits de los integrantes en el BackEnd:
 <p align="center">
-  <img src=""/>
+  <img src="https://imgur.com/wSvBkDm.png"/>
 </p>
 
 Grafico de los push y merge realizados por el equipo en el BackEnd 
