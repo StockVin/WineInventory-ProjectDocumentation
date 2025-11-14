@@ -1423,8 +1423,16 @@ En las entrevistas de validación se incluirá:
 	
 - **Flujos a Desarrollar:**
 
-| **User Goal** | **Descripción del Flujo**                                                                                                 | **Objetivo de Validación**                                                   |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **User Goal** | **Descripción del Flujo**                                                                                                        | **Objetivo de Validación**                                                         |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **UG 1**      | El usuario ingresa al Landing Page, completa su registro con sus datos y automáticamente se le asigna el plan gratuito.          | Comprobar que el formulario sea claro y que el usuario entienda el plan inicial.   |
+| **UG 2**      | El usuario inicia sesión con su cuenta y, si lo desea, puede optar por cambiar o seleccionar un plan premium.                    | Evaluar que el ingreso sea sencillo y que la elección del plan sea entendible.     |
+| **UG 4**      | Desde el dashboard, el licorero puede dirigirse sin complicaciones a la sección de inventario.                                  | Asegurar que el acceso a inventario sea directo e intuitivo.                       |
+| **UG 5**      | El licorero entra al inventario, registra un nuevo producto completando el formulario y este queda correctamente vinculado.      | Revisar que el formulario sea fácil de usar y que el proceso de registro sea claro.|
+| **UG 8**      | El licorero accede a la sección de Reportes desde cualquier parte del sistema usando el ícono correspondiente.                  | Confirmar que la navegación hacia reportes sea evidente y sin obstáculos.          |
+| **UG 9**      | Dentro de la sección de Reportes, el licorero crea un reporte nuevo completando los datos requeridos.                           | Verificar que los campos necesarios estén organizados de forma lógica y comprensible. |
+| **UG 11**     | El licorero registra una orden de compra: selecciona productos, define cantidades y elige un proveedor antes de enviarla.        | Evaluar que el flujo sea fluido y que el proceso de selección y envío sea sencillo. |
+| **UG 12**     | El proveedor entra a la sección de Conservación, completa los datos de una nueva guía y luego la revisa.                        | Validar que el proceso de elaboración y visualización de guías sea fácil de seguir. |
 
 
 ### 5.3.2. Registro de entrevistas
