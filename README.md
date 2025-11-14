@@ -157,8 +157,13 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
         TB1: Sustente la parte del Capítulo I: Introducción. En la presentación pude explicar de manera clara qué es nuestra startup, quiénes forman parte del equipo y sobre todo cuál es la problemática que buscamos resolver. Me enfoqué en usar un lenguaje sencillo y adaptado según la audiencia, de modo que tanto mis compañeros como el profesor entendieran la propuesta sin dificultades. Esto me ayudó a mejorar mi seguridad al hablar y a organizar mejor mis ideas al momento de comunicarme oralmente.
 <br><br>
         <strong>Burga Loarte Anaely Zarely</strong><br><br>
-        TB1: <br><br>
-        <strong>Diaz Quispe Matías Sebastian</strong><br><br>
+        TB1: Durante la presentación del capítulo correspondiente, expuse de manera clara los flujos funcionales y la documentación elaborada para el proyecto. Expliqué las secciones principales del documento, así como su relación con los objetivos del proyecto, asegurándome de que tanto el profesor como mis compañeros comprendieran la estructura y propósito de cada parte. Ajusté mi discurso al nivel de conocimiento de la audiencia para facilitar la comprensión y evitar ambigüedades.
+<br><br>
+TP1: En el desarrollo del módulo de Inventory, participé en sesiones de revisión y coordinación con el equipo, donde expliqué oralmente los avances del frontend, la lógica del manejo de productos y el flujo de interacción del usuario dentro del módulo. Comuniqué de forma clara las tareas completadas y las que debían ajustarse, permitiendo al equipo mantener una visión común del estado del sprint.
+<br><br>
+TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas para explicar los endpoints creados, la estructura del modelo de datos y la lógica implementada para la gestión de inventario. Logré comunicar con claridad cómo se conectaba el backend con el frontend y respondí preguntas del equipo para asegurar la integración correcta entre ambos lados del sistema.
+                <br><br>
+<strong>Diaz Quispe Matías Sebastian</strong><br><br>
         TB1: En esta entrega se elaboraron los cuadros de user stories, impac mapping, product baclog, ademas de los puntos importantes del capitulo 4 y se definieron diversas estrategias orientadas a destacar frente a la competencia. Asimismo, brindó apoyo en la creación del landing page correspondiente a la sección de planes.
         <br>
         <br>
@@ -171,7 +176,7 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
       </td>
     </tr>
     <tr>
-      <td>3.c2 Comunica por escrito con efectividad rangos de audiencia</td>
+      <td>3.c2 Comunica por escrito con efectividCCad rangos de audiencia</td>
       <td>
         <strong>Torres Apolinario Giovany Smith</strong><br><br>
         TB1: Elabore documentos claros y estructurados que transmitieron de manera efectiva las bases visuales, técnicas y de diseño del proyecto, adaptando el contenido a diferentes rangos de audiencia. Encargandome de Software Configuration Management y Sprint 1<br><br>
@@ -181,8 +186,14 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
         TB1: Desarrollé completamente el Capítulo I, que incluye la descripción de la startup, los perfiles de los integrantes, los antecedentes, la problemática y el proceso de Lean UX (problem statements, assumptions, hipótesis y canvas). Además, definí los segmentos objetivo a los que va dirigido el proyecto. Todo el capítulo fue redactado de forma ordenada y clara, pensando en que cualquier persona pueda leerlo y comprender la propuesta sin necesidad de explicaciones adicionales.
 También apoyé en la creación del landing page de WineInventory, lo cual complementó el trabajo escrito con un resultado práctico y visual. Gracias a esto, pude reforzar mi capacidad de comunicarme de forma escrita de manera efectiva, mostrando tanto la parte teórica como un producto tangible.<br><br>
-        <strong>Burga Loarte Anaely Zarely</strong><br><br>
-        TB1: <br><br>
+        <strong>Burga Loarte Anaely Zarely</strong><br>
+        <br>
+TB1: Redacté documentación estructurada relacionada con los procesos y artefactos del proyecto, asegurándome de que cada apartado fuera claro, entendible y útil para todo el equipo. Organicé correctamente los contenidos, incluyendo descripciones, flujos y definiciones necesarias para el entendimiento general del sistema, de manera que tanto perfiles técnicos como no técnicos pudieran comprenderlo sin dificultad.
+<br><br>
+TP1: Documenté el diseño y funcionamiento del módulo de Inventory en el frontend, detallando los componentes utilizados, su comportamiento, la interacción con el backend y los casos de uso representativos. Además, dejé registro de las validaciones implementadas y del flujo del usuario para garantizar una comprensión completa del módulo.
+<br><br>
+TB2: Elaboré la documentación correspondiente al backend, donde describí los endpoints desarrollados, sus parámetros, respuestas, reglas de negocio y la lógica asociada a la gestión del inventario. Incluí ejemplos de solicitudes y respuestas, así como la explicación del modelo de datos, lo que facilitó la integración con el frontend y la revisión por parte del equipo.
+        <br><br>
         <strong>Matias Sebastian, Diaz Quispe</strong><br><br>
         TB1: Me encarge del desarrollo del capítulo 3, enfocado principalmente en el desarrollo de los user stories, impact mapping, product backlog, colaborando en la puntos del capitulo 4
         <br>
