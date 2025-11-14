@@ -1519,7 +1519,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 Actualmente, si el usuario ingresa un correo con un formato incorrecto o coloca texto no válido después del símbolo (@), la interfaz no muestra ningún mensaje que indique que el dato ingresado es inválido.
 
 <p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/CORREO_INVALID.PNG?raw=true">
+  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/dbf0282d3cfd0e0e17041471dce64f0495afe94a/img/Chapter%20IV/Corres.PNG">
 </p>
 
 **Recomendación:**  
@@ -1534,8 +1534,9 @@ Implementar validaciones de formato de correo electrónico que generen retroalim
 El sistema permite que un usuario se registre utilizando contraseñas demasiado simples, como aquellas con menos de 8 caracteres o sin incluir números, símbolos o mayúsculas, lo cual incrementa el riesgo de seguridad.
 
 <p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/CONTRASE.PNG?raw=true">
+  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/dbf0282d3cfd0e0e17041471dce64f0495afe94a/img/Chapter%20IV/con2.PNG">
 </p>
+
 
 **Recomendación:**  
 Implementar reglas mínimas de seguridad: longitud mayor a 8 caracteres, incluir al menos una letra mayúscula, un número y un símbolo especial para fortalecer la protección de las cuentas.
