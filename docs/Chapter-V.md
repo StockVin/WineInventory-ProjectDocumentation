@@ -934,7 +934,7 @@ Luego de definir el objetivo del sprint, se identificaron las historias de usuar
 
   A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
-  | Sprint 3     | Sprint Backlog 3                                       |                |                                                                               |                                                                                                                                                              |                    |                 |        |
+| Sprint 3     | Sprint Backlog 3                                       |                |                                                                               |                                                                                                                                                              |                    |                 |        |
 | ------------ | -------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | --------------- | ------ |
 | User Stories |                                                          | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                 |        |
 | Id           | Title                                                    | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to     | Status |
@@ -1083,14 +1083,14 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 <br>
 
 
-**order**
+**Order**
 
 <p align="center">
   <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Orders.PNG?raw=true" alt="Order" width="600"/>
 </p>
 <br>
 
-**inventory**
+**Product**
 
 <p align="center">
   <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/inventory.PNG?raw=true" alt="Inventory" width="600"/>
