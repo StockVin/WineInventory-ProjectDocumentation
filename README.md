@@ -31,10 +31,6 @@
     <td>u202319950</td>
   </tr>
   <tr>
-    <td>Bryan Norberto Hermoza Paredes</td>
-    <td>u202313453</td>
-  </tr>
-  <tr>
     <td>Anaely Zarely Burga Loarte</td>
     <td>u202118264</td>
   </tr>
@@ -86,7 +82,15 @@
 | 2.0     | 20-09-2025 | Giovany Torres | Se añadio la sección de Software Configuration Management en el capítulo 5.                   |
 | 2.0     | 20-09-2025 | Giovany Torres  | Se añadio la sección de Sprint 2 en el capítulo 5.                                            |
 | 2.0     | 08-10-2025 | Giovany Torres  | Se añadio la sección de Sprint planing 2 en el capítulo 5.                                    |
-
+| 3.0     | 09-06-2025 | Giovany Torres | Se corrigió la sección de report collaboration insights.                                                             |
+| 3.0     | 09-06-2025 | Giovany Torres | Se corrigió la sección de registro de entrevistas.                                                                   |
+| 3.0     | 10-06-2025 | Giovany Torres | Se corrigió la sección de análisis de entrevistas.                                                                   |
+| 3.0     | 10-06-2025 | Didier Meza  | Se realizó el sprint backlog 3.                                                                                      |
+| 3.0     | 13-06-2025 | Didier Meza  | Se corrigió la sección de business outcomes.                                                                         |
+| 3.0     | 19-06-2025 | Didier Meza  | Se añadió la sección de registro de entrevistas.                                                                     |
+| 3.0     | 19-06-2025 | Didier Meza  | Se añadió la sección de validación según heurísticas.                                                                |
+| 3.0     | 20-06-2025 | Didier Meza  | Se añadió la sección de validación según heurísticas.                                                                |
+| 3.0     | 17-06-2025 | Matias Diaz  | Se corrigieron los diagramas de componentes en la aplicación Front End y Back End.                                   |
 
 
 # Project Report Collaboration Insights
@@ -134,6 +138,26 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 <img src="https://imgur.com/qyx6EjH.png" alt="Commits" width="800" height="300">
 
+## Tercer Avance (TB2) ##
+
+### Reporte de la colaboración del avance proyecto:
+
+Respecto de este tercer avance del proyecto, se implementaron correcciones y actualizaciones de las secciones que no fueron corregidas correctamente en el avance previo. A continuación, se realiza un resumen de las actividades respecto del informe realizadas en este avance: 
+- El integrante Didier Sebastian Meza Solórzano implementó correcciones sobre las entrevistas agregando mayor información sobre browser y dispositivos que usan los usuarios de las entrevistas realiada. Además, completó los gráficos sobre estos últimos datos.
+- La integrante Anaely Zarely Burga Loarte implementó correcciones respecto del Business Outcome redactándolos de manera que sean medibles.
+- El integrante Giovany Smith Torres Apolinario implementó correcciones en los bounded contexts añadiendo uno nuevo que trata el perfil del usuario.
+- El integrante Matias Diaz implementó los commits realizados dentro de la seccion de evidencias del tercer sprint.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+<img src="https://i.imgur.com/8eF8xkY.png" alt="Commits" width="300" height="300">
+
+### Ramificación del proyecto usando GitFlow:
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![git-clones.png](https://i.imgur.com/MczA2xd.png)
+
 # Student OutCome
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -152,7 +176,7 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
         TB1: Me asegure de comunicar de forma clara y efectiva las bases visuales, estructurales y técnicas del proyecto, ajustando el nivel de detalle según el tipo de audiencia. Gracias a ello, tanto los perfiles técnicos como los no técnicos lograron comprender y alinear su trabajo en torno a los mockups, las guías de estilo y la arquitectura de la información propuesta.<br><br>
         TP1: Me asegure de comunicar de forma clara las tareas a realizar sobre el desarrollo del frontend y las reunios del equipo de trabajo dando a detalle a cada integrante del grupo, como tambien el desarrollo del sprint 2.
         <strong>Hermoza Paredes Bryan Norberto</strong><br><br>
-        TB1: En esta entrega me aseguré de comunicar de manera clara los contenidos y hallazgos del capítulo 2, realizando el análisis de los competidores y las entrevistas, y usando esa información para las demás ramas del proyecto. Adapté la información de forma clara para todos los miembros del equipo, de modo que pudieran entender y aprovechar lo presentado.<br><br>
+        TB2: En esta entrega me aseguré de comunicar de manera clara los contenidos y hallazgos del capítulo 2, realizando el análisis de los competidores y las entrevistas, y usando esa información para las demás ramas del proyecto. Adapté la información de forma clara para todos los miembros del equipo, de modo que pudieran entender y aprovechar lo presentado.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
         TB1: Sustente la parte del Capítulo I: Introducción. En la presentación pude explicar de manera clara qué es nuestra startup, quiénes forman parte del equipo y sobre todo cuál es la problemática que buscamos resolver. Me enfoqué en usar un lenguaje sencillo y adaptado según la audiencia, de modo que tanto mis compañeros como el profesor entendieran la propuesta sin dificultades. Esto me ayudó a mejorar mi seguridad al hablar y a organizar mejor mis ideas al momento de comunicarme oralmente.
 <br><br>
@@ -168,6 +192,9 @@ TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas
         <br>
         <br>
         TP1: Al trabajar en el módulo de reportes, participé activamente en reuniones presentando la lógica detrás de la generación de métricas, el diseño visual y su interpretación. Logré adecuar mi discurso para que todos los integrantes del equipo pudieran entender los objetivos de este módulo y cómo usarlo.
+        <br>
+        <br>
+        TB2: Durante el desarrollo de la sección de guías de conservación y sus respectivos endpoints, me enfoqué en comunicar mis avances y decisiones de forma clara en las reuniones del equipo. Expliqué tanto la lógica detrás de los servicios como la experiencia de usuario en el frontend, adaptando mi lenguaje según el perfil de la audiencia. Esta comunicación permitió al equipo comprender la funcionalidad y el valor de esta sección dentro del sistema, facilitando su integración con otras áreas del proyecto.
       </td>
       <td>
         - A través del análisis de entrevistas y la definición de un lenguaje compartido, el equipo logró establecer un entendimiento común tanto interno como con el negocio, lo que favoreció la eficiencia en sus interacciones.<br><br>
@@ -199,6 +226,9 @@ TB2: Elaboré la documentación correspondiente al backend, donde describí los 
         <br>
         <br>
         TP1: Aplique las correciones de la descripcion del c4 model, ademas de expandir la descripcion del database y class diagrama, documenté el diseño y funcionalidad del módulo de reportes y guias de cuidados.
+        <br>
+        <br>
+        TB2: Documenté los endpoints que desarrollé para la sección de guías de conservación, incluyendo rutas, métodos, parámetros y respuestas esperadas. También redacté descripciones claras del funcionamiento de esta sección en el frontend, lo que facilitó su revisión y pruebas. Gracias a esta documentación, otros miembros del equipo pudieron entender y continuar el trabajo con fluidez, independientemente de su rol técnico o no técnico.
       </td>
       <td>
         - Se generó documentación clara, organizada y adaptada a diferentes tipos de audiencia, lo que permitió a los perfiles técnicos y no técnicos integrar su trabajo de manera coherente.<br><br>
