@@ -1481,32 +1481,89 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ##### ESCALA DE SEVERIDAD:
 
-| Nivel | Descripción                                                                                                                                                                                     |
-| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Inconveniente leve: se presenta de manera esporádica y el usuario puede manejarlo sin dificultad. Su corrección no es prioritaria y solo se abordará si existe tiempo disponible. |
+| **2** | Contratiempo moderado: aparece con algo más de frecuencia o requiere un pequeño esfuerzo adicional del usuario para sortearlo. Puede programarse su solución con baja prioridad para la siguiente versión. |
+| **3** | Problema significativo: sucede de forma recurrente o bloquea al usuario al intentar continuar. Su atención es necesaria y debe considerarse como una tarea de alta prioridad. |
+| **4** | Falla crítica: afecta gravemente el funcionamiento, impidiendo el uso normal de la herramienta. Debe resolverse de manera obligatoria antes de cualquier lanzamiento. |
 
----
 
 ##### TABLA RESUMEN
 
-| #   | Problema                                                                                                | Escala de severidad | Heurística/Principio violado                                                        |
-| --- | ------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
+| # | Problema                                                                                                       | Severidad | Heurística/Principio afectado                                                             |
+|---|----------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------|
+| **1** | El formulario de inicio de sesión no muestra mensajes claros cuando un campo es inválido (ej.: correo mal formateado). | 3 | Usabilidad: Facilitar que el usuario identifique el error, comprenda la causa y pueda corregirlo. |
+| **2** | No existen reglas que impidan registrar o usar contraseñas débiles.                                        | 2 | Usabilidad: Prevención de errores. |
+| **3** | Al intentar subir una imagen para crear un almacén, el sistema no informa al usuario si ocurre un fallo.   | 3 | Usabilidad: Facilitar que el usuario identifique el error, comprenda la causa y pueda corregirlo. |
+| **4** | La vista de almacenes no cuenta con paginación ni un desplazamiento adecuado cuando hay muchos registros.  | 1 | Arquitectura de Información: ¿Es escalable? |
 
----
+
 
 ##### DESCRIPCIÓN DE PROBLEMAS
 
-###### PROBLEMA #1: 
+###### PROBLEMA #1: No existen validaciones que aseguren que el usuario ingrese un correo electrónico con un formato adecuado.
 
-**Severidad:** 3 
-**Heurística violada:** Usability - 
+**Severidad:** 3  
+**Heurística afectada:** Usabilidad – Facilitar que el usuario identifique el error, entienda qué ocurrió y pueda corregirlo.
 
 **Descripción:**  
-
+Actualmente, si el usuario ingresa un correo con un formato incorrecto o coloca texto no válido después del símbolo (@), la interfaz no muestra ningún mensaje que indique que el dato ingresado es inválido.
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/CORREO_INVALID.PNG?raw=true">
 </p>
 
 **Recomendación:**  
+Implementar validaciones de formato de correo electrónico que generen retroalimentación inmediata y clara, evitando la aceptación de direcciones no válidas (por ejemplo, textos aleatorios o dominios inexistentes).
+
+###### PROBLEMA #2: No existe un control que garantice la creación de contraseñas seguras.
+
+**Severidad:** 2  
+**Heurística afectada:** Usabilidad – Prevención de errores.
+
+**Descripción:**  
+El sistema permite que un usuario se registre utilizando contraseñas demasiado simples, como aquellas con menos de 8 caracteres o sin incluir números, símbolos o mayúsculas, lo cual incrementa el riesgo de seguridad.
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/CONTRASE.PNG?raw=true">
+</p>
+
+**Recomendación:**  
+Implementar reglas mínimas de seguridad: longitud mayor a 8 caracteres, incluir al menos una letra mayúscula, un número y un símbolo especial para fortalecer la protección de las cuentas.
+
+###### PROBLEMA #3: Los mensajes de error no brindan información clara ni ayudan al usuario a saber qué hacer.
+
+**Severidad:** 2  
+**Heurística afectada:** Usabilidad – Facilitar que el usuario identifique el error, comprenda qué ocurrió y pueda recuperarse.
+
+**Descripción:**  
+Los mensajes mostrados actualmente son genéricos y no ofrecen detalles útiles ni indicaciones para volver a intentar la acción, lo que dificulta al usuario entender el problema.
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/alertas.PNG?raw=true">
+</p>
+
+<p align="center"><strong>Más información para destacar</strong></p>
+
+**Recomendación:**  
+Mostrar mensajes más claros y accionables, por ejemplo:  
+*"No se pudieron cargar las alertas. Verifica tu conexión e intenta nuevamente."*
+
+###### PROBLEMA #4: Las alertas críticas no cuentan con una jerarquía visual adecuada
+
+**Severidad:** 1  
+**Heurística afectada:** Usabilidad – Estética y diseño minimalista
+
+**Descripción:**  
+Las notificaciones importantes, como “Urgent restock”, no se diferencian del resto, lo que dificulta que el usuario las identifique rápidamente.
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/ALER2.PNG?raw=true">
+</p>
+
+**Recomendación:**  
+Aplicar elementos visuales como colores más llamativos, bordes o íconos de alerta para resaltar las prioridades y mejorar la visibilidad.
+
 
 ## 5.4. Video About The Product
