@@ -1441,45 +1441,45 @@ En las entrevistas de validación se incluirá:
 
 | Entrevista | Registro |
 |------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/yadhir_interview.jpg" width="150"> | **Distrito:** Santiago de Surco <br> **Entrevistado:** Yadhir Antonio <br> **[Video de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCi6JccnzmeT5efqc3E5jYtAaioCBjCVVz3ClqB6gF70rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Wh0iz6)** <br> **Entrevistador:** Didier Sebastian Meza Solórzano <br> **Timing:** - <br> **Resumen:**  
-La entrevista fue realizada a **Yadhir Antonio**, de 24 años, con el objetivo de validar dos soluciones de software orientadas a empresas del sector licores. Durante la evaluación se revisaron la landing page, la fluidez de navegación, la claridad del contenido y el funcionamiento de secciones clave como planes, testimonios, dashboard, alertas, perfil y reportes.  
-Yadhir resaltó que la estructura general del sitio es clara y fácil de entender, destacando especialmente la presentación de los testimonios, los beneficios de los planes y el monitoreo del inventario en tiempo real. Sugirió aumentar ligeramente el tamaño de la fuente para mejorar la lectura y recomendó que la opción multilingüe (español–inglés) esté disponible en todas las secciones, ya que en algunas partes el contenido en inglés no aparecía.  
-Consideró que los íconos y accesos rápidos del dashboard son intuitivos y facilitan la interacción. También destacó la utilidad de las alertas de productos próximos a vencer y de bajo stock para apoyar la toma de decisiones. En relación al registro y perfil, mencionó que el diseño es amigable y que los colores ayudan a guiar el proceso, además de valorar la inclusión de redes sociales.  
-Finalmente, señaló que la sección de reportes es clara y está bien ubicada, por lo que no requiere mejoras importantes.  
+| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/yadhir_interview.jpg" width="150"/> | **Distrito:** Santiago de Surco<br>**Entrevistado:** Yadhir Antonio |
+| [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCi6JccnzmeT5efqc3E5jYtAaioCBjCVVz3ClqB6gF70rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Wh0iz6) | **Entrevistador:** Didier Sebastian Meza Solórzano |
+| Timing: 0:00 a 9:54 | **Resumen:** La entrevista fue realizada a **Yadhir Antonio**, de 24 años, con el objetivo de validar dos soluciones de software orientadas a empresas del sector licores. Durante la evaluación se revisaron la landing page, la fluidez de navegación, la claridad del contenido y el funcionamiento de secciones clave como planes, testimonios, dashboard, alertas, perfil y reportes.  
+Yadhir resaltó que la estructura general del sitio es clara y fácil de entender, destacando la presentación de los testimonios, los beneficios de los planes y el monitoreo del inventario en tiempo real. Sugirió aumentar ligeramente el tamaño de la fuente y que la opción multilingüe esté disponible en todas las secciones.  
+Consideró que los íconos y accesos rápidos del dashboard son intuitivos y facilitan la interacción. Destacó la utilidad de las alertas de productos próximos a vencer y de bajo stock para apoyar la toma de decisiones. Sobre el registro y perfil, mencionó que el diseño es amigable, los colores ayudan a guiar el proceso y valoró la inclusión de redes sociales.  
+Finalmente, señaló que la sección de reportes es clara y está bien ubicada.  
 **Satisfacción del flujo:** 4.5/5 |
 
+---
 
 ## Entrevista 2
 
 | Entrevista | Registro |
 |------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/Milton_interview.jpg" width="250"> | **Distrito:** Villa el Salvador <br> **Entrevistado:** Milton Meza <br> **[Video de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCk_idPqy7cTrbDXrrk0GDiAbNkREMedOwfqEICBaJWdoc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5kM9d1)** <br> **Entrevistador:** Didier Sebastian Meza Solórzano <br> **Timing:** - <br> **Resumen:**  
-La entrevista se realizó a **Milton Meza**, de 21 años, quien participó en la validación de la aplicación *Stock*, desarrollada para gestionar el inventario en licorerías.  
-Durante la prueba, creó su cuenta, eligió su rol como dueño de licorería y accedió sin inconvenientes al dashboard, donde pudo visualizar ventas, productos disponibles y diversas alertas.  
-Luego exploró el módulo de reportes y generó una guía de conservación configurando temperatura, tiempo de duración del producto abierto y notas para su equipo de trabajo.  
-Milton continuó creando una orden de compra desde la sección correspondiente, seleccionando artículos del catálogo y asignando un proveedor.  
-Finalmente, ingresó a su perfil para actualizar sus datos, verificar su rol y revisar los beneficios del plan premium.  
+| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/Milton_interview.jpg" width="150"/> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Milton Meza |
+| [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCk_idPqy7cTrbDXrrk0GDiAbNkREMedOwfqEICBaJWdoc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5kM9d1) | **Entrevistador:** Didier Sebastian Meza Solórzano |
+| Timing: 0:00 hasta 14:41 | **Resumen:** La entrevista se realizó a **Milton Meza**, de 21 años, quien participó en la validación de la aplicación *Stock*. Durante la prueba, creó su cuenta, eligió su rol como dueño de licorería y accedió sin inconvenientes al dashboard, visualizando ventas, productos disponibles y diversas alertas.  
+Exploró el módulo de reportes y generó una guía de conservación configurando temperatura, tiempo de duración del producto abierto y notas para su equipo. Luego creó una orden de compra, seleccionando artículos del catálogo y asignando un proveedor. Finalmente, ingresó a su perfil para actualizar sus datos, verificar su rol y revisar los beneficios del plan premium.  
 
-En su opinión, la aplicación resulta intuitiva, clara y fácil de usar. Resaltó como punto fuerte la **gestión del stock mínimo y las alertas**, las cuales considera esenciales para tomar decisiones de reposición, especialmente en momentos de alta demanda como los fines de semana.  
-Valoró la estructura general de la app, aunque mencionó que con mayor uso podría familiarizarse aún más con todas sus funciones.  
+En su opinión, la aplicación es intuitiva, clara y fácil de usar. Resaltó como punto fuerte la **gestión del stock mínimo y las alertas**, esenciales para la toma de decisiones, especialmente en momentos de alta demanda. Valoró la estructura general de la app y consideró que con mayor uso podría familiarizarse aún más con todas sus funciones.  
 
 **Satisfacción del flujo:** 4.8/5 |
 
- 
+---
+
 ## Entrevista 3
 
 | Entrevista | Registro |
 |------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/diego_interview.jpg" width="250"> | **Distrito:** Villa el Salvador <br> **Entrevistado:** Diego Vilca <br> **[Video de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQApTQg1yV5VRb1S0HcVrxd2Ab5_U_dYReq979PIZ6OvfSs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FrUkV2)** <br> **Entrevistador:** Didier Sebastián Meza Solórzano <br> **Timing:** - <br> **Resumen:**  
-La entrevista se realizó a **Diego Vilca**, de 20 años, quien participó en la validación de nuestra aplicación.  
-La evaluación se centró principalmente en el flujo de navegación y la experiencia visual tanto en la landing page como en las distintas secciones del sistema.  
-Diego valoró de manera positiva la estructura de la página principal, destacando la presencia de testimonios, preguntas frecuentes, soporte en dos idiomas (español e inglés) y planes diferenciados entre gratuito y premium, elementos que considera útiles para orientar al usuario, generar confianza y facilitar la decisión de uso.  
+| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/diego_interview.jpg" width="150"/> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Diego Vilca |
+| [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQApTQg1yV5VRb1S0HcVrxd2Ab5_U_dYReq979PIZ6OvfSs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FrUkV2) | **Entrevistador:** Didier Sebastián Meza Solórzano |
+| Timing: 0:00 a 11:36 | **Resumen:** La entrevista se realizó a **Diego Vilca**, de 20 años, quien participó en la validación de la aplicación. La evaluación se centró en el flujo de navegación y la experiencia visual en la landing page y las distintas secciones del sistema.  
+Diego valoró la estructura de la página principal, destacando la presencia de testimonios, preguntas frecuentes, soporte en dos idiomas (español e inglés) y planes diferenciados (gratuito y premium), elementos útiles para orientar al usuario, generar confianza y facilitar la decisión de uso.  
 
-En cuanto al diseño, destacó la combinación de colores y la adecuada organización de los elementos visuales. También consideró clara la navegación mediante íconos en la barra lateral, señalando que estos son lo suficientemente intuitivos. Resaltó, además, la utilidad de poder seleccionar roles al registrarse, editar el perfil y cambiar de idioma fácilmente.  
+Destacó la combinación de colores y la adecuada organización de los elementos visuales, la navegación mediante íconos en la barra lateral y la selección de roles al registrarse, edición de perfil y cambio de idioma de forma fácil.  
 
-Sobre el módulo de inventario, indicó que la visualización de productos, imágenes, precios, stock y opciones de edición o creación es clara y práctica. Respecto a la sección de reportes, comprendió sin dificultad las funciones de pérdidas, transportes, reposiciones y conservación, y opinó que están bien divididas y son fáciles de recorrer.  
+Sobre el módulo de inventario, indicó que la visualización de productos, imágenes, precios, stock y opciones de edición o creación es clara y práctica. Respecto a los reportes, comprendió sin dificultad las funciones de pérdidas, transportes, reposiciones y conservación, y opinó que están bien divididas y son fáciles de recorrer.  
 
-Finalmente, destacó la importancia de las alertas por productos próximos a vencer o con stock crítico, sugiriendo que accesos como catálogos y pedidos deberían estar disponibles desde accesos rápidos para agilizar el uso.  
+Finalmente, destacó la importancia de las alertas por productos próximos a vencer o con stock crítico, sugiriendo accesos rápidos a catálogos y pedidos para agilizar el uso.  
 
 **Satisfacción del flujo:** 4.7/5 |
 
