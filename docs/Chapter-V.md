@@ -58,9 +58,9 @@
   A continuación, se presentan los enlaces de acceso para cada repositorio donde se almacenarán los archivos relacionados al Landing Page, Frontend Web Applications y Web Services.
 
   
-* **Landing Page: [Link del proyecto landing page ](https://wineinventory-landing-page.web.app/)**
-* **Frontend Web Applications: [Link del proyecto front end ](https://wine-inventory-front-end.web.app/)**
-* **Web Services: [Link del proyecto back end ](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)**
+* **Landing Page: [RepositorioLanding page ](https://github.com/StockVin/WineInventory-LandingPage)**
+* **Frontend Web Applications: [Repositorio Front end ](https://github.com/StockVin/WineInventory-frontend-application)**
+* **Web Services: [Repositorio Back end ](https://github.com/StockVin/WineInventory-backend-application)**
 
 #### **5.1.2.2. GitFlow**
 
@@ -288,6 +288,7 @@ En esta parte se detallan los principales progresos de implementación alcanzado
 Cada integrante del equipo avanzó de manera progresiva en la construcción de dichas secciones. Finalmente, se incorporaron estilos mediante CSS para darles mejor presentación.
 
 Seguidamente, se presenta una tabla que recopila la información de los commits realizados, los cuales incluyen fragmentos de las funcionalidades necesarias para completar este primer sprint.
+
 | Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
 |----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
 | StockVin/WineInventory-LandingPage         | master                           | f35ecc2   | chore: add home section                                          | 16/09/2025  |
@@ -427,7 +428,6 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es implementar secciones para que los usuarios puedan ser redirigidos a la aplicación web desde el sitio web estático e implementar secciones importantes como inventarios, almacenes, productos, alertas y guías en la aplicación front end del proyecto.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-
 [Link Trello](https://trello.com/invite/b/68d83b4319d6b611ef129eaa/ATTI9202e1ccd8750a16ea951f9bff9ce9ecA9336686/stockvin-sprint-backlog-2)
 
 <p align="center">
@@ -654,7 +654,7 @@ A continuación, se muestra una tabla que contiene la información sobre los com
       </td>
     </tr>
     <tr>
-      <td>/order</td>
+      <td>/products</td>
       <td>Gestionar productos básicos</td>
       <td>GET, POST, PUT, DELETE</td>
       <td>Operaciones CRUD para productos como vinos, rones, piscos</td>
@@ -719,10 +719,10 @@ A continuación, se muestra una tabla que contiene la información sobre los com
       <td>GET, POST, DELETE</td>
       <td>Operaciones CRUD para informes de pérdidas y estadísticas de productos</td>
       <td>
-        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","order":"string",<br>"type":"string","price":"number","amount":"number",<br>"date":"string","lost":"number"}</div>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":"number","products":"string",<br>"type":"string","price":"number","amount":"number",<br>"date":"string","lost":"number"}</div>
       </td>
       <td>
-        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":7001,"order":"p1001",<br>"type":"pérdida","price":120,"amount":5,<br>"date":"2025-06-10","lost":600}</div>
+        <div style="white-space:pre-wrap;font-family:monospace;margin:0;">{"id":7001,"products":"p1001",<br>"type":"pérdida","price":120,"amount":5,<br>"date":"2025-06-10","lost":600}</div>
       </td>
     </tr>
     <tr>
@@ -793,7 +793,7 @@ Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta
 Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
 Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
 
-Link a la aplicación: [WineInventory Frontend](https://wine-inventory-front-end.web.app/)
+Link a la aplicación: [WineInventory Frontend](https://wineinventory-front-end.web.app)
 
 * Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
 
@@ -882,7 +882,6 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 <p align="center">
   <img src="../img/Chapter V/sprint-2 ev2F.PNG"/>
 </p>
-
 
 ### 5.2.3. Sprint 3 ###
 
@@ -1039,14 +1038,16 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 
 **Video about the team**
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/Ek2vt1D.png"/>
 </p>
+
 <br>
 
 **Video about the product**
 <p align="center">
-  <img src=""/>
+  <img src="https://i.imgur.com/via7j1p.png"/>
 </p>
+
 <br>
 
 #### **Front End Application**
@@ -1327,6 +1328,7 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 #### Despliegue del Back End
 * Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
 * Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+
 <p align="center">
   <img src="https://i.imgur.com/e31bJ1F.png"/>
 </p>
@@ -1440,25 +1442,32 @@ En las entrevistas de validación se incluirá:
 
 ## Entrevista 1
 
-| Entrevista | Registro |
-|------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/yadhir_interview.jpg" width="150"/> | **Distrito:** Santiago de Surco<br>**Entrevistado:** Yadhir Antonio<br>**[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCi6JccnzmeT5efqc3E5jYtAaioCBjCVVz3ClqB6gF70rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Wh0iz6)<br>**Entrevistador:** Didier Sebastian Meza Solórzano<br>**Timing:** 0:00 a 9:54<br>**Resumen:** La entrevista fue realizada a **Yadhir Antonio**, de 24 años, con el objetivo de validar dos soluciones de software orientadas a empresas del sector licores. Durante la evaluación se revisaron la landing page, la fluidez de navegación, la claridad del contenido y el funcionamiento de secciones clave como planes, testimonios, dashboard, alertas, perfil y reportes. Yadhir resaltó que la estructura general del sitio es clara y fácil de entender, destacando la presentación de los testimonios, los beneficios de los planes y el monitoreo del inventario en tiempo real. Sugirió aumentar ligeramente el tamaño de la fuente y que la opción multilingüe esté disponible en todas las secciones. Consideró que los íconos y accesos rápidos del dashboard son intuitivos y facilitan la interacción. Destacó la utilidad de las alertas de productos próximos a vencer y de bajo stock para apoyar la toma de decisiones. Sobre el registro y perfil, mencionó que el diseño es amigable, los colores ayudan a guiar el proceso y valoró la inclusión de redes sociales. Finalmente, señaló que la sección de reportes es clara y está bien ubicada.<br>**Satisfacción del flujo:** 4.5/5 |
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/yadhir_interview.jpg" width="150"/></p>|**Distrito:** Santiago de Surco <br>**Entrevistado:** Yadhir Antonio|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCi6JccnzmeT5efqc3E5jYtAaioCBjCVVz3ClqB6gF70rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Wh0iz6)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–9:54|**Resumen:** La entrevista fue realizada a **Yadhir Antonio**, de 24 años, con el objetivo de validar dos soluciones de software orientadas a empresas del sector licores. Durante la evaluación se revisaron la landing page, la fluidez de navegación, la claridad del contenido y el funcionamiento de secciones clave como planes, testimonios, dashboard, alertas, perfil y reportes. Yadhir destacó que la estructura general del sitio es clara y fácil de entender, valorando especialmente la presentación de testimonios, los beneficios de los planes y el monitoreo del inventario en tiempo real. Sugirió ampliar un poco el tamaño de la fuente y que la opción multilingüe esté disponible en todas las secciones. Señaló que los íconos y accesos rápidos del dashboard son intuitivos y que las alertas (vencimiento y bajo stock) son útiles para la toma de decisiones. Sobre registro y perfil, comentó que el diseño es amigable y que la inclusión de redes sociales sería un plus. Finalmente, indicó que la sección de reportes es clara y está bien ubicada.**Satisfacción del flujo:** 4.5/5|
 
 ---
 
 ## Entrevista 2
 
-| Entrevista | Registro |
-|------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/Milton_interview.jpg" width="150"/> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Milton Meza<br>**[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCk_idPqy7cTrbDXrrk0GDiAbNkREMedOwfqEICBaJWdoc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5kM9d1)<br>**Entrevistador:** Didier Sebastian Meza Solórzano<br>**Timing:** 0:00 a 14:41<br>**Resumen:** La entrevista se realizó a **Milton Meza**, de 21 años, quien participó en la validación de la aplicación *Stock*. Durante la prueba, creó su cuenta, eligió su rol como dueño de licorería y accedió sin inconvenientes al dashboard, visualizando ventas, productos disponibles y alertas. Exploró el módulo de reportes y generó una guía de conservación configurando temperatura, tiempo de duración del producto abierto y notas para su equipo. Luego creó una orden de compra seleccionando artículos del catálogo y asignando un proveedor. Finalmente, ingresó a su perfil para actualizar sus datos, verificar su rol y revisar los beneficios del plan premium. Destacó la **gestión del stock mínimo y las alertas**, esenciales para la toma de decisiones. Valoró la estructura general de la app y consideró que con mayor uso podría familiarizarse aún más con todas sus funciones.<br>**Satisfacción del flujo:** 4.8/5 |
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/Milton_interview.jpg" width="150"/></p>|**Distrito:** Villa el Salvador <br>**Entrevistado:** Milton Meza|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCk_idPqy7cTrbDXrrk0GDiAbNkREMedOwfqEICBaJWdoc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5kM9d1)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–14:41|**Resumen:** La entrevista se realizó a **Milton Meza**, de 21 años, quien participó en la validación de la aplicación _Stock_. Durante la prueba, creó su cuenta, eligió su rol como dueño de licorería y accedió sin inconvenientes al dashboard, visualizando ventas, productos disponibles y alertas. Exploró el módulo de reportes y generó una guía de conservación configurando temperatura, tiempo de duración del producto abierto y notas para su equipo. Luego creó una orden de compra seleccionando artículos del catálogo y asignando un proveedor. Finalmente, ingresó a su perfil para actualizar sus datos, verificar su rol y revisar los beneficios del plan premium. Destacó la **gestión del stock mínimo y las alertas**, esenciales para la toma de decisiones. Valoró la estructura general de la app y consideró que con mayor uso podría familiarizarse aún más con todas sus funciones.**Satisfacción del flujo:** 4.8/5|
 
 ---
 
+
 ## Entrevista 3
 
-| Entrevista | Registro |
-|------------|---------|
-| <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/diego_interview.jpg" width="150"/> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Diego Vilca<br>**[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQApTQg1yV5VRb1S0HcVrxd2Ab5_U_dYReq979PIZ6OvfSs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FrUkV2)<br>**Entrevistador:** Didier Sebastián Meza Solórzano<br>**Timing:** 0:00 a 11:36<br>**Resumen:** La entrevista se realizó a **Diego Vilca**, de 20 años, quien participó en la validación de la aplicación. La evaluación se centró en el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Diego valoró la estructura de la página principal, destacando testimonios, preguntas frecuentes, soporte en dos idiomas (español e inglés) y planes diferenciados (gratuito y premium). Destacó la combinación de colores y organización de los elementos visuales, la navegación mediante íconos en la barra lateral y la selección de roles al registrarse, edición de perfil y cambio de idioma. Sobre el módulo de inventario, indicó que la visualización de productos, imágenes, precios, stock y opciones de edición o creación es clara y práctica. Respecto a los reportes, comprendió sin dificultad las funciones de pérdidas, transportes, reposiciones y conservación, y opinó que están bien divididas y son fáciles de recorrer. Finalmente, destacó la importancia de las alertas por productos próximos a vencer o con stock crítico y sugirió accesos rápidos a catálogos y pedidos para agilizar el uso.<br>**Satisfacción del flujo:** 4.7/5 |
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/diego_interview.jpg" width="150"/></p>|**Distrito:** Villa el Salvador <br>**Entrevistado:** Diego Vilca|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQApTQg1yV5VRb1S0HcVrxd2Ab5_U_dYReq979PIZ6OvfSs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FrUkV2)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–11:36|**Resumen:** La entrevista se realizó a **Diego Vilca**, de 20 años, quien participó en la validación de la aplicación. La evaluación se centró en el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Diego valoró la estructura de la página principal, destacando testimonios, preguntas frecuentes, soporte en dos idiomas (español e inglés) y planes diferenciados (gratuito y premium). Destacó la combinación de colores y organización de los elementos visuales, la navegación mediante íconos en la barra lateral y la selección de roles al registrarse, edición de perfil y cambio de idioma. Sobre el módulo de inventario, indicó que la visualización de productos, imágenes, precios, stock y opciones de edición o creación es clara y práctica. Respecto a los reportes, comprendió sin dificultad las funciones de pérdidas, transportes, reposiciones y conservación, y opinó que están bien divididas y son fáciles de recorrer. Finalmente, destacó la importancia de las alertas por productos próximos a vencer o con stock crítico y sugirió accesos rápidos a catálogos y pedidos para agilizar el uso.**Satisfacción del flujo:** 4.7/5|
 
 
 
@@ -1578,3 +1587,21 @@ Aplicar elementos visuales como colores más llamativos, bordes o íconos de ale
 
 
 ## 5.4. Video About The Product
+
+En esta sección, se adjunta el enlace al video sobre el producto de software desarrollado. En este video, se detallan funcionalidades principales y beneficios que ofrece la aplicacion a los usuarios finales que usaran la aplicacion web para sus negocios.
+
+Enlace al video acerca del producto: [Link about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/IQAKPOgobZW7QKYYNN56z7zkAXvaWHaIMkbGj4D_GcxcwoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cLjsrm)
+<p align="center">
+  <img src="https://i.imgur.com/via7j1p.png">
+</p>
+
+## 5.5. Video About The Team
+
+En esta sección, se adjunta el enlace al video que presenta al equipo de trabajo que desarrolló el producto de software. En este video, cada miembro del equipo comparte su rol y contribuciones al proyecto, destacando la colaboración y el esfuerzo conjunto para crear una solución efectiva.
+
+Enlace al video acerca del equipo de trabajo que desarrollo el producto de software:
+[Link about the team ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/IQDMPrGPukyRT4vnuqWKqIXhAe1Pn5xUbRdhXAmwzaATXHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lBdcyJ)
+
+<p align="center">
+  <img src="https://i.imgur.com/Ek2vt1D.png">
+</p>
