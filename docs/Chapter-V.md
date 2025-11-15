@@ -58,9 +58,9 @@
   A continuación, se presentan los enlaces de acceso para cada repositorio donde se almacenarán los archivos relacionados al Landing Page, Frontend Web Applications y Web Services.
 
   
-* **Landing Page: [Link del proyecto landing page ](https://wineinventory-landing-page.web.app/)**
-* **Frontend Web Applications: [Link del proyecto front end ](https://wine-inventory-front-end.web.app/)**
-* **Web Services: [Link del proyecto back end ](https:)**
+* **Landing Page: [RepositorioLanding page ](https://github.com/StockVin/WineInventory-LandingPage)**
+* **Frontend Web Applications: [Repositorio Front end ](https://github.com/StockVin/WineInventory-frontend-application)**
+* **Web Services: [Repositorio Back end ](https://github.com/StockVin/WineInventory-backend-application)**
 
 #### **5.1.2.2. GitFlow**
 
@@ -288,6 +288,7 @@ En esta parte se detallan los principales progresos de implementación alcanzado
 Cada integrante del equipo avanzó de manera progresiva en la construcción de dichas secciones. Finalmente, se incorporaron estilos mediante CSS para darles mejor presentación.
 
 Seguidamente, se presenta una tabla que recopila la información de los commits realizados, los cuales incluyen fragmentos de las funcionalidades necesarias para completar este primer sprint.
+
 | Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
 |----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
 | StockVin/WineInventory-LandingPage         | master                           | f35ecc2   | chore: add home section                                          | 16/09/2025  |
@@ -792,7 +793,7 @@ Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta
 Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
 Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
 
-Link a la aplicación: [WineInventory Frontend](https://wine-inventory-front-end.web.app/)
+Link a la aplicación: [WineInventory Frontend](https://wineinventory-front-end.web.app)
 
 * Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
 
@@ -880,4 +881,727 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 
 <p align="center">
   <img src="../img/Chapter V/sprint-2 ev2F.PNG"/>
+</p>
+
+### 5.2.3. Sprint 3 ###
+
+### 5.2.3.1. Sprint Planning 3 ###
+
+En la siguiente tabla se ofrece información referente a la planificación del tercer sprint del proyecto. Para este sprint se estableció un objetivo que abarca los componentes del sitio web estático, la aplicación front-end y la aplicación back-end. Una parte de dicho objetivo se enfoca en implementar mejoras visuales en el sitio web estático, mientras que la segunda parte se orienta al desarrollo y despliegue de la versión mejorada de la aplicación front-end de StockVin.
+
+| Sprint #                                     | Sprint 3                                               |
+|----------------------------------------------|--------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                     |
+| Date                                         | 2025/10/25                                             |
+| Time                                         | 15:10 PM                                               |
+| Location                                     | Reunión virtual por la plataforma de Meet |
+| Prepared By                                  | Torres Apolinario, Giovany Smith                       |
+| Attendees                                    | Diaz Quispe, Matias Sebastian / Torres Apolinario, Giovany Smith / Burga Loarte, Anaely Zarely / Meza Solòrzano, Didier Sebastiàn |
+| Sprint 2 Review Summary                      | During the previous sprint, the team developed the initial version of the Landing Page, incorporating the essential sections and styles such as Benefits, Plans, and Startup Information. |
+| Sprint 2 Retrospective Summary               | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.|
+| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint 3 Goal                                | <b> Our primary objective </b> is to deliver comprehensive information, relevant content, and a product video, complemented by an introductory presentation of the team responsible for its development.<br> <b>We consider this strategy </b> oan effective means of ensuring accessibility to the landing page across multiple screen sizes and languages, thereby reaching a wider range of user segments and visitors.This hypothesis will be validated once our target users and visitors access the landing page through different devices.<br><br> <b> Our focus </b> for this stage is the implementation and deployment of the first functional version of the Front-End application, incorporating key modules such as digital inventory, a dashboard interface, product registration, alert management, order processing, and seamless navigation between sections. We believe this release provides an integrated initial view of the core functionalities the application aims to offer to its intended user base. <br> <b> This assumption will be confirmed when </b> our target users register within the application and actively engage with essential features, including warehouse management and the product order module. |
+| Sprint 3 Velocity                            | 100                                                    |
+| Sum of Story Points                          | 156                                                    |
+
+### 5.2.3.2. Aspect Leaders and Collaborators ###
+
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este tercer sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios, Productos, Cuenta de Usuario, Reportes, Ordenes de compra y Alertas.
+
+| Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring |Profile Management |
+|------------------------------------|-----------------|--------------------------|-------------------------|----------------|-----------------------|--------------------------------|-------------------|
+| Diaz Quispe, Matias Sebastian      | equinox-1092    |                          |         L               | L              |                       |                                |  L                |
+| Torres Apolinario, Giovany Smith   | Giovany7x       |                          |                         |                |                       |    L                           |                   |
+| Burga Loarte Anaely Zarely         | userxx1000      |                          |                         |                | L                     |                                |                   |
+| Meza Solòrzano, Didier Sebastiàn   | Didier04x       |    L                     |                         |                |                       |                                |                   |
+
+### 5.2.3.3. Sprint Backlog 3 ###
+
+Como se mencionó previamente en el planeamiento del sprint número 3, el objetivo del mismo es concluir con el sitio web estatico integrando secciones que informen a los visitantes sobre los desarrolladores del producto y sobre el producto en si; implementar caracteristicas relacionadas con la realizacion de ordenes de compra en la aplicacion web e implementar endpoints en la aplicacion backend necesarios para la implementacion de caracteristicas fundamentales en la aplicacion web.
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+
+[https://trello.com/b/AYR7UijI/stockvin-sprintbacklog-3](https://trello.com/b/AYR7UijI/stockvin-sprintbacklog-3)
+
+<p align="center">
+  <img src="../img/Chapter V/Sprint-3-backlog.PNG" 
+  alt="Sprint goal y Stories del Sprint #3"/>
+
+  <p align="center">
+  <img src="../img/Chapter V/Sprint-3-backlog-2.PNG" 
+  alt="Sprint Backlog 3 en desarrollo"/>
+
+  A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 3     | Sprint Backlog 3                                       |                |                                                                               |                                                                                                                                                              |                    |                 |        |
+| ------------ | -------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | --------------- | ------ |
+| User Stories |                                                          | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                 |        |
+| Id           | Title                                                    | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to     | Status |
+| US059        | Generar orden de compra                                  | US059T001      | Crear formulario de nueva orden de compra                                     | Diseño e implementación del formulario para crear manualmente una orden de compra.                                                                           | 4                  | Giovany Torres  | Done   |
+|              |                                                          | US059T002      | Validar productos en orden                                                    | Validación para evitar el envío de órdenes                                                                                                                   | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US059T003      | Implementar un snackbar para las notificaciones                               | Diseño e implementación de un componente snackbar para las notificaciones de órdenes creadas.                                                                | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US059T004      | Conexión con proveedor                                                        | Implementar la lógica para enviar la orden generada al proveedor correspondiente.                                                                            | 3                  | Giovany Torres  | Done   |
+| US060        | Visualizar estado de la orden de compra                  | US060T001      | Crear vista de seguimiento de órdenes                                         | Vista para mostrar las órdenes realizadas por el usuario.                                                                                                    | 4                  | Giovany Torres  | Done   |
+| US061        | Notificaciones sobre el estado de una orden              | US061T001      | Configurar notificación inicial                                               | Enviar notificación cuando se crea una orden de compra.                                                                                                      | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US061T003      | Crear notificaciones de orden aceptada o rechazada                            | Crear funcionalidad para enviar y mostrar notificación al dueño cuando la orden sea aceptada.                                                                | 4                  | Giovany Torres  | Done   |
+| US062        | Coordinar fecha de entrega                               | US062T001      | Implementar función de propuesta de horario de entrega                        | Funcionalidad para que el proveedor proponga un horario al cliente.                                                                                          | 4                  | Giovany Torres  | Done   |
+|              |                                                          | US062T002      | Crear función para aceptar/rechazar propuesta de horario                      | Implementar funcionalidad para que el cliente pueda aceptar o rechazar la propuesta del proveedor.                                                           | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US062T003      | Guardar fecha acordada en orden                                               | Persistencia de la fecha y hora confirmada entre ambas partes en la orden correspondiente.                                                                   | 3                  | Giovany Torres  | Done   |
+| US056        | Creación de catálogo                                     | US056T001      | Crear formulario de catálogo                                                  | Diseño e implementación del formulario para crear un catálogo manualmente.                                                                                   | 4                  | Anaely Burga    | Done   |
+|              |                                                          | US056T002      | Validar no publicación de catálogo vacío\|                                    | Implementar validación para impedir publicar catálogo sin productos.                                                                                         | 2                  | Anaely Burga    | Done   |
+|              |                                                          | US056T003      | Implementar funcionalidad para publicar catálogo con productos                | Implementación de funcionalidad para publicar catálogo con productos visibles para clientes.                                                                 | 3                  | Anaely Burga    | Done   |
+| US057        | Agregar producto al catálogo                             | US057T001      | Implementar funcionalidad para añadir producto con información completa       | Crear formulario y funcionalidad para agregar producto con datos completos al catálogo.                                                                      | 3                  | Anaely Burga    | Done   |
+|              |                                                          | US057T002      | Implementar validación para campos obligatorios                               | Implementar validación para impedir añadir producto con campos incompletos o vacíos.                                                                         | 3                  | Anaely Burga    | Done   |
+|              |                                                          | US057T003      | Crear función para agregar producto desde inventario                          | Crear funcionalidad para agregar productos ya existentes en inventario directamente al catálogo                                                              | 3                  | Anaely Burga    | Done   |
+| US058        | Eliminacion de producto del catalogo                     | US058T001      | Crear funcionalidad para detectar productos sin stock y marcar en catálogo    | Agregar una funcionalidad que permita identificar productos sin stock y marcarlos como no disponibles en catálogo.                                           | 5                  | Anaely Burga    | Done   |
+|              |                                                          | US058T002      | Crear funcionalidad para eliminar producto manualmente del catálogo           | Funcionalidad para que proveedor elimine manualmente un producto del catálogo sin eliminarlo del inventario.                                                 | 5                  | Anaely Burga    | Done   |
+| US063        | Actualizar estado de la orden de venta                   | US063T001      | Implementar funcionalidad para actualizar el estado de una orden de venta.    | Crear una funcionalidad que permita al usuario cambiar el estado de una orden de venta a "Aceptado", "En preparación", "Enviando", "Entregado" o "Cancelado" | 2                  | Giovany Torres  | Done   |
+|              |                                                          | US063T002      | Agregar funcionalidad para enviar notificaciones por orden cancelada          | Implementar una funcionalidad que envíe una notificación al dueño de licorería si su orden de compra se canceló por el proveedor.                            | 3                  | Giovany Torres  | Done   |
+| US064        | Contabilizar productos en el inventario                  | US064T001      | Actualizar stock automáticamente al recibir pedido                            | Agregar método para incrementar stock en almacén digital al confirmar entrega.                                                                               | 4                  | Anaely Burga    | Done   |
+|              |                                                          | US064T002      | Crear producto nuevo en inventario                                            | Implementar método para agregar nuevos productos recibidos y no existentes en almacén digital.                                                               | 4                  | Anaely Burga    | Done   |
+| US020        | Detallar el estado de salida de productos                | US020T001      | Crear métodos para registrar el motivo de salida de productos                 | Crear un método para permitir al dueño de licorería registrar una salida de producto como venta                                                              | 3                  | Anaely Burga    | Done   |
+| US021        | Configurar alertas de reposición                         | US021T001      | Crear función para definir umbral de stock mínimo                             | Crear un método para permitir que el dueño establezca un nivel mínimo por producto                                                                           | 3                  | Didier Meza     | Done   |
+|              |                                                          | US021T002      | Crear una función para generar alerta cuando stock esté por debajo del mínimo | Automatizar alerta al alcanzar o pasar el umbral definido                                                                                                    | 3                  | Didier Meza     | Done   |
+| US022        | Alertas por próximo vencimiento                          | US022T001      | Configurar margen de vencimiento                                              | Implementar opción para definir días previos al vencimiento para generar alerta                                                                              | 3                  | Didier Meza     | Done   |
+|              |                                                          | US022T002      | Crear un componente para visualizar productos próximos a vencer               | Mostrar claramente los productos en riesgo de vencimiento próximo en un componente "card"                                                                    | 3                  | Didier Meza     | Done   |
+| US039        | Crear un plan de reabastecimiento                        | US039T001      | Implementar una opción para crear plan de reabastecimiento para licorería     | Crear un formulario para ingresar datos de plan (cliente, productos, frecuencia)                                                                             | 4                  | Matias Diaz     | Done   |
+|              |                                                          | US039T002      | Implementar un método para validar campos obligatorios                        | Añadir validaciones para asegurar datos completos antes de guardar                                                                                           | 2                  | Matias Diaz     | Done   |
+| US040        | Editar plan de reabastecimiento existente                | US040T001      | Crear una opción para editar un plan existente                                | Permitir edición de datos en planes ya creados                                                                                                               | 3                  | Matias Diaz     | Done   |
+|              |                                                          | US040T002      | Crear botón para cancelar edición sin guardar                                 | Implementar botón de cancelación que preserve los datos originales                                                                                           | 2                  | Matias Diaz     | Done   |
+| US028        | Visualizar resumen económico de pérdidas                 | US028T001      | Crear una función para mostrar valor total de pérdidas                        | Calcular y mostrar el total monetario de pérdidas según precio de compra                                                                                     | 4                  | Didier Meza     | Done   |
+|              |                                                          | US030T002      | Aplicar desglose por tipo de pérdida                                          | Mostrar subtotales por tipo: merma, consumo interno, donación                                                                                                | 3                  | Didier Meza     | Done   |
+| US030        | Asociar productos comprados a inventario                 | US028T001      | Asociar productos de factura al inventario                                    | Registrar productos de una factura directamente en el stock                                                                                                  | 4                  | Matias Diaz     | Done   |
+|              |                                                          | US030T002      | Agregar validaciones para evitar duplicados al ingresar productos             | Verificar existencia de producto y sumar unidades en lugar de duplicar                                                                                       | 3                  | Matias Diaz     | Done   |
+| US031        | Registro de pedidos a proveedores                        | US031T001      | Crear una vista del historial de compras por proveedor                        | Mostrar pedidos pasados al seleccionar un proveedor                                                                                                          | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US031T002      | Filtrar historial por producto                                                | Implementar filtro de búsqueda por nombre de producto en historial                                                                                           | 3                  | Giovany Torres  | Done   |
+|              |                                                          | US066T002      | Implementar lógica para seleccionar plan premium                              | Activar plan premium en el sistema al usuario luego del pago                                                                                                 | 4                  | Giovany Torres  | Done   |
+|              |                                                          | US066T003      | Integrar visualización con flujo de pago PayPal                               | Asegurar coherencia entre información mostrada y el proceso de pago                                                                                          | 3                  | Giovany torres  | Done   |
+| TS006        | Registrar productos en el inventario                     | TS006T001      | Crear modelo de producto                                                      | Definir esquema del producto: nombre, cantidad, tipo, fecha de vencimiento                                                                                   | 2                  | Anaely Burga    | Done   |
+|              |                                                          | TS006T002      | Implementar POST para registrar productos en el inventario                    | Crear endpoint para registrar productos en inventario                                                                                                        | 3                  | Matias Diaz     | Done   |
+|              |                                                          | TS006T003      | Validar duplicados y datos incompletos                                        | Controlar duplicación y campos requeridos                                                                                                                    | 2                  | Matias Diaz     | Done   |
+| TS007        | Consultar inventario                                     | TS007T001      | Implementar GET para devolver un inventario                                   | Crear endpoint para devolver lista de productos del inventario                                                                                               | 2                  | Anaely Burga    | Done   |
+|              |                                                          | TS007T002      | Crear función para manejar inventario vacío                                   | Crear una funcionalidad para devolver lista vacía con código 200 si no hay productos                                                                         | 1                  | Anaely Burga    | Done   |
+| TS008        | Configurar alertas de reposición                         | TS008T001      | Crear modelo de alerta                                                        | Definir esquema para alertas (producto, umbral)                                                                                                              | 2                  | Didier Meza     | Done   |
+|              |                                                          | TS008T002      | Implementar consulta POST para alertas                                        | Crear endpoint para guardar configuraciones de alerta                                                                                                        | 2                  | Didier Meza     | Done   |
+| TS011        | Registrar guía de conservación                           | TS011T001      | Crear modelo de guía de conservación                                          | Definir estructura de guía (producto, condiciones de conservación, etc.)                                                                                     | 2                  | Matias Diaz     | Done   |
+|              |                                                          | TS011T002      | Implementar consulta POST para registrar guías                                | Crear endpoint para registrar una nueva guía de conservación.                                                                                                | 2                  | Matias Diaz     | Done   |
+|              |                                                          | TS011T003      | Validar campos obligatorios en las guías                                      | Manejar errores por datos incompletos                                                                                                                        | 1                  | Matias Diaz     | Done   |
+| TS001        | Endpoint para registrar nuevo usuario                    | TS001T001      | Crear modelo y validaciones de usuario                                        | Definir esquema del usuario (nombre, correo, contraseña, rol) y validar campos requeridos                                                                    | 3                  | Matias Diaz     | Done   |
+|              |                                                          | TS001T002      | Implementar consulta POST para registro de usuarios                           | Crear endpoint para registrar nuevos usuarios en la plataforma, creando su respectivo perfil                                                                 | 3                  | Matias Diaz     | Done   |
+|              |                                                          | TS001T003      | Manejar errores por datos incompletos y duplicados                            | Incluir manejo de errores 400 (campos faltantes) y 409 (correo existente)                                                                                    | 2                  | Matias Diaz     | Done   |
+| TS002        | Endpoint para iniciar sesión                             | TS002T001      | Implementar lógica de autenticación                                           | Verificar correo y contraseña del usuario                                                                                                                    | 2                  | Matias Diaz     | Done   |
+|              |                                                          | TS002T002      | Implementar método para generar y devolver token JWT                          | Configurar JWT y retornarlo con datos del usuario                                                                                                            | 2                  | Matias Diaz     | Done   |
+|              |                                                          | TS002T003      | Crear métodos para validar cuenta activa del usuario                          | Verificar si el usuario está activo antes de permitir acceso                                                                                                 | 1                  | Matias Diaz     | Done   |
+| TS012        | Generar reporte de pérdidas                              | TS012T001      | Implementar lógica para detectar pérdidas                                     | Detectar productos vencidos, merma u otros criterios de pérdida                                                                                              | 3                  | Matias Diaz     | Done   |
+|              |                                                          | TS012T002      | Implementar consulta GET para obtener perdidas                                | Crear endpoint que devuelva las pérdidas encontradas                                                                                                         | 2                  | Matias Diaz     | Done   |
+| TS014        | Endpoint para registrar una nueva zona de almacenamiento | TS014T001      | Crear modelo y migración para zona de almacenamiento                          | Definir estructura de datos para zonas (nombre, descripción) y crear migración en base de datos                                                              | 3                  | Anaely Burga    | Done   |
+|              |                                                          | TS014T002      | Implementar endpoint POST para registrar zonas                                | Crear lógica de controlador para registrar nueva zona de almacenamiento                                                                                      | 4                  | Anaely Burga    | Done   |
+|              |                                                          | TS014T003      | Validar datos de entrada y verificar duplicados                               | Verificar que no falten campos obligatorios y que la zona no exista ya en BD                                                                                 | 2                  | Anaely Burga    | Done   |
+| TS015        | Endpoint para obtener resumen del panel del usuario      | TS015T001      | Diseñar DTO/respuesta para panel del usuario                                  | Definir estructura de respuesta del panel (alertas, inventario, movimientos)                                                                                 | 2                  | Didier Meza     | Done   |
+|              |                                                          | TS015T002      | Implementar endpoint para obtener panel de usuario                            | Consultar datos relevantes y retornarlos en el formato definido y por tipo de rol de usuario (dueño de licorería o proveedor)                                | 4                  | Didier Meza     | Done   |
+|              |                                                          | TS015T003      | Añadir middleware de autenticación                                            | Asegurar que solo usuarios autenticados accedan al panel                                                                                                     | 1                  | Didier Meza     | Done   |
+| TS021        | Endpoint para generar una orden de compra                | TS021T001      | Diseñar estructura de orden de compra                                         | Definir modelo con sus relaciones (productos, cantidades, usuario)                                                                                           | 3                  | Matias Diaz     | Done   |
+|              |                                                          | TS021T002      | Implementar endpoint POST para pedidos                                        | Crear lógica para registrar orden de compra y manejar errores                                                                                                | 4                  | Giovany torres  | Done   |
+|              |                                                          | TS021T003      | Validar productos en orden                                                    | Verificar que la orden no esté vacía                                                                                                                         | 1                  | Giovany torres  | Done   |
+| TS023        | Endpoint para actualizar estados de los pedidos          | TS023T001      | Definir lógica de transición de estados                                       | Permitir solo cambios válidos de estado (p. ej., pendiente → enviado)                                                                                        | 2                  | Giovany torres  | Done   |
+|              |                                                          | TS023T002      | Implementar endpoint PUT para pedidos                                         | Crear lógica de actualización de estado y respuesta adecuada                                                                                                 | 3                  | Giovany torres  | Done   |
+|              |                                                          | TS023T003      | Agregar validaciones de negocio (estado entregado)                            | Bloquear cambios a pedidos entregados                                                                                                                        | 1                  | Giovany torres  | Done   |
+
+
+### 5.2.3.4. Development Evidence for Sprint Review ###
+
+En esta sección, se describen los principales avances de implementación realizados en este tercer sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
+
+| Repository                                 | Branch                   | Commit Id | Commit Message                                                                        | Commited On  |
+| ------------------------------------------ | ------------------------ | --------- | ------------------------------------------------------------------------------------- | ------------ |
+| StockVin/WineInventory-backend-application | inventories              | 2b40dbb   | feat: inventory.                                                                      | NOV 06, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | e429561   | feat(order): add controller orders.                                                   | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 5b8ee64   | feat(order): update repositories orders.                                              | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 8c72d1b   | feat(order): update query services orders.                                            | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | bc8fdbd   | feat(order): update entities orders.                                                  | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | c294c15   | feat(order): update command services orders.                                          | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | 4627a57   | feat(order): update aggregates orders.                                                | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | purchase-orders          | b6e56e1   | feat(order): update assembler orders.                                                 | NOV 07, 2025 |
+| StockVin/WineInventory-backend-application | care-guides              | 0ab1890   | feat(care-guides): parameterize active alert lookup state for JPA compatibility.      | NOV 08, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts-and-notifications): add external service in inventory management context. | NOV 20, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts-and-notifications): add anti-corruption layer implementation.             | NOV 20, 2025 |
+| StockVin/WineInventory-backend-application | alerts                   | ---   | feat(alerts): add alert commands.                                                     | NOV 20, 2025 |
+
+
+### 5.2.3.5. Execution Evidence for Sprint Review ###
+El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización del landing page, del frontend y la primera version del backend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
+
+
+#### **Landing Page**
+
+**Video about the team**
+<p align="center">
+  <img src="https://i.imgur.com/Ek2vt1D.png"/>
+</p>
+
+<br>
+
+**Video about the product**
+<p align="center">
+  <img src="https://i.imgur.com/via7j1p.png"/>
+</p>
+
+<br>
+
+#### **Front End Application**
+
+**Ordenes dueño**
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Owners_orders.PNG?raw=true" alt="Órdenes del dueño" width="600"/>
+</p>
+<br>
+
+
+**Ordesnes proveedor**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/orders_proovedor.PNG?raw=true" alt="Órdenes proveedor" width="600"/>
+</p>
+<br>
+
+**Nueva orden**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/new_order.PNG?raw=true" alt="Nueva orden" width="600"/>
+</p>
+<br>
+
+
+
+#### **Back End Application**
+**Guias de conservacion**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/careguides.PNG?raw=true" alt="Guías de conservación" width="600"/>
+</p>
+<br>
+
+
+**Order**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Orders.PNG?raw=true" alt="Order" width="600"/>
+</p>
+<br>
+
+**Product**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/inventory.PNG?raw=true" alt="Inventory" width="600"/>
+</p>
+<br>
+
+
+
+**Alertas**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Alerts.PNG?raw=true" alt="Alertas" width="600"/>
+</p>
+<br>
+
+
+**Cuentas de usuario**
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/Accounts.PNG?raw=true" alt="Cuentas de usuario" width="600"/>
+</p>
+<br>
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review ###
+
+| Módulo      | Endpoint                                                                                          | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
+| ----------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                               | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                               | Actualizar guía                           | PUT        | `/api/v1/care-guides/123`                      | Body con nuevos campos                                        | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                               | Eliminar guía                             | DELETE     | `/api/v1/care-guides/123`                      | `careGuideId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/deallocations`                                                 | Desasignar guía                           | PUT        | `/api/v1/care-guides/123/deallocations`        | `careGuideId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/allocations/{productId}`                                       | Asignar guía a producto                   | PUT        | `/api/v1/care-guides/123/allocations/45`       | `careGuideId`, `productId`                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order/{productId}/care-guide`                                                           | Obtener guía por producto                 | GET        | `/api/v1/order/45/care-guide`               | `productId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order/{productId}/exits`                                                                | Obtener salidas por producto              | GET        | `/api/v1/order/45/exits`                    | `productId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order/{productId}`                                                                      | Obtener producto por ID                   | GET        | `/api/v1/order/45`                          | `productId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order/{productId}`                                                                      | Actualizar producto                       | PUT        | `/api/v1/order/45`                          | Body con valores actualizados                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order`                                                                                  | Crear producto                            | POST       | `/api/v1/order`                             | Body con nuevos campos                                        | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| order    | `/api/v1/order`                                                                                  | Obtener productos por perfil              | GET        | `/api/v1/order?profileId=10`                | `profileId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory`                                                                               | Obtener todos los almacenes               | GET        | `/api/v1/inventory`                           | —                                                             | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory`                                                                               | Crear un almacén                          | POST       | `/api/v1/inventory`                           | Body con datos del almacén                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}`                                                                 | Obtener almacén por ID                    | GET        | `/api/v1/inventory/123`                       | `warehouseId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}`                                                                 | Actualizar almacén                        | PUT        | `/api/v1/inventory/123`                       | Body actualizado + `warehouseId`                              | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}`                                                                 | Eliminar almacén                          | DELETE     | `/api/v1/inventory/123`                       | `warehouseId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/product/{productId}`                                 | Agregar stock a producto                  | POST       | `/inventory/123/inventories/product/456`      | `expirationDate`, `quantity`                                  | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/product/{productId}/additions`                       | Añadir stock                              | PUT        | `.../additions`                                | `addedQuantity`, `stockExpirationDate`                        | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/{productId}/substractions`                           | Quitar stock                              | PUT        | `.../substractions`                            | `removedQuantity`, `expirationDate`                           | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/product/{productId}/moves`                           | Mover stock entre almacenes               | PUT        | `.../moves`                                    | `newWarehouseId`, `movedQuantity`, `movedStockExpirationDate` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/product/{productId}/expiration-date/{expirationDate}`| Obtener inventario por fecha              | GET        | `/.../expiration-date/2025-06-22`              | `warehouseId`, `productId`, `expirationDate`                  | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/inventories/product/{productId}`                                 | Eliminar stock con fecha                  | DELETE     | `/.../product/456` (en body: `expirationDate`) | `warehouseId`, `productId`                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/product-exits/{productId}`                                       | Registrar salida de producto              | POST       | `.../product-exits/456`                        | `expirationDate`, `quantityExited`, `exitReason`              | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/product-exits/{productId}`                                       | Obtener salidas por producto              | GET        | `.../product-exits/456`                        | `warehouseId`, `productId`                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/product-exits`                                                   | Obtener salidas por almacén               | GET        | `/.../product-exits`                           | `warehouseId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/order`                                                           | Obtener productos por almacén             | GET        | `/.../order`                                | `warehouseId`                                                 | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| inventory  | `/api/v1/inventory/{warehouseId}/order/provider/{providerId}`                                     | Obtener productos por proveedor y almacén | GET        | `/.../order/provider/789`                   | `warehouseId`, `providerId`                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Alerts      | `/api/v1/alerts/{alertId}`                                                                       | Obtener alerta por ID                     | GET        | `/api/v1/alerts/123`                           | `alertId`                                                     | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/{careGuideId}`                                         | Obtener Care Guide por ID                 | GET        | `/accounts/1/care-guides/10`                   | `accountId`, `careGuideId`                                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                       | Obtener todos los Care Guides             | GET        | `/accounts/1/care-guides`                      | `accountId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                       | Crear Care Guide sin producto             | POST       | `/accounts/1/care-guides`                      | `accountId`, Body                                             | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/product/{productId}`                                   | Crear Care Guide con producto             | POST       | `/accounts/1/care-guides/product/99`           | `accountId`, `productId`, Body                                | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/order`                                                             | Obtener productos por cuenta              | GET        | `/accounts/1/order`                         | `accountId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/inventory`                                                         | Obtener almacenes por cuenta              | GET        | `/accounts/1/inventory`                       | `accountId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/alerts`                                                            | Obtener alertas por cuenta                | GET        | `/accounts/1/alerts`                           | `accountId`                                                   | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+
+
+## **Ejemplos Detallados**
+
+
+### Care Guides
+
+#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
+
+- **Descripción:** Obtiene una guía de cuidado específica sin necesidad de que esté vinculada a un producto.
+    
+- **Parámetros:**
+    
+    - `careGuideId` (path)
+    - `accountId` (path)
+        
+- **Ejemplo de llamada:**
+
+	- GET /api/v1/care-guides/123
+    
+- **Respuesta (`200 Ok`):**
+    
+{
+  "id": "123",
+  "accountId": "456",
+  "productId": "789",
+  "title": "Guía de Almacenamiento",
+  "summary": "Indicaciones para conservar el producto correctamente",
+  "minTemp": 5,
+  "maxTemp": 15,
+  "placeStorage": "Ambiente fresco",
+  "recommendation": "Evitar exposición directa al sol"
+}
+
+
+### Products
+
+### Endpoint: `/api/v1/products` – `POST`
+
+- **Descripción:** Registra un nuevo producto asociado a un proveedor..
+    
+- **Body:**
+
+{
+  "additionalName": "Whisky Etiqueta Azul",
+  "liquorType": "Whisky",
+  "brandName": "Blue Label",
+  "unitPriceAmount": 250,
+  "minimumStock": 10,
+  "imageUrl": "http://example.com/image.png",
+  "providerId": "sup123"
+}
+
+	
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "prod678",
+	  "imageUrl": "http://example.com/image.png",
+	  "name": "Whisky Etiqueta Azul",
+	  "brandName": "Blue Label",
+	  "liquorType": "Whisky",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta de error (`400`):**  
+    `"Product could not be created..."`
+
+
+### Warehouses
+
+### Endpoint: `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}` – `POST`
+
+- **Descripción:** Agrega existencias de un producto a un almacén específico, registrando su fecha de vencimiento.
+    
+- **Parámetros:**
+    
+    - `warehouseId`: ID del almacén
+        
+    - `productId`: ID del producto
+        
+ - Body:
+        
+	 {
+	  "expirationDate": "2025-12-01T00:00:00",
+	  "quantity": 100
+	 }
+        
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "inv123",
+	  "productId": "prod456",
+	  "warehouseId": "wh789",
+	  "bestBeforeDate": "2025-12-01T00:00:00",
+	  "stock": 100,
+	  "productState": "FRESH"
+	}
+
+
+
+### Alerts
+
+### Endpoint: `/api/v1/alerts/{alertId}` – `GET`
+
+- **Descripción:** Recupera la información de una alerta del sistema mediante su identificador único.
+    
+- **Parámetros:**
+    
+    - `alertId` (path): ID de la alerta.
+        
+- **Ejemplo de llamada:**
+    
+    `GET /api/v1/alerts/a123`
+    
+- **Ejemplo de respuesta (`200 OK`):**
+    
+    {
+	  "id": "a123",
+	  "title": "Alerta de Temperatura",
+	  "message": "La temperatura ha superado el límite permitido.",
+	  "severity": "HIGH",
+	  "type": "STORAGE_CONDITION",
+	  "productId": "p456",
+	  "warehouseId": "w789"
+	  }
+    
+- **Respuesta de error (`404 Not Found`):**
+    
+    `Alert not found...`
+
+
+### Account
+
+### Endpoint: `/api/v1/accounts/{accountId}/care-guides` – `POST`
+
+- **Descripción:** Crea una nueva guía de cuidado vinculada a una cuenta, sin asociarla directamente a un producto.
+    
+- **Parámetros:**
+    
+    - `accountId` (path): ID de la cuenta.
+        
+- **Body:**
+    
+	{
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+    
+- **Respuesta (`201 Created`):**
+    
+	{
+	  "id": "cg01",
+	  "accountId": "acc01",
+	  "productId": null,
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review ###
+
+#### Despliegue del Back End
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+
+<p align="center">
+  <img src="https://i.imgur.com/e31bJ1F.png"/>
+</p>
+
+* Tercero, se creó un proyecto en Rider y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama release, consolidando una versión estable del proyecto.
+* Séptimo, se configuraron los archivos Dockerfile y appsettings.production.json para preparar el entorno de despliegue en Railway.
+* Octavo, se configuró la base de datos en FreeSQLDatabase, vinculándola con Railway mediante las variables de entorno correspondientes para permitir la conexión remota.
+* Noveno, se realizó el despliegue del Backend a través de Railway, donde se ejecutó correctamente la aplicación y se verificó su funcionamiento en el entorno de producción. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/evidente.PNG?raw=true" alt="Evidence" width="600"/>
+</p>
+<br>
+
+
+* Link publico: [Backend Desplegado](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)
+
+### 5.2.3.8. Team Collaboration Insights durint Sprint ###
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los tres principales productos: Landing Page, Web Application (Frontend) y Web Services(BackEnd). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../img/Chapter V/deployev 1.jpeg"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Didier Meza fue responsable de implementar la sección de alertas en el Frontend y creacion del bounded context alerts and notifications
+- El integrante Giovany Torres agrego los videos about the team y about the product. En el Frontend se encargo de realizar el apartado de las ordenes, como tambien en el backend su desarrollo de las ordenes.
+- El integrante Matias Diaz implementó la seccion de planes de reabastecimiento en el Frontend y creacion del bounded context analytics and reporting, la creacion del bounded context authentication, y profile management
+- La integrante Anaely Burga  implementó la creacion del bounded context inventory management
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="../img/Chapter V/commit 1.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="https://imgur.com/5JbEW7W.png"/>
+</p>
+
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="../img/Chapter V/sprint-2 ev1F.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="../img/Chapter V/sprint-2 ev2F.PNG"/>
+</p>
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="https://imgur.com/wSvBkDm.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd 
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/main/img/Chapter%20V/networkghrapg.PNG?raw=true" alt="Gráfico de push y merge del equipo en el BackEnd" width="600"/>
+</p>
+<br>
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de entrevistas
+
+En las entrevistas de validación se incluirá:
+
+- **Exploración del Landing Page:**
+    
+    - ¿Comprendieron el propósito de la aplicación?
+        
+    - ¿Fue clara la propuesta de valor?
+        
+- **Validación de la Aplicación Web:**
+    
+    - Se validarán las funcionalidades clave según el flujo de cada user goal.
+        
+    - Se observarán comportamientos, puntos de confusión, y reacciones espontáneas.
+        
+- **Registro de métricas cualitativas y cuantitativas:**
+        
+    - Nivel de comprensión (autoevaluación del usuario).
+        
+    - Comentarios de usabilidad y experiencia.
+        
+    - Satisfacción con el flujo (escala del 1 al 5).
+	
+- **Flujos a Desarrollar:**
+
+| **User Goal** | **Descripción del Flujo**                                                                                                        | **Objetivo de Validación**                                                         |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **UG 1**      | El usuario ingresa al Landing Page, completa su registro con sus datos y automáticamente se le asigna el plan gratuito.          | Comprobar que el formulario sea claro y que el usuario entienda el plan inicial.   |
+| **UG 2**      | El usuario inicia sesión con su cuenta y, si lo desea, puede optar por cambiar o seleccionar un plan premium.                    | Evaluar que el ingreso sea sencillo y que la elección del plan sea entendible.     |
+| **UG 4**      | Desde el dashboard, el licorero puede dirigirse sin complicaciones a la sección de inventario.                                  | Asegurar que el acceso a inventario sea directo e intuitivo.                       |
+| **UG 5**      | El licorero entra al inventario, registra un nuevo producto completando el formulario y este queda correctamente vinculado.      | Revisar que el formulario sea fácil de usar y que el proceso de registro sea claro.|
+| **UG 8**      | El licorero accede a la sección de Reportes desde cualquier parte del sistema usando el ícono correspondiente.                  | Confirmar que la navegación hacia reportes sea evidente y sin obstáculos.          |
+| **UG 9**      | Dentro de la sección de Reportes, el licorero crea un reporte nuevo completando los datos requeridos.                           | Verificar que los campos necesarios estén organizados de forma lógica y comprensible. |
+| **UG 11**     | El licorero registra una orden de compra: selecciona productos, define cantidades y elige un proveedor antes de enviarla.        | Evaluar que el flujo sea fluido y que el proceso de selección y envío sea sencillo. |
+| **UG 12**     | El proveedor entra a la sección de Conservación, completa los datos de una nueva guía y luego la revisa.                        | Validar que el proceso de elaboración y visualización de guías sea fácil de seguir. |
+
+
+### 5.3.2. Registro de entrevistas
+
+
+## Entrevista 1
+
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/yadhir_interview.jpg" width="150"/></p>|**Distrito:** Santiago de Surco <br>**Entrevistado:** Yadhir Antonio|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCi6JccnzmeT5efqc3E5jYtAaioCBjCVVz3ClqB6gF70rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Wh0iz6)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–9:54|**Resumen:** La entrevista fue realizada a **Yadhir Antonio**, de 24 años, con el objetivo de validar dos soluciones de software orientadas a empresas del sector licores. Durante la evaluación se revisaron la landing page, la fluidez de navegación, la claridad del contenido y el funcionamiento de secciones clave como planes, testimonios, dashboard, alertas, perfil y reportes. Yadhir destacó que la estructura general del sitio es clara y fácil de entender, valorando especialmente la presentación de testimonios, los beneficios de los planes y el monitoreo del inventario en tiempo real. Sugirió ampliar un poco el tamaño de la fuente y que la opción multilingüe esté disponible en todas las secciones. Señaló que los íconos y accesos rápidos del dashboard son intuitivos y que las alertas (vencimiento y bajo stock) son útiles para la toma de decisiones. Sobre registro y perfil, comentó que el diseño es amigable y que la inclusión de redes sociales sería un plus. Finalmente, indicó que la sección de reportes es clara y está bien ubicada.**Satisfacción del flujo:** 4.5/5|
+
+---
+
+## Entrevista 2
+
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/Milton_interview.jpg" width="150"/></p>|**Distrito:** Villa el Salvador <br>**Entrevistado:** Milton Meza|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQCk_idPqy7cTrbDXrrk0GDiAbNkREMedOwfqEICBaJWdoc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5kM9d1)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–14:41|**Resumen:** La entrevista se realizó a **Milton Meza**, de 21 años, quien participó en la validación de la aplicación _Stock_. Durante la prueba, creó su cuenta, eligió su rol como dueño de licorería y accedió sin inconvenientes al dashboard, visualizando ventas, productos disponibles y alertas. Exploró el módulo de reportes y generó una guía de conservación configurando temperatura, tiempo de duración del producto abierto y notas para su equipo. Luego creó una orden de compra seleccionando artículos del catálogo y asignando un proveedor. Finalmente, ingresó a su perfil para actualizar sus datos, verificar su rol y revisar los beneficios del plan premium. Destacó la **gestión del stock mínimo y las alertas**, esenciales para la toma de decisiones. Valoró la estructura general de la app y consideró que con mayor uso podría familiarizarse aún más con todas sus funciones.**Satisfacción del flujo:** 4.8/5|
+
+---
+
+
+## Entrevista 3
+
+|Entrevista|Registro|
+|---|---|
+|<p align="center"><img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/738974c5cf84c8d968acf504cc67873edcb3eb0f/img/Chapter%20V/diego_interview.jpg" width="150"/></p>|**Distrito:** Villa el Salvador <br>**Entrevistado:** Diego Vilca|
+|[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/IQApTQg1yV5VRb1S0HcVrxd2Ab5_U_dYReq979PIZ6OvfSs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FrUkV2)|**Entrevistador:** Didier Sebastián Meza Solórzano|
+|Timing: 0:00–11:36|**Resumen:** La entrevista se realizó a **Diego Vilca**, de 20 años, quien participó en la validación de la aplicación. La evaluación se centró en el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Diego valoró la estructura de la página principal, destacando testimonios, preguntas frecuentes, soporte en dos idiomas (español e inglés) y planes diferenciados (gratuito y premium). Destacó la combinación de colores y organización de los elementos visuales, la navegación mediante íconos en la barra lateral y la selección de roles al registrarse, edición de perfil y cambio de idioma. Sobre el módulo de inventario, indicó que la visualización de productos, imágenes, precios, stock y opciones de edición o creación es clara y práctica. Respecto a los reportes, comprendió sin dificultad las funciones de pérdidas, transportes, reposiciones y conservación, y opinó que están bien divididas y son fáciles de recorrer. Finalmente, destacó la importancia de las alertas por productos próximos a vencer o con stock crítico y sugirió accesos rápidos a catálogos y pedidos para agilizar el uso.**Satisfacción del flujo:** 4.7/5|
+
+
+
+
+### 5.3.3. Evaluación según heurísticas
+
+##### APP A EVALUAR: **WineInventory**
+---
+
+##### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo  
+2. Inicio de sesión de un usuario
+3. Creación de un order
+4. Visualización de las alertas de la aplicación
+5. Visualización de reporte generado
+6. Insertar una imagen a un inventario
+7. Carga de alertas en la aplicación
+8. Realización de una orden de compra
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+1. Asignar un producto a un inventario
+2. Registrar salidas de productos
+3. Registrar reportes de pérdidas
+
+---
+
+##### ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Inconveniente leve: se presenta de manera esporádica y el usuario puede manejarlo sin dificultad. Su corrección no es prioritaria y solo se abordará si existe tiempo disponible. |
+| **2** | Contratiempo moderado: aparece con algo más de frecuencia o requiere un pequeño esfuerzo adicional del usuario para sortearlo. Puede programarse su solución con baja prioridad para la siguiente versión. |
+| **3** | Problema significativo: sucede de forma recurrente o bloquea al usuario al intentar continuar. Su atención es necesaria y debe considerarse como una tarea de alta prioridad. |
+| **4** | Falla crítica: afecta gravemente el funcionamiento, impidiendo el uso normal de la herramienta. Debe resolverse de manera obligatoria antes de cualquier lanzamiento. |
+
+
+##### TABLA RESUMEN
+
+| # | Problema                                                                                                       | Severidad | Heurística/Principio afectado                                                             |
+|---|----------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------|
+| **1** | El formulario de inicio de sesión no muestra mensajes claros cuando un campo es inválido (ej.: correo mal formateado). | 3 | Usabilidad: Facilitar que el usuario identifique el error, comprenda la causa y pueda corregirlo. |
+| **2** | No existen reglas que impidan registrar o usar contraseñas débiles.                                        | 2 | Usabilidad: Prevención de errores. |
+| **3** | Al intentar subir una imagen para crear un almacén, el sistema no informa al usuario si ocurre un fallo.   | 3 | Usabilidad: Facilitar que el usuario identifique el error, comprenda la causa y pueda corregirlo. |
+| **4** | La vista de almacenes no cuenta con paginación ni un desplazamiento adecuado cuando hay muchos registros.  | 1 | Arquitectura de Información: ¿Es escalable? |
+
+
+
+##### DESCRIPCIÓN DE PROBLEMAS
+
+###### PROBLEMA #1: No existen validaciones que aseguren que el usuario ingrese un correo electrónico con un formato adecuado.
+
+**Severidad:** 3  
+**Heurística afectada:** Usabilidad – Facilitar que el usuario identifique el error, entienda qué ocurrió y pueda corregirlo.
+
+**Descripción:**  
+Actualmente, si el usuario ingresa un correo con un formato incorrecto o coloca texto no válido después del símbolo (@), la interfaz no muestra ningún mensaje que indique que el dato ingresado es inválido.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/dbf0282d3cfd0e0e17041471dce64f0495afe94a/img/Chapter%20IV/Corres.PNG">
+</p>
+
+**Recomendación:**  
+Implementar validaciones de formato de correo electrónico que generen retroalimentación inmediata y clara, evitando la aceptación de direcciones no válidas (por ejemplo, textos aleatorios o dominios inexistentes).
+
+###### PROBLEMA #2: No existe un control que garantice la creación de contraseñas seguras.
+
+**Severidad:** 2  
+**Heurística afectada:** Usabilidad – Prevención de errores.
+
+**Descripción:**  
+El sistema permite que un usuario se registre utilizando contraseñas demasiado simples, como aquellas con menos de 8 caracteres o sin incluir números, símbolos o mayúsculas, lo cual incrementa el riesgo de seguridad.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/dbf0282d3cfd0e0e17041471dce64f0495afe94a/img/Chapter%20IV/con2.PNG">
+</p>
+
+
+**Recomendación:**  
+Implementar reglas mínimas de seguridad: longitud mayor a 8 caracteres, incluir al menos una letra mayúscula, un número y un símbolo especial para fortalecer la protección de las cuentas.
+
+###### PROBLEMA #3: Los mensajes de error no brindan información clara ni ayudan al usuario a saber qué hacer.
+
+**Severidad:** 2  
+**Heurística afectada:** Usabilidad – Facilitar que el usuario identifique el error, comprenda qué ocurrió y pueda recuperarse.
+
+**Descripción:**  
+Los mensajes mostrados actualmente son genéricos y no ofrecen detalles útiles ni indicaciones para volver a intentar la acción, lo que dificulta al usuario entender el problema.
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20V/alertas.PNG?raw=true">
+</p>
+
+<p align="center"><strong>Más información para destacar</strong></p>
+
+**Recomendación:**  
+Mostrar mensajes más claros y accionables, por ejemplo:  
+*"No se pudieron cargar las alertas. Verifica tu conexión e intenta nuevamente."*
+
+###### PROBLEMA #4: Las alertas críticas no cuentan con una jerarquía visual adecuada
+
+**Severidad:** 1  
+**Heurística afectada:** Usabilidad – Estética y diseño minimalista
+
+**Descripción:**  
+Las notificaciones importantes, como “Urgent restock”, no se diferencian del resto, lo que dificulta que el usuario las identifique rápidamente.
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-3/img/Chapter%20IV/ALER2.PNG?raw=true">
+</p>
+
+**Recomendación:**  
+Aplicar elementos visuales como colores más llamativos, bordes o íconos de alerta para resaltar las prioridades y mejorar la visibilidad.
+
+
+## 5.4. Video About The Product
+
+En esta sección, se adjunta el enlace al video sobre el producto de software desarrollado. En este video, se detallan funcionalidades principales y beneficios que ofrece la aplicacion a los usuarios finales que usaran la aplicacion web para sus negocios.
+
+Enlace al video acerca del producto: [Link about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/IQAKPOgobZW7QKYYNN56z7zkAXvaWHaIMkbGj4D_GcxcwoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cLjsrm)
+<p align="center">
+  <img src="https://i.imgur.com/via7j1p.png">
+</p>
+
+## 5.5. Video About The Team
+
+En esta sección, se adjunta el enlace al video que presenta al equipo de trabajo que desarrolló el producto de software. En este video, cada miembro del equipo comparte su rol y contribuciones al proyecto, destacando la colaboración y el esfuerzo conjunto para crear una solución efectiva.
+
+Enlace al video acerca del equipo de trabajo que desarrollo el producto de software:
+[Link about the team ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/IQDMPrGPukyRT4vnuqWKqIXhAe1Pn5xUbRdhXAmwzaATXHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lBdcyJ)
+
+<p align="center">
+  <img src="https://i.imgur.com/Ek2vt1D.png">
 </p>
