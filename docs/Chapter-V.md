@@ -1410,13 +1410,25 @@ En esta sección se presenta el planeamiento correspondiente al último sprint d
 | Time                                | 11:00 AM |
 | Location                            | Llamada virtual por Discord |
 | Prepared By                         | Meza Solórzano, Didier Sebastian |
-| Attendees                           | Torres Apolinario, Giovany Smith / Díaz Quispe, Matías Sebastian / Meza Solórzano, Didier / Burga Loarte, Anaely Zarely Sebastian |
-| Sprint 3 Review Summary             | En el sprint anterior, el equipo logró completar la implementación de los videos correspondientes al producto y al equipo de trabajo dentro de la Landing Page. Además, se finalizó gran parte de las secciones de la aplicación front-end, asegurando su correcto funcionamiento mediante un servidor de API simulada. Por otro lado, se implementaron los principales endpoints del backend relacionados con almacenes, productos, inventarios, alertas y guías de cuidado. |
+| Attendees                           | Torres Apolinario, Giovany Smith / Díaz Quispe, Matías Sebastian / Meza Solórzano, Didier Sebastian/ Burga Loarte, Anaely Zarely  |
+| Sprint 3 Review Summary             | En el sprint anterior, el equipo logró completar la implementación de los videos correspondientes al producto y al equipo de trabajo dentro de la Landing Page. Además, se finalizó gran parte de las secciones de la aplicación front-end, asegurando su correcto funcionamiento mediante un servidor de API simulada. Por otro lado, se implementaron los principales endpoints del backend relacionados con  productos, inventarios, alertas y guías. |
 | Sprint 3 Retrospective Summary      | Durante este sprint, el equipo fortaleció notablemente la comunicación interna entre todos los integrantes, lo que permitió aumentar el nivel de confianza y coordinación. Este avance fue clave para afrontar de manera más organizada las tareas pendientes del último sprint y asegurar la finalización del desarrollo del producto. |
 | <b> Sprint Goal & User Stories </b> | -- |
 | Sprint 4 Goal                       | El objetivo de este sprint es brindar información completa y detallada, junto con videos explicativos sobre los beneficios y características del producto, así como un video final que muestre al equipo responsable del desarrollo de la plataforma a lo largo de su ciclo de vida. Asimismo, se busca integrar el consumo de servicios web en la aplicación front-end para los endpoints relacionados con productos, almacenes, inventarios, alertas, guías de cuidado, órdenes, cuentas, usuarios, perfiles y autenticación. Además, se pretende ampliar las posibilidades de implementación de funciones relacionadas con las preferencias de perfil, la creación de cuentas con suscripción y la generación de órdenes. Se considera que estos objetivos se cumplirán cuando se evidencie un aumento en el registro de usuarios, cuando los propietarios de licorerías utilicen la aplicación para el control de inventarios, cuando los proveedores gestionen sus pedidos mediante la plataforma y cuando los desarrolladores implementen nuevas funcionalidades relacionadas con perfiles, suscripciones y órdenes. |
 | Sprint 4 Velocity                   | 91 |
 | Sum of Story Points                 | 90 |
+
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al último sprint del proyecto. Los aspectos principales considerados en esta etapa están enfocados en los distintos módulos que conforman la aplicación Front-End, así como también en sus respectivos componentes del Back-End. Para ello, se han definido las siguientes áreas clave de trabajo: Inventario, Productos, Cuenta de Usuario, Reportes, Órdenes de Compra y Alertas.
+
+| Integrante del equipo                | Usuario GitHub | Alertas | Reportes | Órdenes | Inventario | Cuenta de usuario | Pagos y suscripciones |
+|--------------------------------------|----------------|---------|----------|---------|------------|-------------------|-----------------------|
+| Díaz Quispe, Matías Sebastián        | equinox-1092   |         | L        | L       |            |                   | L                     |
+| Torres Apolinario, Giovany Smith     | Giovany7x      |         |          | L       |            | L                 |                       |
+| Burga Loarte, Anaely Zarely          | userxx1000     |         |          |         | L          |                   |                       |
+| Meza Solórzano, Didier Sebastián     | Didier04x      | L       |          |         |            |                   |                       |
 
 
 ## 5.3. Validation Interviews
