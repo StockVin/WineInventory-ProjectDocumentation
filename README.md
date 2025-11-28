@@ -3,8 +3,8 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png">
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-### Facultad de Ingenieria
-### Ingeniería de Software - 2025-20 
+### Facultad: Ingenieria
+### Carrera: Ingeniería de Software - 2025-20 
 ### A1SI0729 - Desarrollo de Aplicaciones Open Source 
 ### NRC: 7351  
 ### Profesor: Rafael Oswaldo Castro Veramendi  
