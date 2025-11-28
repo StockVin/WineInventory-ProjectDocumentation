@@ -6,7 +6,8 @@
 ### Facultad: Ingenieria
 ### Carrera: Ingeniería de Software 
 ### Periodo: 202520 
-### A1SI0729 - Desarrollo de Aplicaciones Open Source 
+### Codigo del curso: A1SI0729 
+### Nombre del curso: Desarrollo de Aplicaciones Open Source 
 ### NRC: 7351  
 ### Profesor: Rafael Oswaldo Castro Veramendi  
 ### "Informe de Trabajo Final"  
