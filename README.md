@@ -4,7 +4,8 @@
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 ### Facultad: Ingenieria
-### Carrera: Ingeniería de Software - 2025-20 
+### Carrera: Ingeniería de Software 
+### Periodo: 202520 
 ### A1SI0729 - Desarrollo de Aplicaciones Open Source 
 ### NRC: 7351  
 ### Profesor: Rafael Oswaldo Castro Veramendi  
