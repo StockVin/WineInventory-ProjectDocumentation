@@ -1475,6 +1475,86 @@ A continuación, se presenta la tabla con las tareas necesarias para completar d
 |              |                                                   | US015T002      | Lógica de cierre de sesión                                                    | Implementación del proceso que invalida la sesión activa del usuario.                                                                                       | 4                  | Torres Apolinario, Giovany Smith | Done  |
 | US013        | Elegir contraseña segura                          | US013T001      | Validación de seguridad de contraseña                                         | Desarrollo de un método que evalúe el nivel de seguridad de la contraseña ingresada.                                                                       | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
 
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se detallan los principales avances realizados durante el desarrollo correspondiente a este último sprint del proyecto.
+
+A continuación, se presenta una tabla que resume los commits realizados en los distintos repositorios, los cuales contienen parte de las funcionalidades necesarias para completar los objetivos definidos para este sprint.
+
+Repositorio del sitio web estático: https://github.com/StockVin/WineInventory-LandingPage.git  
+Repositorio de la aplicación Frontend: https://github.com/StockVin/WineInventory-frontend-application.git  
+Repositorio de la aplicación Backend: https://github.com/StockVin/WineInventory-backend-application.git  
+
+| Repository                              | Branch                    | Commit Id | Commit Message                                                            | Commited On |
+|-----------------------------------------|---------------------------|-----------|---------------------------------------------------------------------------|-------------|
+| StockVin/WineInventory-LandingPage      | feature/testimonials      | d2d8cdd   | fix: change files and folders naming.                                     | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/warehouse-logic   | 8344243   | feat(inventory): add warehouse logic.                                     | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/accounts          | eef6170   | feat(accounts): add authentication service.                               | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/subscription-view | 0082b32   | feat(SAP): add subscription view with responsive design.                  | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/alerts            | 57b1c92   | feat(alerts): add alert integration in the dashboard.                     | 27/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/orders            | 3e095c7   | feat(orders): add orders controller.                                      | 23/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/catalogs          | 3e095c7   | feat(catalogs): add clients and dto.                                      | 23/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/alerts            | 3e095c7   | feat(alerts): add events.                                                 | 26/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/accounts          | 6a667c1   | feat(authentication): add acl to get account id for the sign in resource. | 26/11/2025  |
+
+---
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En esta sección se describen los resultados alcanzados durante el desarrollo de este sprint, respaldados por evidencias de las funcionalidades implementadas.
+
+Entre los principales logros se encuentra la mejora de las secciones informativas del sitio web estático mediante la incorporación de dos videos dirigidos a los visitantes: uno enfocado en explicar las funcionalidades y beneficios que ofrece la aplicación web, y otro que presenta al equipo de desarrollo y su participación a lo largo del ciclo de vida del proyecto.
+
+Asimismo, se logró que la aplicación frontend pueda consumir correctamente los servicios web proporcionados por la aplicación backend en todas las secciones implementadas previamente. Finalmente, se desarrollaron diversos endpoints en el backend relacionados con la gestión de órdenes de compra, alertas, autenticación, perfiles, cuentas y suscripciones.
+
+A continuación, se presentan las capturas de pantalla correspondientes a las secciones implementadas tanto en la Landing Page como en la aplicación Frontend y en la aplicación Backend, las cuales evidencian el progreso alcanzado durante este sprint.
+
+- Video de ejecución de los tres productos para este sprint:  
+
+
+## **Landing Page**
+
+Se adjuntan los enlaces para acceder al sitio web desplegado y al video de ejecución del sitio web estático. En dicho video se muestra el funcionamiento general de cada sección del sitio y su visualización en un navegador web.
+
+Video sobre exploración de la aplicación  
+<p align="center">
+  <img src="" 
+  alt="Exploration of the app section in landing page"/>
+</p>
+
+## **Front End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al video de ejecución de la misma, donde se observa el funcionamiento de las secciones implementadas.
+
+Sección de almacenes  
+<p align="center">
+  <img src="" 
+  alt="Warehouses in frontend"/>
+</p>
+
+Sección de órdenes  
+<p align="center">
+  <img src="" 
+  alt="Orders in frontend"/>
+</p>
+
+### **Back End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al video de ejecución de la misma. En el video se evidencia el funcionamiento de los endpoints desarrollados y la estructura de sus rutas.
+
+Endpoints para catálogos en el backend  
+<p align="center">
+  <img src="" 
+  alt="Catalogs in backend"/>
+</p>
+
+Endpoints para cuentas en el backend  
+<p align="center">
+  <img src="" 
+  alt="Accounts in backend"/>
+</p>
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
