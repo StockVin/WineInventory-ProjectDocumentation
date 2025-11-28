@@ -1397,6 +1397,28 @@ Grafico de los push y merge realizados por el equipo en el BackEnd
 </p>
 <br>
 
+### 5.2.4. Sprint 4 ###
+
+#### 5.2.4.1. Sprint Planning 4
+
+En esta sección se presenta el planeamiento correspondiente al último sprint del proyecto. Para este sprint se definieron objetivos enfocados en tres componentes principales: el sitio web estático, la aplicación front-end y la aplicación back-end. Uno de los objetivos estuvo orientado a mejorar el diseño visual del sitio web estático, así como a optimizar las secciones de videos sobre el producto y el equipo de desarrollo para los visitantes. Asimismo, se planteó como segundo objetivo la integración del consumo de servicios de la aplicación backend en la aplicación front-end de StockVin. Finalmente, el tercer objetivo estuvo enfocado en la implementación de endpoints relacionados con la gestión de órdenes de compra y la autenticación de usuarios.
+
+| Sprint #                            | Sprint 4 |
+|-------------------------------------|----------|
+| <b> Sprint planning Background </b> | -- |
+| Date                                | 2025/11/27 |
+| Time                                | 11:00 AM |
+| Location                            | Llamada virtual por Discord |
+| Prepared By                         | Meza Solórzano, Didier Sebastian |
+| Attendees                           | Torres Apolinario, Giovany Smith / Díaz Quispe, Matías Sebastian / Meza Solórzano, Didier / Burga Loarte, Anaely Zarely Sebastian |
+| Sprint 3 Review Summary             | En el sprint anterior, el equipo logró completar la implementación de los videos correspondientes al producto y al equipo de trabajo dentro de la Landing Page. Además, se finalizó gran parte de las secciones de la aplicación front-end, asegurando su correcto funcionamiento mediante un servidor de API simulada. Por otro lado, se implementaron los principales endpoints del backend relacionados con almacenes, productos, inventarios, alertas y guías de cuidado. |
+| Sprint 3 Retrospective Summary      | Durante este sprint, el equipo fortaleció notablemente la comunicación interna entre todos los integrantes, lo que permitió aumentar el nivel de confianza y coordinación. Este avance fue clave para afrontar de manera más organizada las tareas pendientes del último sprint y asegurar la finalización del desarrollo del producto. |
+| <b> Sprint Goal & User Stories </b> | -- |
+| Sprint 4 Goal                       | El objetivo de este sprint es brindar información completa y detallada, junto con videos explicativos sobre los beneficios y características del producto, así como un video final que muestre al equipo responsable del desarrollo de la plataforma a lo largo de su ciclo de vida. Asimismo, se busca integrar el consumo de servicios web en la aplicación front-end para los endpoints relacionados con productos, almacenes, inventarios, alertas, guías de cuidado, órdenes, cuentas, usuarios, perfiles y autenticación. Además, se pretende ampliar las posibilidades de implementación de funciones relacionadas con las preferencias de perfil, la creación de cuentas con suscripción y la generación de órdenes. Se considera que estos objetivos se cumplirán cuando se evidencie un aumento en el registro de usuarios, cuando los propietarios de licorerías utilicen la aplicación para el control de inventarios, cuando los proveedores gestionen sus pedidos mediante la plataforma y cuando los desarrolladores implementen nuevas funcionalidades relacionadas con perfiles, suscripciones y órdenes. |
+| Sprint 4 Velocity                   | 91 |
+| Sum of Story Points                 | 90 |
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
