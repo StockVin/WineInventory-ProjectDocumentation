@@ -9,7 +9,7 @@
 ### Codigo del curso: A1SI0729 
 ### Nombre del curso: Desarrollo de Aplicaciones Open Source 
 ### NRC: 7351  
-### Profesor: Rafael Oswaldo Castro Veramendi  
+### Nombre del Profesor: Rafael Oswaldo Castro Veramendi  
 ### "Informe de Trabajo Final"  
 ### Startup: StockVin  
 ### Producto: WineInventory  
