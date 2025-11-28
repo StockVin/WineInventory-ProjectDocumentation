@@ -1554,6 +1554,141 @@ Endpoints para cuentas en el backend
   alt="Accounts in backend"/>
 </p>
 
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta la evidencia correspondiente a la documentación de los endpoints implementados en la aplicación backend durante este sprint. En la siguiente tabla se muestra un resumen de las acciones principales, los requisitos y la información técnica de cada endpoint desarrollado.
+
+| Módulo      | Endpoint                                            | Acción                  | Verbo HTTP | Sintaxis                        | Parámetros principales                        | Enlace a Swagger                                                  |
+|------------|------------------------------------------------------|--------------------------|------------|----------------------------------|-----------------------------------------------|-------------------------------------------------------------------|
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                  | Obtener guía por ID      | GET        | `/api/v1/care-guides/123`        | `careGuideId`, `accountId`                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)     |
+
+---
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Con el objetivo de garantizar una correcta organización del desarrollo y un despliegue eficiente, el proyecto fue dividido en tres componentes principales: la Landing Page, la aplicación Frontend y la aplicación Backend. Cada uno de estos productos cuenta con su propio repositorio en GitHub, así como con procesos de integración y despliegue independientes. A continuación, se describe el flujo de despliegue seguido para cada uno de ellos, junto con la evidencia correspondiente.
+
+Para el punto de partida, se tomó como base la configuración inicial de los repositorios definida en la Sección 5.1.4. Posteriormente, se detalla el proceso de despliegue del sitio web estático.
+
+---
+
+### Despliegue del Landing Page
+
+Para el despliegue del sitio web estático se utilizó nuevamente **GitHub Pages**, herramienta que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. El procedimiento ejecutado fue el siguiente:
+
+* Se trabajó inicialmente sobre la rama `develop` del repositorio del sitio web estático, donde se encontraban integrados todos los cambios correspondientes a este sprint.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Posteriormente, los cambios fueron migrados desde la rama de desarrollo hacia una nueva rama de tipo `release` denominada `release/landing-page-v4.0`, desde donde se realizó el despliegue final.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Luego, se accedió a la sección **Settings** del repositorio y se ingresó a la opción **Pages** dentro del bloque de configuración de código y automatización.
+<p align="center">
+  <img src=""/>
+</p>
+
+* A continuación, se seleccionó como origen de despliegue la rama de tipo `release` previamente creada y se guardó la configuración.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Finalmente, se generó el enlace público que permite el acceso al sitio web estático desplegado.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Se verificó el correcto despliegue accediendo al enlace público proporcionado por GitHub Pages.
+<p align="center">
+  <img src=""/>
+</p>
+
+---
+
+### Despliegue de la Aplicación Frontend
+
+Para el despliegue de la aplicación frontend se utilizó **Firebase Hosting**, plataforma que permite publicar aplicaciones web de forma rápida y eficiente.
+
+Enlace de la aplicación frontend desplegada:  
+https://wine-inventory-front-end.web.app/sign-in
+
+* Se partió desde la rama `develop` del repositorio frontend con todos los cambios actualizados.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Los cambios fueron enviados a una nueva rama de tipo `release`, desde donde se realizó el despliegue definitivo.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Luego, se ejecutó el comando `npm run build` para generar la carpeta `dist` con la versión de producción de la aplicación.
+<p align="center">
+  <img src="">
+
+<p align="center">
+  <img src="">
+
+* A continuación, se ejecutó el comando `firebase login` e inició sesión con una cuenta de Google.
+<p align="center">
+  <img src=""> 
+
+* Se comprobó el inicio de sesión exitoso.
+<p align="center">
+  <img src="">
+
+* Finalmente, se ejecutó el comando `firebase deploy`, lo que permitió publicar la aplicación.
+<p align="center">
+  <img src=""> 
+
+* Se accedió a la URL proporcionada por Firebase para verificar el correcto despliegue.
+<p align="center">
+  <img src="">
+
+---
+
+### Despliegue del Back End
+
+El despliegue del backend se realizó utilizando la plataforma **Azure**, la cual permite automatizar el despliegue de aplicaciones al detectar cambios en el repositorio.
+
+Enlace del backend desplegado:  
+https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html
+
+* Se trabajó desde la rama `develop` del repositorio del backend.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Luego, se creó una rama de tipo `release` para el despliegue.
+<p align="center">
+  <img src=""/>
+</p>
+
+* Posteriormente, se configuró la base de datos mediante la plataforma **freesqldatabase**.
+<p align="center">
+  <img src="">
+
+* Se realizó el despliegue desde la consola de Render.
+<p align="center">
+  <img src="">
+
+* Se verificó el despliegue exitoso de la aplicación.
+<p align="center">
+  <img src=""/>
+</p>
+
+<p align="center">
+  <img src=""/>
+</p>
+
+* Finalmente, se ingresó a la URL pública entregada por Render para validar el correcto funcionamiento del backend.
+<p align="center">
+  <img src=""> 
+</p>
+
 
 ## 5.3. Validation Interviews
 
