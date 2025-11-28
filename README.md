@@ -10,9 +10,9 @@
 ### Nombre del curso: Desarrollo de Aplicaciones Open Source 
 ### NRC: 7351  
 ### Nombre del profesor: Rafael Oswaldo Castro Veramendi  
-## "Informe de Trabajo Final"  
-### Startup: StockVin  
-### Producto: WineInventory  
+### "Informe de Trabajo Final"  
+### Nombre del startup: StockVin  
+### Nombre del producto: WineInventory  
 ### Integrantes:
 
 <table align="center" style="margin-left: auto; margin-right: auto;">
