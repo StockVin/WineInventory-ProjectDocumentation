@@ -1622,7 +1622,7 @@ https://wine-inventory-front-end.web.app/sign-in
 
 * Los cambios fueron enviados a una nueva rama de tipo `release`, desde donde se realizó el despliegue definitivo.
 <p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web2.png"/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web8.png"/>
 </p>
 
 * Luego, se ejecutó el comando `npm run build` para generar la carpeta `dist` con la versión de producción de la aplicación.
@@ -1643,10 +1643,9 @@ https://wine-inventory-front-end.web.app/sign-in
 * Finalmente, se ejecutó el comando `firebase deploy`, lo que permitió publicar la aplicación.
 <p align="center">
   <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web7.png"> 
-
 * Se accedió a la URL proporcionada por Firebase para verificar el correcto despliegue.
 <p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web8.png">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web2.png">
 
 ---
 
