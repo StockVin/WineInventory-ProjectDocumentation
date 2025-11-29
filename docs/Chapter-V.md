@@ -1438,7 +1438,7 @@ Luego de establecer el objetivo general, se identificaron las historias de usuar
 [https://trello.com/b/SVXnlzhD](https://trello.com/b/SVXnlzhD)
 
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/TrelloSprint4.png" 
   alt="Sprint goal and Stories of Sprint #4"/>
 </p>
 
@@ -1518,7 +1518,7 @@ Se adjuntan los enlaces para acceder al sitio web desplegado y al video de ejecu
 
 Video sobre exploración de la aplicación  
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/explorationlandingpage.png" 
   alt="Exploration of the app section in landing page"/>
 </p>
 
