@@ -1411,11 +1411,11 @@ En esta sección se presenta el planeamiento correspondiente al último sprint d
 | Location                            | Llamada virtual por Discord |
 | Prepared By                         | Meza Solórzano, Didier Sebastian |
 | Attendees                           | Torres Apolinario, Giovany Smith / Díaz Quispe, Matías Sebastian / Meza Solórzano, Didier Sebastian/ Burga Loarte, Anaely Zarely  |
-| Sprint 3 Review Summary             | En el sprint anterior, el equipo logró completar la implementación de los videos correspondientes al producto y al equipo de trabajo dentro de la Landing Page. Además, se finalizó gran parte de las secciones de la aplicación front-end, asegurando su correcto funcionamiento mediante un servidor de API simulada. Por otro lado, se implementaron los principales endpoints del backend relacionados con  productos, inventarios, alertas y guías. |
-| Sprint 3 Retrospective Summary      | Durante este sprint, el equipo fortaleció notablemente la comunicación interna entre todos los integrantes, lo que permitió aumentar el nivel de confianza y coordinación. Este avance fue clave para afrontar de manera más organizada las tareas pendientes del último sprint y asegurar la finalización del desarrollo del producto. |
+| Sprint 3 Review Summary             | In the previous sprint, the team managed to complete the implementation of the videos corresponding to the product and the work team within the Landing Page. In addition, many of the sections of the front-end application were finalized, ensuring its correct functioning using a mock API server. On the other hand, the main backend endpoints related to products, inventories, alerts and guides were implemented. |
+| Sprint 3 Retrospective Summary      | During this sprint, the team significantly strengthened internal communication between all members, which allowed an increase in the level of trust and coordination. This progress was key to face the pending tasks of the last sprint in a more organized way and ensure the completion of the product development. |
 | <b> Sprint Goal & User Stories </b> | -- |
-| Sprint 4 Goal                       | El objetivo de este sprint es brindar información completa y detallada, junto con videos explicativos sobre los beneficios y características del producto, así como un video final que muestre al equipo responsable del desarrollo de la plataforma a lo largo de su ciclo de vida. Asimismo, se busca integrar el consumo de servicios web en la aplicación front-end para los endpoints relacionados con productos, almacenes, inventarios, alertas, guías de cuidado, órdenes, cuentas, usuarios, perfiles y autenticación. Además, se pretende ampliar las posibilidades de implementación de funciones relacionadas con las preferencias de perfil, la creación de cuentas con suscripción y la generación de órdenes. Se considera que estos objetivos se cumplirán cuando se evidencie un aumento en el registro de usuarios, cuando los propietarios de licorerías utilicen la aplicación para el control de inventarios, cuando los proveedores gestionen sus pedidos mediante la plataforma y cuando los desarrolladores implementen nuevas funcionalidades relacionadas con perfiles, suscripciones y órdenes. |
-| Sprint 4 Velocity                   | 91 |
+| Sprint 4 Goal                       | Our goal of this sprint is to provide complete and detailed information, along with explanatory videos about the benefits and features of the product, as well as a final video showing the team responsible for developing the platform throughout its lifecycle. Likewise, the aim is to integrate the consumption of web services in the front-end application for endpoints related to products, warehouses, inventories, alerts, care guides, orders, accounts, users, profiles and authentication. In addition, it is intended to expand the possibilities of implementing functions related to profile preferences, the creation of accounts with subscription and the generation of orders. It is considered that these objectives will be met when an increase in user registration is evident, when liquor store owners use the application for inventory control, when suppliers manage their orders through the platform and when developers implement new functionalities related to profiles, subscriptions and orders. |
+| Sprint 4 Velocity                   | 100 |
 | Sum of Story Points                 | 90 |
 
 
@@ -1468,9 +1468,6 @@ A continuación, se presenta la tabla con las tareas necesarias para completar d
 |              |                                                   | TS004T002      | Actualizar contraseña                                                         | Desarrollo del endpoint que permite actualizar la contraseña del usuario.                                                                                   | 5                  | Díaz Quispe, Matías Sebastián  | Done     |
 | US014        | Cambiar contraseña desde configuración            | US014T001      | Implementar acceso a recuperación desde configuración                         | Desarrollo de un botón en el frontend que redirija al módulo de recuperación de contraseña.                                                                | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
 | US047        | Cambiar contraseña desde perfil                   | US047T001      | Implementar acceso a recuperación desde perfil                                | Desarrollo de un botón en el frontend para redirigir al proceso de recuperación de contraseña desde el perfil del usuario.                                 | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
-| US012        | Recuperar contraseña por correo                   | US012T001      | Botón de acceso a recuperación                                                | Implementación de un botón que dirija al módulo de recuperación de contraseña.                                                                              | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
-|              |                                                   | US012T002      | Servicio de envío de correos                                                  | Implementación de un servicio de terceros para el envío de correos de recuperación.                                                                        | 6                  | Díaz Quispe, Matías Sebastián  | To-Do    |
-|              |                                                   | US012T003      | Validación de códigos                                                         | Implementación de la lógica que permite validar los códigos enviados al correo.                                                                             | 8                  | Díaz Quispe, Matías Sebastián  | To-Do    |
 | US015        | Cerrar sesión manualmente                          | US015T001      | Implementar cierre de sesión                                                  | Desarrollo de un botón que permita al usuario cerrar sesión desde la aplicación.                                                                           | 4                  | Torres Apolinario, Giovany Smith | Done  |
 |              |                                                   | US015T002      | Lógica de cierre de sesión                                                    | Implementación del proceso que invalida la sesión activa del usuario.                                                                                       | 4                  | Torres Apolinario, Giovany Smith | Done  |
 | US013        | Elegir contraseña segura                          | US013T001      | Validación de seguridad de contraseña                                         | Desarrollo de un método que evalúe el nivel de seguridad de la contraseña ingresada.                                                                       | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
@@ -1488,9 +1485,8 @@ Repositorio de la aplicación Backend: https://github.com/StockVin/WineInventory
 | Repository                              | Branch                    | Commit Id | Commit Message                                                            | Commited On |
 |-----------------------------------------|---------------------------|-----------|---------------------------------------------------------------------------|-------------|
 | StockVin/WineInventory-LandingPage      | feature/testimonials      | d2d8cdd   | fix: change files and folders naming.                                     | 26/11/2025  |
-| StockVin/WineInventory-FrontendApp      | feature/warehouse-logic   | 8344243   | feat(inventory): add warehouse logic.                                     | 26/11/2025  |
 | StockVin/WineInventory-FrontendApp      | feature/accounts          | eef6170   | feat(accounts): add authentication service.                               | 26/11/2025  |
-| StockVin/WineInventory-FrontendApp      | feature/subscription-view | 0082b32   | feat(SAP): add subscription view with responsive design.                  | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/subscription      | 0082b32   | feat(SAP): add subscription view with responsive design.                  | 26/11/2025  |
 | StockVin/WineInventory-FrontendApp      | feature/alerts            | 57b1c92   | feat(alerts): add alert integration in the dashboard.                     | 27/11/2025  |
 | StockVin/WineInventory-BackendApp       | feature/orders            | 3e095c7   | feat(orders): add orders controller.                                      | 23/11/2025  |
 | StockVin/WineInventory-BackendApp       | feature/catalogs          | 3e095c7   | feat(catalogs): add clients and dto.                                      | 23/11/2025  |
@@ -1558,9 +1554,16 @@ Endpoints para cuentas en el backend
 
 En esta sección se presenta la evidencia correspondiente a la documentación de los endpoints implementados en la aplicación backend durante este sprint. En la siguiente tabla se muestra un resumen de las acciones principales, los requisitos y la información técnica de cada endpoint desarrollado.
 
-| Módulo      | Endpoint                                            | Acción                  | Verbo HTTP | Sintaxis                        | Parámetros principales                        | Enlace a Swagger                                                  |
-|------------|------------------------------------------------------|--------------------------|------------|----------------------------------|-----------------------------------------------|-------------------------------------------------------------------|
-| Care Guides | `/api/v1/care-guides/{careGuideId}`                  | Obtener guía por ID      | GET        | `/api/v1/care-guides/123`        | `careGuideId`, `accountId`                    | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)     |
+
+| Módulo | Endpoint | Acción | Verbo HTTP | Sintaxis | Parámetros principales | Enlace a Swagger |
+|--------|----------|--------|------------|----------|------------------------|------------------|
+| Plans | `/api/v1/plans` | Obtener todos los planes | GET | `/api/v1/plans` | No parameters | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions` | Crear nueva suscripción | POST | `/api/v1/subscriptions` | `requestBody`  | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions/paypal/return` | URL de retorno PayPal | GET | `/api/v1/subscriptions/paypal/return` | `params` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions/paypal/cancel` | URL de cancelación PayPal | GET | `/api/v1/subscriptions/paypal/cancel` | `params` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions` | Crear suscripción para cuenta | POST | `/api/v1/accounts/123/subscriptions` | `accountId`, `Idempotency-Key`, `requestBody` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions` | Obtener suscripción por cuenta | GET | `/api/v1/accounts/123/subscriptions` | `accountId` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions/{subscriptionId}` | Actualizar suscripción | PUT | `/api/v1/accounts/123/subscriptions/1` | `accountId`, `subscriptionId`, `requestBody` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
 
 ---
 
@@ -1575,6 +1578,8 @@ Para el punto de partida, se tomó como base la configuración inicial de los re
 ### Despliegue del Landing Page
 
 Para el despliegue del sitio web estático se utilizó nuevamente **GitHub Pages**, herramienta que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. El procedimiento ejecutado fue el siguiente:
+
+Se adjunta el enlace a la landing page desplegada: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)
 
 * Se trabajó inicialmente sobre la rama `develop` del repositorio del sitio web estático, donde se encontraban integrados todos los cambios correspondientes a este sprint.
 <p align="center">
@@ -1612,8 +1617,7 @@ Para el despliegue del sitio web estático se utilizó nuevamente **GitHub Pages
 
 Para el despliegue de la aplicación frontend se utilizó **Firebase Hosting**, plataforma que permite publicar aplicaciones web de forma rápida y eficiente.
 
-Enlace de la aplicación frontend desplegada:  
-https://wine-inventory-front-end.web.app/sign-in
+Enlace de la aplicación frontend desplegada: [https://wine-inventory-front-end.web.app/](https://wine-inventory-front-end.web.app/sign-in)
 
 * Se partió desde la rama `develop` del repositorio frontend con todos los cambios actualizados.
 <p align="center">
@@ -1653,8 +1657,7 @@ https://wine-inventory-front-end.web.app/sign-in
 
 El despliegue del backend se realizó utilizando la plataforma **Azure**, la cual permite automatizar el despliegue de aplicaciones al detectar cambios en el repositorio.
 
-Enlace del backend desplegado:  
-https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html
+Enlace del backend desplegado: [https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)
 
 * Se trabajó desde la rama `develop` del repositorio del backend.
 <p align="center">
