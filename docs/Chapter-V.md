@@ -1528,13 +1528,13 @@ Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al v
 
 Sección de almacenes  
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployweb1.png" 
   alt="Warehouses in frontend"/>
 </p>
 
 Sección de órdenes  
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployweb2.png" 
   alt="Orders in frontend"/>
 </p>
 
@@ -1544,13 +1544,13 @@ Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al vi
 
 Endpoints para catálogos en el backend  
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployback1.png" 
   alt="Catalogs in backend"/>
 </p>
 
 Endpoints para cuentas en el backend  
 <p align="center">
-  <img src="" 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployback2.png" 
   alt="Accounts in backend"/>
 </p>
 
