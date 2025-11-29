@@ -1578,32 +1578,32 @@ Para el despliegue del sitio web estático se utilizó nuevamente **GitHub Pages
 
 * Se trabajó inicialmente sobre la rama `develop` del repositorio del sitio web estático, donde se encontraban integrados todos los cambios correspondientes a este sprint.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding1.png"/>
 </p>
 
 * Posteriormente, los cambios fueron migrados desde la rama de desarrollo hacia una nueva rama de tipo `release` denominada `release/landing-page-v4.0`, desde donde se realizó el despliegue final.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding2.png"/>
 </p>
 
 * Luego, se accedió a la sección **Settings** del repositorio y se ingresó a la opción **Pages** dentro del bloque de configuración de código y automatización.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding3.png"/>
 </p>
 
 * A continuación, se seleccionó como origen de despliegue la rama de tipo `release` previamente creada y se guardó la configuración.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding4.png"/>
 </p>
 
 * Finalmente, se generó el enlace público que permite el acceso al sitio web estático desplegado.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding5.png"/>
 </p>
 
 * Se verificó el correcto despliegue accediendo al enlace público proporcionado por GitHub Pages.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding6.png"/>
 </p>
 
 ---
