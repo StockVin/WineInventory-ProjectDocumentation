@@ -1617,36 +1617,36 @@ https://wine-inventory-front-end.web.app/sign-in
 
 * Se partió desde la rama `develop` del repositorio frontend con todos los cambios actualizados.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web1.png"/>
 </p>
 
 * Los cambios fueron enviados a una nueva rama de tipo `release`, desde donde se realizó el despliegue definitivo.
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web2.png"/>
 </p>
 
 * Luego, se ejecutó el comando `npm run build` para generar la carpeta `dist` con la versión de producción de la aplicación.
 <p align="center">
-  <img src="">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web3.png">
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web4.png">
 
 * A continuación, se ejecutó el comando `firebase login` e inició sesión con una cuenta de Google.
 <p align="center">
-  <img src=""> 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web5.png"> 
 
 * Se comprobó el inicio de sesión exitoso.
 <p align="center">
-  <img src="">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web6.png">
 
 * Finalmente, se ejecutó el comando `firebase deploy`, lo que permitió publicar la aplicación.
 <p align="center">
-  <img src=""> 
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web7.png"> 
 
 * Se accedió a la URL proporcionada por Firebase para verificar el correcto despliegue.
 <p align="center">
-  <img src="">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web8.png">
 
 ---
 
