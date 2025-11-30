@@ -30,12 +30,16 @@ La aplicación se llama **"WineInventory"**. Su propósito principal es optimiza
 
 En definitiva, "WineInventory" busca convertirse en la herramienta esencial para administrar inventarios de manera inteligente, ayudando a los dueños de licorerías a mantener un stock equilibrado, reducir pérdidas por caducidad o mal almacenamiento y ofrecer productos de calidad constante a sus clientes. Además, facilita la toma de decisiones informadas que incrementan la rentabilidad del negocio.
 
-<!-- Logo WineInventory-->
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap1-solution-profile/img/Chapter%20I/WineInventory%20logo.jpg?raw=true" alt="logo_wineinventory"/>
 
-  > <p align="center">Logo de "WineInventory"</p>
-</p>
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap1-solution-profile/img/Chapter%20I/WineInventory%20logo.jpg?raw=true" 
+    alt="logo_wineinventory" 
+    width="250"
+  >
+  <figcaption>Figura 1 — Logo de "WineInventory"</figcaption>
+</figure>
+
 
 ### 1.2.1. Antecedentes y problemática ###
 
@@ -104,11 +108,14 @@ El impacto es considerable: los problemas de gestión pueden derivar en pérdida
 
 **Diagrama de Ishikawa**
 
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap1-solution-profile/img/Chapter%20I/Modelo%20de%20ishikawa.PNG?raw=true" alt="diagrama_ishikawa"/>
-
-  > <p align="center">Diagrama de Ishikawa</p>
-</p>
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap1-solution-profile/img/Chapter%20I/Modelo%20de%20ishikawa.PNG?raw=true" 
+    alt="ldiagrama_ishikawa" 
+    width="650"
+  >
+  <figcaption>Figura 2 — Diagrama de Ishikawa</figcaption>
+</figure>
 
 ### 1.2.2. Lean UX Process ###
 
@@ -236,11 +243,14 @@ En la mayoría de casos, los dueños de licorerías no cuentan con sistemas que 
 
 ### 1.2.2.4. Lean UX Canvas ###
 
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/develop/img/Chapter%20I/Lean_ux_wineiventory.PNG?raw=true"/>
-
-  > <p align="center">Lean Ux Canvas</p>
-</p>
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/develop/img/Chapter%20I/Lean_ux_wineiventory.PNG?raw=true" 
+    alt="Lean Ux Canvas" 
+    width="650"
+  >
+  <figcaption>Figura 3 — Lean Ux Canvas</figcaption>
+</figure>
 
 
 ## _1.3. Segmentos objetivo_ ##
@@ -266,4 +276,3 @@ En esta sección se identifican los principales segmentos a los que está orient
 - **Perfil:** Se trata de proveedores interesados en que sus productos mantengan la calidad adecuada en los puntos de venta y que buscan una vía para compartir instrucciones claras de cuidado y conservación con los minoristas.
 - **Problema:** Con frecuencia, los dueños de licorerías desconocen cómo almacenar y manejar correctamente los productos, lo que compromete la calidad y puede reducir las ventas a futuro.
 - **Necesidad:** Una plataforma que les permita publicar las especificaciones de conservación y manejo, garantizando la preservación de los productos y ayudando a que los comerciantes tomen decisiones mejor fundamentadas.
-
