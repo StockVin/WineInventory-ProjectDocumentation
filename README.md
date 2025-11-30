@@ -204,6 +204,9 @@ TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas
         <br>
         <br>
         TB2: Durante el desarrollo de la sección de guías de conservación y sus respectivos endpoints, me enfoqué en comunicar mis avances y decisiones de forma clara en las reuniones del equipo. Expliqué tanto la lógica detrás de los servicios como la experiencia de usuario en el frontend, adaptando mi lenguaje según el perfil de la audiencia. Esta comunicación permitió al equipo comprender la funcionalidad y el valor de esta sección dentro del sistema, facilitando su integración con otras áreas del proyecto.
+        <br>
+        <br>
+        TF: Durante la fase final, el equipo comunicó de forma clara los avances del sistema, adaptando el lenguaje según el tipo de audiencia. Esta comunicación efectiva permitió coordinar mejor el trabajo, alinear al equipo y asegurar que todos comprendieran el estado y objetivos del proyecto.
       </td>
       <td>
         - A través del análisis de entrevistas y la definición de un lenguaje compartido, el equipo logró establecer un entendimiento común tanto interno como con el negocio, lo que favoreció la eficiencia en sus interacciones.<br><br>
@@ -234,6 +237,9 @@ TB1: Redacté documentación estructurada relacionada con los procesos y artefac
 TP1: Documenté el diseño y funcionamiento del módulo de Inventory en el frontend, detallando los componentes utilizados, su comportamiento, la interacción con el backend y los casos de uso representativos. Además, dejé registro de las validaciones implementadas y del flujo del usuario para garantizar una comprensión completa del módulo.
 <br><br>
 TB2: Elaboré la documentación correspondiente al backend, donde describí los endpoints desarrollados, sus parámetros, respuestas, reglas de negocio y la lógica asociada a la gestión del inventario. Incluí ejemplos de solicitudes y respuestas, así como la explicación del modelo de datos, lo que facilitó la integración con el frontend y la revisión por parte del equipo.
+        <br><br>
+        <br><br>
+TF: En el trabajo final se elaboró documentación clara y organizada que permitió a perfiles técnicos y no técnicos comprender el funcionamiento del sistema. La calidad y estructura de los documentos facilitó la revisión, integración y continuidad del proyecto.
         <br><br>
         <strong>Matias Sebastian, Diaz Quispe</strong><br><br>
         TB1: Me encarge del desarrollo del capítulo 3, enfocado principalmente en el desarrollo de los user stories, impact mapping, product backlog, colaborando en la puntos del capitulo 4
