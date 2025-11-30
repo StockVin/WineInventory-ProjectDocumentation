@@ -93,7 +93,7 @@
 | 3.0     | 19-06-2025 | Didier Meza  | Se añadió la sección de validación según heurísticas.                                                                |
 | 3.0     | 20-06-2025 | Didier Meza  | Se añadió la sección de validación según heurísticas.                                                                |
 | 3.0     | 17-06-2025 | Matias Diaz  | Se corrigieron los diagramas de componentes en la aplicación Front End y Back End.                                   |
-
+| 4.0     | 30-11-2025 | Matias Diaz  | Se corrigieron los links y enumeración de las paginas con las figuras                                   |
 
 # Project Report Collaboration Insights
 
@@ -160,6 +160,27 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 ![git-clones.png](https://i.imgur.com/MczA2xd.png)
 
+## Entrega Final (Trabajo Final) ##
+
+### Reporte de la colaboración del avance proyecto:
+
+Respecto de esta entrega final del proyecto, se implementaron correcciones y actualizaciones de las secciones que no fueron corregidas correctamente en el avance previo. A continuación, se realiza un resumen de las actividades respecto del informe realizadas en este avance: 
+
+- El integrante Matias Diaz implementó correcciones sobre las entrevistas agregando mayor información sobre browser y dispositivos que usan los usuarios de las entrevistas realiada. Además, completó los gráficos sobre estos últimos datos.
+- La integrante Giovany Torres implementó correcciones respecto del Business Outcome redactándolos de manera que sean medibles.
+- El integrante Didier Meza implementó correcciones en los bounded contexts añadiendo uno nuevo que trata el perfil del usuario.
+- El integrante Anaely Burga implementó los commits realizados dentro de la seccion de evidencias del tercer sprint.
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+<img src="https://imgur.com/19NNbKN.png" alt="Commits" width="300" height="300">
+
+### Ramificación del proyecto usando GitFlow:
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![git-clones.png](https://imgur.com/QXbIA5L.png)
+
 # Student OutCome
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -180,10 +201,18 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
         TB2: Me asegure de comunicar la tarea que iba a realizar cada integrante del equipo para este sprint, el cual me encargue de desarrollar, como tambien coordinar la reunion grupal para ver que puntos faltan mejorar del entregable pasado y como equipo, en la parte del backend me encargue del desarrollo de los endpoint de ordenes.<br><br>
         TF1: Para esta entrega me encargue de comunicar los puntos a corregir del ultimo entregable, como tambien fui el encargado de desarrollar la funcionalidad de pagos y planes usando una api de paypal que nos permite registrar los pagos de forma correcta y en tiempo real, como tambien definir los endpoint de cada plan.<br><br>  
         <strong>Hermoza Paredes Bryan Norberto</strong><br><br>
-        TB2: En esta entrega me aseguré de comunicar de manera clara los contenidos y hallazgos del capítulo 2, realizando el análisis de los competidores y las entrevistas, y usando esa información para las demás ramas del proyecto. Adapté la información de forma clara para todos los miembros del equipo, de modo que pudieran entender y aprovechar lo presentado.<br><br>
+        TB1: En esta entrega me aseguré de comunicar de manera clara los contenidos y hallazgos del capítulo 2, realizando el análisis de los competidores y las entrevistas, y usando esa información para las demás ramas del proyecto. Adapté la información de forma clara para todos los miembros del equipo, de modo que pudieran entender y aprovechar lo presentado.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
         TB1: Sustente la parte del Capítulo I: Introducción. En la presentación pude explicar de manera clara qué es nuestra startup, quiénes forman parte del equipo y sobre todo cuál es la problemática que buscamos resolver. Me enfoqué en usar un lenguaje sencillo y adaptado según la audiencia, de modo que tanto mis compañeros como el profesor entendieran la propuesta sin dificultades. Esto me ayudó a mejorar mi seguridad al hablar y a organizar mejor mis ideas al momento de comunicarme oralmente.
+        <br>
+        <br>
         TP1: Expliqué al equipo el funcionamiento y diseño de las alerts en el frontend de WineInventory. Adapté mi lenguaje según la audiencia, usando términos técnicos con desarrolladores y explicaciones simples al mostrar la interfaZ. 
+                <br>
+        <br>
+        TB2: Mientras desarrollaba los endpoints para el sistema de alertas y mejoraba su funcionamiento en el frontend, me aseguré de explicar de manera clara cómo se integraban los datos y qué mejoras se estaban aplicando en la interfaz. En las reuniones de equipo, adapté mi lenguaje según el público, detallando los aspectos técnicos con los desarrolladores y enfocándome en los beneficios funcionales con diseñadores y usuarios. Esto permitió una comunicación fluida y un entendimiento común sobre las mejoras implementadas.
+                <br>
+        <br>
+        TF1: Permitió al equipo y a los interesados externos comprender rápidamente el estado del proyecto, los logros alcanzados y los próximos pasos, optimizando las sesiones de revisión y toma de decisiones.
 <br><br>
         <strong>Burga Loarte Anaely Zarely</strong><br><br>
         TB1: Durante la presentación del capítulo correspondiente, expuse de manera clara los flujos funcionales y la documentación elaborada para el proyecto. Expliqué las secciones principales del documento, así como su relación con los objetivos del proyecto, asegurándome de que tanto el profesor como mis compañeros comprendieran la estructura y propósito de cada parte. Ajusté mi discurso al nivel de conocimiento de la audiencia para facilitar la comprensión y evitar ambigüedades.
@@ -191,6 +220,8 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 TP1: En el desarrollo del módulo de Inventory, participé en sesiones de revisión y coordinación con el equipo, donde expliqué oralmente los avances del frontend, la lógica del manejo de productos y el flujo de interacción del usuario dentro del módulo. Comuniqué de forma clara las tareas completadas y las que debían ajustarse, permitiendo al equipo mantener una visión común del estado del sprint.
 <br><br>
 TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas para explicar los endpoints creados, la estructura del modelo de datos y la lógica implementada para la gestión de inventario. Logré comunicar con claridad cómo se conectaba el backend con el frontend y respondí preguntas del equipo para asegurar la integración correcta entre ambos lados del sistema.
+        <br><br>
+        TF1: Permitió al equipo y a los interesados externos comprender rápidamente el estado del proyecto, los logros alcanzados y los próximos pasos, optimizando las sesiones de revisión y toma de decisiones.
                 <br><br>
 <strong>Diaz Quispe Matías Sebastian</strong><br><br>
         TB1: En esta entrega se elaboraron los cuadros de user stories, impac mapping, product baclog, ademas de los puntos importantes del capitulo 4 y se definieron diversas estrategias orientadas a destacar frente a la competencia. Asimismo, brindó apoyo en la creación del landing page correspondiente a la sección de planes.
@@ -200,6 +231,9 @@ TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas
         <br>
         <br>
         TB2: Durante el desarrollo de la sección de guías de conservación y sus respectivos endpoints, me enfoqué en comunicar mis avances y decisiones de forma clara en las reuniones del equipo. Expliqué tanto la lógica detrás de los servicios como la experiencia de usuario en el frontend, adaptando mi lenguaje según el perfil de la audiencia. Esta comunicación permitió al equipo comprender la funcionalidad y el valor de esta sección dentro del sistema, facilitando su integración con otras áreas del proyecto.
+        <br>
+        <br>
+        TF: Su esfuerzo en la documentación exhaustiva del proyecto, desde la arquitectura hasta el funcionamiento de módulos específicos, sentó una base de conocimiento robusta.
       </td>
       <td>
         - A través del análisis de entrevistas y la definición de un lenguaje compartido, el equipo logró establecer un entendimiento común tanto interno como con el negocio, lo que favoreció la eficiencia en sus interacciones.<br><br>
@@ -219,7 +253,18 @@ TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas
         TB1: En esta entrega me aseguré de comunicar por escrito de manera clara los hallazgos del capítulo 2, incluyendo el análisis de competidores, entrevistas, journey mapping, empathy mapping y user personas, usando esta información para guiar las demás partes del proyecto y ayudar a alcanzar los objetivos para los distintos segmentos.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
         TB1: Desarrollé completamente el Capítulo I, que incluye la descripción de la startup, los perfiles de los integrantes, los antecedentes, la problemática y el proceso de Lean UX (problem statements, assumptions, hipótesis y canvas). Además, definí los segmentos objetivo a los que va dirigido el proyecto. Todo el capítulo fue redactado de forma ordenada y clara, pensando en que cualquier persona pueda leerlo y comprender la propuesta sin necesidad de explicaciones adicionales.
-También apoyé en la creación del landing page de WineInventory, lo cual complementó el trabajo escrito con un resultado práctico y visual. Gracias a esto, pude reforzar mi capacidad de comunicarme de forma escrita de manera efectiva, mostrando tanto la parte teórica como un producto tangible.<br><br>
+También apoyé en la creación del landing page de WineInventory, lo cual complementó el trabajo escrito con un resultado práctico y visual. Gracias a esto, pude reforzar mi capacidad de comunicarme de forma escrita de manera efectiva, mostrando tanto la parte teórica como un producto tangible.
+        <br>
+        <br>
+        TP1: Elaboré documentación escrita detallada sobre el funcionamiento del sistema de alertas, enfocándome en los criterios para activar notificaciones, condiciones y ejemplos de uso. Esto permitió que miembros de otras áreas entendieran su propósito y lógica.
+        <br>
+        <br>
+        TB2: Redacté documentación técnica sobre los endpoints de alertas que desarrollé, especificando los métodos, rutas, estructuras de respuesta y casos de error. También dejé comentarios claros en el código y realicé descripciones precisas en los pull requests para facilitar la revisión por parte del equipo. Además, incluí notas explicativas sobre los cambios visuales y funcionales aplicados en el frontend, lo que ayudó a que tanto desarrolladores como diseñadores comprendieran el impacto de las mejoras.
+        <br>
+        <br>
+        TF1: Mediante sus intervenciones escritas, contribuyó activamente a la construcción y consolidación de un lenguaje común
+                <br>
+                        <br>
         <strong>Burga Loarte Anaely Zarely</strong><br>
         <br>
 TB1: Redacté documentación estructurada relacionada con los procesos y artefactos del proyecto, asegurándome de que cada apartado fuera claro, entendible y útil para todo el equipo. Organicé correctamente los contenidos, incluyendo descripciones, flujos y definiciones necesarias para el entendimiento general del sistema, de manera que tanto perfiles técnicos como no técnicos pudieran comprenderlo sin dificultad.
@@ -227,6 +272,8 @@ TB1: Redacté documentación estructurada relacionada con los procesos y artefac
 TP1: Documenté el diseño y funcionamiento del módulo de Inventory en el frontend, detallando los componentes utilizados, su comportamiento, la interacción con el backend y los casos de uso representativos. Además, dejé registro de las validaciones implementadas y del flujo del usuario para garantizar una comprensión completa del módulo.
 <br><br>
 TB2: Elaboré la documentación correspondiente al backend, donde describí los endpoints desarrollados, sus parámetros, respuestas, reglas de negocio y la lógica asociada a la gestión del inventario. Incluí ejemplos de solicitudes y respuestas, así como la explicación del modelo de datos, lo que facilitó la integración con el frontend y la revisión por parte del equipo.
+                        <br><br>
+        TF1: La calidad de su comunicación escrita fue efectiva, reflejada en comentarios de código, descripciones de pull requests y notas explicativas
         <br><br>
         <strong>Matias Sebastian, Diaz Quispe</strong><br><br>
         TB1: Me encarge del desarrollo del capítulo 3, enfocado principalmente en el desarrollo de los user stories, impact mapping, product backlog, colaborando en la puntos del capitulo 4
@@ -236,6 +283,9 @@ TB2: Elaboré la documentación correspondiente al backend, donde describí los 
         <br>
         <br>
         TB2: Documenté los endpoints que desarrollé para la sección de guías de conservación, incluyendo rutas, métodos, parámetros y respuestas esperadas. También redacté descripciones claras del funcionamiento de esta sección en el frontend, lo que facilitó su revisión y pruebas. Gracias a esta documentación, otros miembros del equipo pudieron entender y continuar el trabajo con fluidez, independientemente de su rol técnico o no técnico.
+        <br>
+        <br>
+        TF: Contribuyó significativamente a establecer una base común de entendimiento. Esto permitió que el equipo mantuviera una visión unificada del proyecto
       </td>
       <td>
         - Se generó documentación clara, organizada y adaptada a diferentes tipos de audiencia, lo que permitió a los perfiles técnicos y no técnicos integrar su trabajo de manera coherente.<br><br>
