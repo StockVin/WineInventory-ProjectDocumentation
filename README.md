@@ -213,8 +213,8 @@ TB2: Al trabajar en el backend del módulo asignado, sostuve reuniones técnicas
         <strong>Torres Apolinario Giovany Smith</strong><br><br>
         TB1: Elabore documentos claros y estructurados que transmitieron de manera efectiva las bases visuales, técnicas y de diseño del proyecto, adaptando el contenido a diferentes rangos de audiencia. Encargandome de Software Configuration Management y Sprint 1<br><br>
         TP1: Desarrolle las partes de ordenes y profile en el frontend asegurandome su funcionalidad del programa, como tambien me encargue del desarrollo de todo el sprint 2 tanto como realizar las reuniones como las tareas a realizar en el sprint backlog 2.<br><br>
-        TB2:En esta entrega me aseguré de realizar la mejora del endpoint de ordenes en el backend como tambieen su correcta integracion al frontend, desarrolle la documentacion del sprint 3 del proyecto.
-        TF1:Para este entregable fui el encargado de desarrollar e integrar en el backend la funcionalidad de planes, como tambien agregar la funcionalidad de suscripción haciendo uso de un api real de paypal el cual funciona correctamente, procesando pagos reales.
+        TB2:En esta entrega me aseguré de realizar la mejora del endpoint de ordenes en el backend como tambieen su correcta integracion al frontend, desarrolle la documentacion del sprint 3 del proyecto.<br><br>
+        TF1:Para este entregable fui el encargado de desarrollar e integrar en el backend la funcionalidad de planes, como tambien agregar la funcionalidad de suscripción haciendo uso de un api real de paypal el cual funciona correctamente, procesando pagos reales.<br><br>
         <strong>Hermoza Paredes Bryan Norberto</strong><br><br>
         TB1: En esta entrega me aseguré de comunicar por escrito de manera clara los hallazgos del capítulo 2, incluyendo el análisis de competidores, entrevistas, journey mapping, empathy mapping y user personas, usando esta información para guiar las demás partes del proyecto y ayudar a alcanzar los objetivos para los distintos segmentos.<br><br>
         <strong>Meza Solòrzano Didier Sebastiàn</strong><br><br>
