@@ -1659,38 +1659,117 @@ El despliegue del backend se realizó utilizando la plataforma **Azure**, la cua
 
 Enlace del backend desplegado: [https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)
 
-* Se trabajó desde la rama `develop` del repositorio del backend.
+* Partimos de la rama develop del repositorio de la aplicación backend con todos los cambios realizados para el sprint actual.
+  
 <p align="center">
-  <img src=""/>
+  <img src="https://imgur.com/XSiwl8I.png"/>
 </p>
 
 * Luego, se creó una rama de tipo `release` para el despliegue.
+  
 <p align="center">
-  <img src=""/>
+  <img src="https://imgur.com/0LCV9Ch.png"/>
 </p>
 
-* Posteriormente, se configuró la base de datos mediante la plataforma **freesqldatabase**.
-<p align="center">
-  <img src="">
+* Posteriormente, nos dirigimos a Azure y seleccionamos el servicio Servidores de Azure Database for MysSQL.
 
-* Se realizó el despliegue desde la consola de Render.
 <p align="center">
-  <img src="">
+  <img src="https://imgur.com/4NVjWcH.png">
+</p>
 
-* Se verificó el despliegue exitoso de la aplicación.
+* A continuación, elegiremos la opcion de servidor flexvible, en donde completaremos los datos necesarios para crear nuestra base de datos.
+
 <p align="center">
-  <img src=""/>
+  <img src="https://imgur.com/t5onSNF.png">
+</p>
+
+* Luego, asignameros nuestra base de datos a un grupo de recursos y estableceremos la region en la cual se desplegara en la region de Canada Central, debido a las restricciones por la cuenta estudiantil, seguido asginaremos las credentciales de autentication para acceder desde nuestro workbench.
+
+<p align="center">
+  <img src="https://imgur.com/DDeeTdL.png"/>
 </p>
 
 <p align="center">
-  <img src=""/>
+  <img src="https://imgur.com/DT6180H.png"/>
 </p>
 
-* Finalmente, se ingresó a la URL pública entregada por Render para validar el correcto funcionamiento del backend.
+* Finalmente, habilitidaremos el acceso publico desde cualquier ip y agregaremos las reglas de firewall para poder acceder desde nuestro MySQL Workbench.
+
 <p align="center">
-  <img src=""> 
+  <img src="https://imgur.com/zUNaVDo.png"> 
 </p>
 
+* Ahora una vez creado nuestra base de datos en la nube de Azure le asignaremos las creadenciales en nuestras variables de entorno
+
+<p align="center">
+  <img src="https://imgur.com/SjQUZGO.png"> 
+</p>
+
+* Por ultimo aplicaremos los cambio y deplegamos la nueva version de nuestro backned y una vez desplgegado ingresamos a la URL pública que nos proporcionó IntelliJ IDEA y podemos verificar que se logró el despliegue de nuestra aplicación Backend.
+
+<p align="center">
+  <img src="https://imgur.com/i3dSYsn.png"> 
+</p>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como un resumen de las labores realizadas por cada miembro del equipo para el cumplimiento completo de la entrega relacionada a este sprint.
+
+A continuation, se detallará el trabajo que realizo cada integrante del equipo para cada producto avanzado en este sprint:
+
+### Landing Page ###
+
+- El integrante Didier Meza formó parte de la grabación del último vídeo sobre el equipo.
+- La integrante Matías Diaz mejoró las secciones about the product y about the team en la landing page y formó parte de la grabación del vídeo sobre el equipo.
+- El integrante Anaely Burga formó parte de la última grabación del vídeo sobre el equipo.
+- El integrante Giovany Torres formó parte de la grabación definitiva del vídeo sobre el equipo y reorganizó la estructura de los archivos del sitio web de negocio.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las secciones del sitio web.
+
+<p align="center">
+  <img src="../img/Chapter V/commit 1.PNG"> 
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la Landing Page. En este gráfico se puede observar el flujo de desarrollo del sitio web estático, donde las ramas que se desarrollaron fueron las relacionadas a las secciones que contienen los vídeos acerca del equipo de desarrollo y del producto.
+
+<p align="center">
+  <img src="https://imgur.com/Qdw8UcK.png"> 
+</p>
+
+### Aplicación Frontend ###
+
+- La integrante Matías Diaz fue responsable de implementar el consumo de servicios web para las guías de conservación, generacion de reportes y autenticación.
+- El integrante Giovany Torres implementó el consumo de servicios web para las secciones de órdenes de compra y perfiles.
+- El integrante Anaely Burga fue responsable de implementar las secciones de inventarios y productos.
+- El integrante Didier Meza fue responsable de implementar el consumo de servicios web para las alertass de la aplicación.
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend principalmente la implementación del consumo de servicios web y autenticación de usuarios.
+
+<p align="center">
+  <img src="https://imgur.com/2HR7rB9.png"> 
+</p>
+
+### Aplicación Backend ###
+
+- El integrante Didier Meza realizó correcciones en los respectivos endpoints para las alertas en el bounded context Alertas.
+- El integrante Giovany Torres se encargó de completar los endpoints para órdenes de compra y suscripciones para la aplicación.
+- La integrante Matías Diaz se encargó de realizar correcciones en los respectivos endpoints para esta sección en la aplicación Backend. Además, implementó los endpoints para la creación de cuentas y mapeo de planes de la aplicación.
+- El integrante Anaely Burga completó los endpoints de perfiles y usuarios teniendo en cuenta el contexto de autenticación y creación de usuarios para la aplicación.
+
+A continuación, se muestra el siguiente gráfico que detalla la cantidad de commits realizados por cada miembro durante este sprint. El gráfico detalla el aporte realizado por cada integrante del equipo para el avance de la última versión de la aplicación backend.
+
+<p align="center">
+  <img src="https://imgur.com/SEEO2ty.png"> 
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación backend. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación backend, entre ellas se incluye endpoints para características como órdenes de compra, catálogos, perfiles, usuarios y suscripciones.
+
+<p align="center">
+  <img src="https://imgur.com/DBxZV8f.png"> 
+</p>
+
+### Reflexión del equipo ###
+
+Se llevó a cabo una reflexión final por parte del equipo sobre el sprint, en la que se puso de relieve la relevancia de la colaboración y la comunicación continua entre los integrantes. Durante el análisis se detectaron oportunidades de mejora en la planificación y en la ejecución de las tareas, así como la necesidad de realizar pruebas más exhaustivas antes de cada entrega. Asimismo, se valoró de forma positiva el uso de herramientas como GitHub para el control de versiones y la gestión de tareas, pues estas facilitaron el seguimiento del progreso y la resolución de conflictos. El equipo considera este avance como decisivo para la culminación del proyecto, subrayando la importancia de integrar todas las funcionalidades desarrolladas hasta la fecha. A pesar de reconocer que aún pueden implementarse mejoras y funcionalidades adicionales, expresan confianza en que el proyecto ha cumplido con los objetivos establecidos.
 
 ## 5.3. Validation Interviews
 
