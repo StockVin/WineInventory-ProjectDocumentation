@@ -1397,6 +1397,380 @@ Grafico de los push y merge realizados por el equipo en el BackEnd
 </p>
 <br>
 
+### 5.2.4. Sprint 4 ###
+
+#### 5.2.4.1. Sprint Planning 4
+
+En esta sección se presenta el planeamiento correspondiente al último sprint del proyecto. Para este sprint se definieron objetivos enfocados en tres componentes principales: el sitio web estático, la aplicación front-end y la aplicación back-end. Uno de los objetivos estuvo orientado a mejorar el diseño visual del sitio web estático, así como a optimizar las secciones de videos sobre el producto y el equipo de desarrollo para los visitantes. Asimismo, se planteó como segundo objetivo la integración del consumo de servicios de la aplicación backend en la aplicación front-end de StockVin. Finalmente, el tercer objetivo estuvo enfocado en la implementación de endpoints relacionados con la gestión de órdenes de compra y la autenticación de usuarios.
+
+| Sprint #                            | Sprint 4 |
+|-------------------------------------|----------|
+| <b> Sprint planning Background </b> | -- |
+| Date                                | 2025/11/27 |
+| Time                                | 11:00 AM |
+| Location                            | Llamada virtual por Discord |
+| Prepared By                         | Meza Solórzano, Didier Sebastian |
+| Attendees                           | Torres Apolinario, Giovany Smith / Díaz Quispe, Matías Sebastian / Meza Solórzano, Didier Sebastian/ Burga Loarte, Anaely Zarely  |
+| Sprint 3 Review Summary             | In the previous sprint, the team managed to complete the implementation of the videos corresponding to the product and the work team within the Landing Page. In addition, many of the sections of the front-end application were finalized, ensuring its correct functioning using a mock API server. On the other hand, the main backend endpoints related to products, inventories, alerts and guides were implemented. |
+| Sprint 3 Retrospective Summary      | During this sprint, the team significantly strengthened internal communication between all members, which allowed an increase in the level of trust and coordination. This progress was key to face the pending tasks of the last sprint in a more organized way and ensure the completion of the product development. |
+| <b> Sprint Goal & User Stories </b> | -- |
+| Sprint 4 Goal                       | Our goal of this sprint is to provide complete and detailed information, along with explanatory videos about the benefits and features of the product, as well as a final video showing the team responsible for developing the platform throughout its lifecycle. Likewise, the aim is to integrate the consumption of web services in the front-end application for endpoints related to products, warehouses, inventories, alerts, care guides, orders, accounts, users, profiles and authentication. In addition, it is intended to expand the possibilities of implementing functions related to profile preferences, the creation of accounts with subscription and the generation of orders. It is considered that these objectives will be met when an increase in user registration is evident, when liquor store owners use the application for inventory control, when suppliers manage their orders through the platform and when developers implement new functionalities related to profiles, subscriptions and orders. |
+| Sprint 4 Velocity                   | 100 |
+| Sum of Story Points                 | 90 |
+
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al último sprint del proyecto. Los aspectos principales considerados en esta etapa están enfocados en los distintos módulos que conforman la aplicación Front-End, así como también en sus respectivos componentes del Back-End. Para ello, se han definido las siguientes áreas clave de trabajo: Inventario, Productos, Cuenta de Usuario, Reportes, Órdenes de Compra y Alertas.
+
+| Integrante del equipo                | Usuario GitHub | Alertas | Reportes | Órdenes | Inventario | Cuenta de usuario | Pagos y suscripciones |
+|--------------------------------------|----------------|---------|----------|---------|------------|-------------------|-----------------------|
+| Díaz Quispe, Matías Sebastián        | equinox-1092   |         | L        | L       |            |                   | L                     |
+| Torres Apolinario, Giovany Smith     | Giovany7x      |         |          | L       |            | L                 |                       |
+| Burga Loarte, Anaely Zarely          | userxx1000     |         |          |         | L          |                   |                       |
+| Meza Solórzano, Didier Sebastián     | Didier04x      | L       |          |         |            |                   |                       |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+Tal como se definió en el planeamiento de este sprint, el objetivo principal es finalizar por completo el sitio web estático mediante la incorporación de mejoras en las secciones informativas sobre el producto y su equipo de desarrollo. Asimismo, se busca dotar a la aplicación frontend de la capacidad de consumir los servicios web proporcionados por la aplicación backend, además de implementar los endpoints necesarios para las funcionalidades relacionadas con las órdenes de compra y la autenticación de usuarios.
+
+Luego de establecer el objetivo general, se identificaron las historias de usuario más relevantes para este sprint. Posteriormente, cada historia fue descompuesta en tareas específicas orientadas a su correcta implementación. Para la gestión y seguimiento del avance del sprint, se utilizó la herramienta _Trello_, la cual permitió organizar y controlar el desarrollo de las actividades.
+[https://trello.com/b/SVXnlzhD](https://trello.com/b/SVXnlzhD)
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/TrelloSprint4.png" 
+  alt="Sprint goal and Stories of Sprint #4"/>
+</p>
+
+A continuación, se presenta la tabla con las tareas necesarias para completar de manera satisfactoria este último sprint. Además, se ha asignado a cada actividad un integrante del equipo responsable y su respectivo estado de avance.
+
+| Sprint 4     | Sprint Backlog 4                                  |                |                                                                               |                                                                                                                                                              |                    |--------------------------------|----------|
+|--------------|---------------------------------------------------|----------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------|----------|
+| User Stories |                                                   | Work Item/Task |                                                                               |                                                                                                                                                              | Estimación (Horas) | Asignado a                     | Estado   |
+| US052        | Consultar historial de facturación                | US052T001      | Desarrollar sección de historial de órdenes                                   | Implementación en el frontend de una sección que muestre todas las órdenes realizadas por el usuario.                                                         | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+|              |                                                   | US052T002      | Implementar endpoint de historial de órdenes                                  | Desarrollo de un endpoint para obtener todas las órdenes asociadas a un usuario específico.                                                                  | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+| US066        | Acceder al plan premium                           | US066T001      | Implementar sección informativa del plan premium                              | Desarrollo de una interfaz que muestre los beneficios y el costo del plan premium.                                                                          | 6                  | Torres Apolinario, Giovany Smith | Done  |
+|              |                                                   | US066T002      | Integrar API de pagos                                                         | Integración del servicio de PayPal para la validación de pagos dentro del sistema.                                                                          | 8                  | Torres Apolinario, Giovany Smith | Done  |
+| US065        | Acceder al plan gratuito                          | US065T001      | Implementar sección del plan gratuito                                         | Desarrollo de una sección informativa sobre el plan gratuito.                                                                                                | 4                  | Torres Apolinario, Giovany Smith | Done  |
+| TS002        | Endpoint para iniciar sesión                      | TS002T001      | Implementar endpoint de autenticación                                         | Desarrollo de un endpoint para validar credenciales e iniciar sesión.                                                                                        | 5                  | Díaz Quispe, Matías Sebastián  | Done     |
+|              |                                                   | TS002T002      | Implementar JWT para autenticación                                            | Implementación de JSON Web Tokens para el control de sesiones.                                                                                                | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
+| TS001        | Endpoint para registrar nuevo usuario             | TS001T001      | Implementar endpoint de registro de usuarios                                  | Desarrollo de un endpoint para el registro de nuevos usuarios en el sistema.                                                                                | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+| US042        | Crear guía de remisión interna                    | US042T001      | Implementar lógica de traslado interno                                        | Desarrollo de la lógica de negocio para el traslado de productos entre inventarios.                                                                         | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+| TS017        | Endpoint para registrar guía de remisión          | TS017T001      | Implementar endpoint de traslado                                              | Desarrollo de un endpoint que permita registrar el traslado de productos a otro inventario.                                                                 | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+| TS009        | Endpoint para configurar alertas de vencimiento   | TS009T001      | Configurar alertas                                                            | Desarrollo de un endpoint que permita modificar la configuración de alertas.                                                                                | 6                  | Torres Apolinario, Giovany Smith | Done  |
+| TS022        | Endpoint para visualizar el estado de pedidos     | TS022T001      | Implementar visualización de órdenes                                          | Desarrollo de un endpoint que permita consultar las órdenes de un usuario específico.                                                                       | 8                  | Díaz Quispe, Matías Sebastián  | Done     |
+| TS016        | Endpoint para generar plan de reabastecimiento    | TS016T001      | Implementar botón de traslado                                                 | Desarrollo de un botón para ejecutar el traslado de productos entre inventarios.                                                                            | 6                  | Torres Apolinario, Giovany Smith | Done  |
+| US032        | Visualizar historial de compras                   | US032T001      | Endpoint de órdenes por cuenta                                                | Implementar el endpoint que obtenga todas las órdenes asociadas a una cuenta.                                                                               | 8                  | Díaz Quispe, Matías Sebastián  | Done     |
+|              |                                                   | US032T002      | Endpoint de órdenes por proveedor                                             | Implementar el endpoint que permita consultar las órdenes enviadas a un proveedor específico.                                                               | 6                  | Díaz Quispe, Matías Sebastián  | Done     |
+| TS018        | Endpoint para actualizar perfil del usuario       | TS018T001      | Crear perfiles                                                                | Desarrollo de un endpoint para la creación de perfiles de usuario.                                                                                          | 6                  | Torres Apolinario, Giovany Smith | Done  |
+|              |                                                   | TS018T002      | Actualizar perfiles                                                           | Desarrollo del endpoint que permite la actualización de perfiles.                                                                                           | 6                  | Torres Apolinario, Giovany Smith | Done  |
+| TS004        | Endpoint para recuperar contraseña                | TS004T001      | Validación de códigos                                                         | Implementación de la lógica que valida los códigos enviados por correo para restablecer la contraseña.                                                      | 6                  | Díaz Quispe, Matías Sebastián  | To-Do    |
+|              |                                                   | TS004T002      | Actualizar contraseña                                                         | Desarrollo del endpoint que permite actualizar la contraseña del usuario.                                                                                   | 5                  | Díaz Quispe, Matías Sebastián  | Done     |
+| US014        | Cambiar contraseña desde configuración            | US014T001      | Implementar acceso a recuperación desde configuración                         | Desarrollo de un botón en el frontend que redirija al módulo de recuperación de contraseña.                                                                | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
+| US047        | Cambiar contraseña desde perfil                   | US047T001      | Implementar acceso a recuperación desde perfil                                | Desarrollo de un botón en el frontend para redirigir al proceso de recuperación de contraseña desde el perfil del usuario.                                 | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
+| US015        | Cerrar sesión manualmente                          | US015T001      | Implementar cierre de sesión                                                  | Desarrollo de un botón que permita al usuario cerrar sesión desde la aplicación.                                                                           | 4                  | Torres Apolinario, Giovany Smith | Done  |
+|              |                                                   | US015T002      | Lógica de cierre de sesión                                                    | Implementación del proceso que invalida la sesión activa del usuario.                                                                                       | 4                  | Torres Apolinario, Giovany Smith | Done  |
+| US013        | Elegir contraseña segura                          | US013T001      | Validación de seguridad de contraseña                                         | Desarrollo de un método que evalúe el nivel de seguridad de la contraseña ingresada.                                                                       | 4                  | Díaz Quispe, Matías Sebastián  | Done     |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se detallan los principales avances realizados durante el desarrollo correspondiente a este último sprint del proyecto.
+
+A continuación, se presenta una tabla que resume los commits realizados en los distintos repositorios, los cuales contienen parte de las funcionalidades necesarias para completar los objetivos definidos para este sprint.
+
+Repositorio del sitio web estático: https://github.com/StockVin/WineInventory-LandingPage.git  
+Repositorio de la aplicación Frontend: https://github.com/StockVin/WineInventory-frontend-application.git  
+Repositorio de la aplicación Backend: https://github.com/StockVin/WineInventory-backend-application.git  
+
+| Repository                              | Branch                    | Commit Id | Commit Message                                                            | Commited On |
+|-----------------------------------------|---------------------------|-----------|---------------------------------------------------------------------------|-------------|
+| StockVin/WineInventory-LandingPage      | feature/testimonials      | d2d8cdd   | fix: change files and folders naming.                                     | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/accounts          | eef6170   | feat(accounts): add authentication service.                               | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/subscription      | 0082b32   | feat(SAP): add subscription view with responsive design.                  | 26/11/2025  |
+| StockVin/WineInventory-FrontendApp      | feature/alerts            | 57b1c92   | feat(alerts): add alert integration in the dashboard.                     | 27/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/orders            | 3e095c7   | feat(orders): add orders controller.                                      | 23/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/catalogs          | 3e095c7   | feat(catalogs): add clients and dto.                                      | 23/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/alerts            | 3e095c7   | feat(alerts): add events.                                                 | 26/11/2025  |
+| StockVin/WineInventory-BackendApp       | feature/accounts          | 6a667c1   | feat(authentication): add acl to get account id for the sign in resource. | 26/11/2025  |
+
+---
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En esta sección se describen los resultados alcanzados durante el desarrollo de este sprint, respaldados por evidencias de las funcionalidades implementadas.
+
+Entre los principales logros se encuentra la mejora de las secciones informativas del sitio web estático mediante la incorporación de dos videos dirigidos a los visitantes: uno enfocado en explicar las funcionalidades y beneficios que ofrece la aplicación web, y otro que presenta al equipo de desarrollo y su participación a lo largo del ciclo de vida del proyecto.
+
+Asimismo, se logró que la aplicación frontend pueda consumir correctamente los servicios web proporcionados por la aplicación backend en todas las secciones implementadas previamente. Finalmente, se desarrollaron diversos endpoints en el backend relacionados con la gestión de órdenes de compra, alertas, autenticación, perfiles, cuentas y suscripciones.
+
+A continuación, se presentan las capturas de pantalla correspondientes a las secciones implementadas tanto en la Landing Page como en la aplicación Frontend y en la aplicación Backend, las cuales evidencian el progreso alcanzado durante este sprint.
+
+- Video de ejecución de los tres productos para este sprint:  
+
+
+## **Landing Page**
+
+Se adjuntan los enlaces para acceder al sitio web desplegado y al video de ejecución del sitio web estático. En dicho video se muestra el funcionamiento general de cada sección del sitio y su visualización en un navegador web.
+
+Video sobre exploración de la aplicación  
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/explorationlandingpage.png" 
+  alt="Exploration of the app section in landing page"/>
+</p>
+
+## **Front End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al video de ejecución de la misma, donde se observa el funcionamiento de las secciones implementadas.
+
+Sección de almacenes  
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployweb1.png" 
+  alt="Warehouses in frontend"/>
+</p>
+
+Sección de órdenes  
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployweb2.png" 
+  alt="Orders in frontend"/>
+</p>
+
+### **Back End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al video de ejecución de la misma. En el video se evidencia el funcionamiento de los endpoints desarrollados y la estructura de sus rutas.
+
+Endpoints para catálogos en el backend  
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployback1.png" 
+  alt="Catalogs in backend"/>
+</p>
+
+Endpoints para cuentas en el backend  
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deployback2.png" 
+  alt="Accounts in backend"/>
+</p>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta la evidencia correspondiente a la documentación de los endpoints implementados en la aplicación backend durante este sprint. En la siguiente tabla se muestra un resumen de las acciones principales, los requisitos y la información técnica de cada endpoint desarrollado.
+
+
+| Módulo | Endpoint | Acción | Verbo HTTP | Sintaxis | Parámetros principales | Enlace a Swagger |
+|--------|----------|--------|------------|----------|------------------------|------------------|
+| Plans | `/api/v1/plans` | Obtener todos los planes | GET | `/api/v1/plans` | No parameters | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions` | Crear nueva suscripción | POST | `/api/v1/subscriptions` | `requestBody`  | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions/paypal/return` | URL de retorno PayPal | GET | `/api/v1/subscriptions/paypal/return` | `params` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Subscriptions | `/api/v1/subscriptions/paypal/cancel` | URL de cancelación PayPal | GET | `/api/v1/subscriptions/paypal/cancel` | `params` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions` | Crear suscripción para cuenta | POST | `/api/v1/accounts/123/subscriptions` | `accountId`, `Idempotency-Key`, `requestBody` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions` | Obtener suscripción por cuenta | GET | `/api/v1/accounts/123/subscriptions` | `accountId` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+| Accounts | `/api/v1/accounts/{accountId}/subscriptions/{subscriptionId}` | Actualizar suscripción | PUT | `/api/v1/accounts/123/subscriptions/1` | `accountId`, `subscriptionId`, `requestBody` | [Ver Link](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html) |
+
+---
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Con el objetivo de garantizar una correcta organización del desarrollo y un despliegue eficiente, el proyecto fue dividido en tres componentes principales: la Landing Page, la aplicación Frontend y la aplicación Backend. Cada uno de estos productos cuenta con su propio repositorio en GitHub, así como con procesos de integración y despliegue independientes. A continuación, se describe el flujo de despliegue seguido para cada uno de ellos, junto con la evidencia correspondiente.
+
+Para el punto de partida, se tomó como base la configuración inicial de los repositorios definida en la Sección 5.1.4. Posteriormente, se detalla el proceso de despliegue del sitio web estático.
+
+---
+
+### Despliegue del Landing Page
+
+Para el despliegue del sitio web estático se utilizó nuevamente **GitHub Pages**, herramienta que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. El procedimiento ejecutado fue el siguiente:
+
+Se adjunta el enlace a la landing page desplegada: [https://wineinventory-landing-page.web.app/](https://wineinventory-landing-page.web.app/)
+
+* Se trabajó inicialmente sobre la rama `develop` del repositorio del sitio web estático, donde se encontraban integrados todos los cambios correspondientes a este sprint.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding1.png"/>
+</p>
+
+* Posteriormente, los cambios fueron migrados desde la rama de desarrollo hacia una nueva rama de tipo `release` denominada `release/landing-page-v4.0`, desde donde se realizó el despliegue final.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding2.png"/>
+</p>
+
+* Luego, se accedió a la sección **Settings** del repositorio y se ingresó a la opción **Pages** dentro del bloque de configuración de código y automatización.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding3.png"/>
+</p>
+
+* A continuación, se seleccionó como origen de despliegue la rama de tipo `release` previamente creada y se guardó la configuración.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding4.png"/>
+</p>
+
+* Finalmente, se generó el enlace público que permite el acceso al sitio web estático desplegado.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding5.png"/>
+</p>
+
+* Se verificó el correcto despliegue accediendo al enlace público proporcionado por GitHub Pages.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/deploylanding6.png"/>
+</p>
+
+---
+
+### Despliegue de la Aplicación Frontend
+
+Para el despliegue de la aplicación frontend se utilizó **Firebase Hosting**, plataforma que permite publicar aplicaciones web de forma rápida y eficiente.
+
+Enlace de la aplicación frontend desplegada: [https://wine-inventory-front-end.web.app/](https://wine-inventory-front-end.web.app/sign-in)
+
+* Se partió desde la rama `develop` del repositorio frontend con todos los cambios actualizados.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web1.png"/>
+</p>
+
+* Los cambios fueron enviados a una nueva rama de tipo `release`, desde donde se realizó el despliegue definitivo.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web8.png"/>
+</p>
+
+* Luego, se ejecutó el comando `npm run build` para generar la carpeta `dist` con la versión de producción de la aplicación.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web3.png">
+
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web4.png">
+
+* A continuación, se ejecutó el comando `firebase login` e inició sesión con una cuenta de Google.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web5.png"> 
+
+* Se comprobó el inicio de sesión exitoso.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web6.png">
+
+* Finalmente, se ejecutó el comando `firebase deploy`, lo que permitió publicar la aplicación.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web7.png"> 
+* Se accedió a la URL proporcionada por Firebase para verificar el correcto despliegue.
+<p align="center">
+  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/blob/feature/chap5-sprint-4/img/Chapter%20IV/web2.png">
+
+---
+
+### Despliegue del Back End
+
+El despliegue del backend se realizó utilizando la plataforma **Azure**, la cual permite automatizar el despliegue de aplicaciones al detectar cambios en el repositorio.
+
+Enlace del backend desplegado: [https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html](https://wineinventory-back-end.azurewebsites.net/swagger-ui/index.html)
+
+* Partimos de la rama develop del repositorio de la aplicación backend con todos los cambios realizados para el sprint actual.
+  
+<p align="center">
+  <img src="https://imgur.com/XSiwl8I.png"/>
+</p>
+
+* Luego, se creó una rama de tipo `release` para el despliegue.
+  
+<p align="center">
+  <img src="https://imgur.com/0LCV9Ch.png"/>
+</p>
+
+* Posteriormente, nos dirigimos a Azure y seleccionamos el servicio Servidores de Azure Database for MysSQL.
+
+<p align="center">
+  <img src="https://imgur.com/4NVjWcH.png">
+</p>
+
+* A continuación, elegiremos la opcion de servidor flexvible, en donde completaremos los datos necesarios para crear nuestra base de datos.
+
+<p align="center">
+  <img src="https://imgur.com/t5onSNF.png">
+</p>
+
+* Luego, asignameros nuestra base de datos a un grupo de recursos y estableceremos la region en la cual se desplegara en la region de Canada Central, debido a las restricciones por la cuenta estudiantil, seguido asginaremos las credentciales de autentication para acceder desde nuestro workbench.
+
+<p align="center">
+  <img src="https://imgur.com/DDeeTdL.png"/>
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/DT6180H.png"/>
+</p>
+
+* Finalmente, habilitidaremos el acceso publico desde cualquier ip y agregaremos las reglas de firewall para poder acceder desde nuestro MySQL Workbench.
+
+<p align="center">
+  <img src="https://imgur.com/zUNaVDo.png"> 
+</p>
+
+* Ahora una vez creado nuestra base de datos en la nube de Azure le asignaremos las creadenciales en nuestras variables de entorno
+
+<p align="center">
+  <img src="https://imgur.com/SjQUZGO.png"> 
+</p>
+
+* Por ultimo aplicaremos los cambio y deplegamos la nueva version de nuestro backned y una vez desplgegado ingresamos a la URL pública que nos proporcionó IntelliJ IDEA y podemos verificar que se logró el despliegue de nuestra aplicación Backend.
+
+<p align="center">
+  <img src="https://imgur.com/i3dSYsn.png"> 
+</p>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como un resumen de las labores realizadas por cada miembro del equipo para el cumplimiento completo de la entrega relacionada a este sprint.
+
+A continuation, se detallará el trabajo que realizo cada integrante del equipo para cada producto avanzado en este sprint:
+
+### Landing Page ###
+
+- El integrante Didier Meza formó parte de la grabación del último vídeo sobre el equipo.
+- La integrante Matías Diaz mejoró las secciones about the product y about the team en la landing page y formó parte de la grabación del vídeo sobre el equipo.
+- El integrante Anaely Burga formó parte de la última grabación del vídeo sobre el equipo.
+- El integrante Giovany Torres formó parte de la grabación definitiva del vídeo sobre el equipo y reorganizó la estructura de los archivos del sitio web de negocio.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las secciones del sitio web.
+
+<p align="center">
+  <img src="../img/Chapter V/commit 1.PNG"> 
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la Landing Page. En este gráfico se puede observar el flujo de desarrollo del sitio web estático, donde las ramas que se desarrollaron fueron las relacionadas a las secciones que contienen los vídeos acerca del equipo de desarrollo y del producto.
+
+<p align="center">
+  <img src="https://imgur.com/Qdw8UcK.png"> 
+</p>
+
+### Aplicación Frontend ###
+
+- La integrante Matías Diaz fue responsable de implementar el consumo de servicios web para las guías de conservación, generacion de reportes y autenticación.
+- El integrante Giovany Torres implementó el consumo de servicios web para las secciones de órdenes de compra y perfiles.
+- El integrante Anaely Burga fue responsable de implementar las secciones de inventarios y productos.
+- El integrante Didier Meza fue responsable de implementar el consumo de servicios web para las alertass de la aplicación.
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend principalmente la implementación del consumo de servicios web y autenticación de usuarios.
+
+<p align="center">
+  <img src="https://imgur.com/2HR7rB9.png"> 
+</p>
+
+### Aplicación Backend ###
+
+- El integrante Didier Meza realizó correcciones en los respectivos endpoints para las alertas en el bounded context Alertas.
+- El integrante Giovany Torres se encargó de completar los endpoints para órdenes de compra y suscripciones para la aplicación.
+- La integrante Matías Diaz se encargó de realizar correcciones en los respectivos endpoints para esta sección en la aplicación Backend. Además, implementó los endpoints para la creación de cuentas y mapeo de planes de la aplicación.
+- El integrante Anaely Burga completó los endpoints de perfiles y usuarios teniendo en cuenta el contexto de autenticación y creación de usuarios para la aplicación.
+
+A continuación, se muestra el siguiente gráfico que detalla la cantidad de commits realizados por cada miembro durante este sprint. El gráfico detalla el aporte realizado por cada integrante del equipo para el avance de la última versión de la aplicación backend.
+
+<p align="center">
+  <img src="https://imgur.com/SEEO2ty.png"> 
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación backend. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación backend, entre ellas se incluye endpoints para características como órdenes de compra, catálogos, perfiles, usuarios y suscripciones.
+
+<p align="center">
+  <img src="https://imgur.com/DBxZV8f.png"> 
+</p>
+
+### Reflexión del equipo ###
+
+Se llevó a cabo una reflexión final por parte del equipo sobre el sprint, en la que se puso de relieve la relevancia de la colaboración y la comunicación continua entre los integrantes. Durante el análisis se detectaron oportunidades de mejora en la planificación y en la ejecución de las tareas, así como la necesidad de realizar pruebas más exhaustivas antes de cada entrega. Asimismo, se valoró de forma positiva el uso de herramientas como GitHub para el control de versiones y la gestión de tareas, pues estas facilitaron el seguimiento del progreso y la resolución de conflictos. El equipo considera este avance como decisivo para la culminación del proyecto, subrayando la importancia de integrar todas las funcionalidades desarrolladas hasta la fecha. A pesar de reconocer que aún pueden implementarse mejoras y funcionalidades adicionales, expresan confianza en que el proyecto ha cumplido con los objetivos establecidos.
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
