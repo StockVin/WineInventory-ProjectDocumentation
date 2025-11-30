@@ -92,7 +92,7 @@ Entrevista 1:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Farid-Interview.png"/></p>   | **Distrito:** Villa María del Triunfo <br>**Entrevistado:** Farid Sebastian |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/EXlfg5CgmKdMnqyXf0VgPMMBgdMTmFvS4RhM10OcuJGTJw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cbzspP)|  **Entrevistador:** Matías Sebastian Diaz Quispe |
+| [https://tinyurl.com/ejyu8fhe](https://tinyurl.com/ejyu8fhe)|  **Entrevistador:** Matías Sebastian Diaz Quispe |
 | Timing: Minuto 0:15-4:10| **Resumen:** Farid Sebastian explicó durante la entrevista que su rol esta enfocado en la compra y venta de vinos. Su negocio está ubicado en Villa María del Triunfo y cuenta con aproximadamente dos años de experiencia en la distribución de vinos artesanlaes, principalmente Borgoña y Rosé. Mencionó que los productos con mayor salida son aquellos que ofrecen un mejor margen de ganancia, por lo que prioriza su distribución. Entre los principales desafíos que enfrenta destacó la presentación del producto y el marketing, ya que considera complicado llegar al público para incentivar la compra. En este sentido, señaló que requiere mayor apoyo y experiencia para fortalecer las ventas. Actualmente gestiona su inventario con herramientas básicas como Excel, aunque manifestó interés en contar con un software especializado que le permita optimizar la administración de su negocio. |
 
 Entrevista 2:
@@ -100,7 +100,7 @@ Entrevista 2:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Rafael-Interview.png"/></p>   | **Distrito:** Independencia <br>**Entrevistado:** Rafael Dominguez |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313453_upc_edu_pe/EVfLY9Jt-xFKjD56Rdq5zu8BUAUXm9OtezMI8tWK38ESAQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u2lSLR)|  **Entrevistador:** Didier Meza |
+| [https://tinyurl.com/ytr3e9kn](https://tinyurl.com/ytr3e9kn)|  **Entrevistador:** Didier Meza |
 | Timing: Minuto 0:15-3:59| **Resumen:** Rafael Domínguez, de 21 años, es dueño de una licorería que fundó hace 2 años. Desde los inicios de su negocio ha gestionado el inventario de forma manual, principalmente usando hojas de cálculo de Excel para llevar el control. Aunque este método le ha funcionado en un inicio, reconoce que ya no es eficiente frente a las exigencias actuales del comercio. Uno de los principales retos que enfrenta es el manejo de productos próximos a vencer. Para reducir pérdidas, suele colocar los productos cercanos a su fecha de vencimiento en zonas más visibles y accesibles para los clientes, mientras que los más recientes los almacena al fondo. Sin embargo, este constante movimiento genera riesgos, ya que algunas botellas o empaques pueden dañarse, ocasionándole pérdidas innecesarias. Además, le resulta complicado identificar con claridad qué productos necesita reponer, porque debe revisar toda su hoja de stock manualmente. También corre el riesgo de olvidar registrar una venta, lo que afecta el control real de su inventario. En más de una ocasión, incluso ha tenido que verificar físicamente en el almacén la existencia de ciertos productos. Rafael considera que un software que gestione de manera automática su inventario, las compras y las ventas sería de gran ayuda. Actualmente lleva toda la documentación a mano, lo que consume mucho tiempo y aumenta la posibilidad de errores. En cuanto a la tecnología que utiliza, emplea Google Chrome y Safari como navegadores, un iPhone para las gestiones rápidas de su negocio, y una laptop con sistema operativo MacOS para administrar sus registros. |
 
 Entrevista 3:
@@ -108,7 +108,7 @@ Entrevista 3:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Diego-Interview.png"/></p>   | **Distrito:** Villa el Salvador <br>**Entrevistado:** Diego Vilca |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313453_upc_edu_pe/ERm_GafMhmpLhmU1XbfkYiUB4ss2UBrjiJyfdWlZK9egyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zY9rHB)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
+| [https://tinyurl.com/2n3mpmfu](https://tinyurl.com/2n3mpmfu)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
 | Timing: Minuto 0:05-3:26| **Resumen:** Diego Vilca, de 20 años, es el propietario de una licorería, un negocio al que decidió dedicarse tras dejar el rubro de la construcción durante la pandemia. Esta transición representó un cambio importante en su vida laboral, y desde entonces ha buscado adaptar sus procesos a las exigencias del comercio moderno. Actualmente, gestiona su inventario y las ventas diarias mediante un software básico que le permite mantener cierto orden, aunque considera poco práctico tener que revisar manualmente qué productos tienen mayor rotación, ya que le demanda tiempo y esfuerzo adicional. En cuanto a los medios de pago, ha incorporado plataformas digitales como Yape y Plin, lo que facilita las transacciones con sus clientes y le permite adaptarse a las nuevas formas de consumo. Diego no enfrenta grandes dificultades con productos que no logran venderse, ya que mantiene un acuerdo con sus proveedores que aceptan devoluciones, lo que le da mayor tranquilidad en la gestión de su stock. Reconoce el valor del uso de herramientas digitales, especialmente aquellas que optimizan el proceso de cobranza, un aspecto fundamental en su negocio. Además, considera muy útil la idea de contar con una plataforma más especializada que lo notifique cuando sea necesario reponer productos y que, a su vez, le brinde recomendaciones sobre el almacenamiento adecuado de los licores. En cuanto a las tecnologías que utiliza, accede a internet principalmente con un celular Android y una laptop con sistema operativo Windows, utilizando navegadores como Google Chrome y Edge. |
 
 Segmento Objetivo 2: Proveedores de Licorerías
@@ -118,7 +118,7 @@ Entrevista 4:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Milton-Interview.png"/></p>   | **Distrito:** Villa el Salvador <br>**Entrevistado:** Milton Meza |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313453_upc_edu_pe/EWDFnxQFpdZAjvrk3VjqQyoBqDYC5OAAjiwxyO5JprnKlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XhA4mh)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
+| [https://tinyurl.com/5rkn749b](https://tinyurl.com/5rkn749b)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
 | Timing: Minuto 0:05-3:41| **Resumen:** Milton Meza, de 21 años, trabaja como proveedor y abastece principalmente a mercados y minimarkets. En su rol, no solo se encarga de la entrega de productos, sino que también mantiene una relación cercana con sus clientes, informándoles sobre artículos que podrían ser de su interés y comunicándoles oportunamente si hay promociones o descuentos disponibles. Para gestionar su comunicación diaria, utiliza llamadas telefónicas y mensajes de WhatsApp, aunque reconoce que estos medios tienen limitaciones. Muchas veces sus clientes se encuentran ocupados atendiendo sus negocios y no pueden responder de inmediato, lo que retrasa la coordinación de pedidos o el envío de información importante. Por ello, considera que una aplicación diseñada para mejorar la comunicación con los clientes sería una herramienta muy útil, permitiéndole centralizar sus gestiones y ofrecer un servicio más eficiente. Al igual que otros actores del rubro, Milton cree firmemente que los negocios deben dar el paso hacia la adopción de herramientas digitales, especialmente aquellas que contribuyan a agilizar la gestión de inventarios y mejorar la interacción entre proveedores y comerciantes. Utiliza como browser Google Chrome y Edge. Como tecnologías utiliza un celular Android y una laptop con sistema operativo Windows. |
 
 Entrevista 5:
@@ -126,7 +126,7 @@ Entrevista 5:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Sebastian-Interview.png"/></p>   | **Distrito:** San Juan de Lurigancho <br>**Entrevistado:** Sebastián Chayguaque |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313453_upc_edu_pe/EQw-Gt6ubH9DkLxoUFjhFDoBu2LSybZf0iOU22P6kVcm8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nYR8Ne)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
+| [https://tinyurl.com/44sr2cfd](https://tinyurl.com/44sr2cfd)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
 | Timing: Minuto 0:10-3:39| **Resumen:** Sebastián Chayguaque, de 25 años, trabaja como proveedor de licores desde hace tres años, tiempo en el que ha logrado consolidar una red de clientes conformada principalmente por licorerías pequeñas y medianas. En su día a día, realiza visitas presenciales para ofrecer productos y reponer el stock faltante, lo que le permite conocer de cerca las necesidades del mercado. Actualmente, brinda a sus clientes información básica sobre precios, promociones y fechas de vencimiento, aunque reconoce que no siempre puede compartir detalles técnicos de conservación por falta de una herramienta adecuada. Durante su experiencia, ha identificado problemas frecuentes de almacenamiento inadecuado, como botellas expuestas al sol o guardadas en condiciones que afectan su calidad. Para Sebastián, estos errores impactan directamente en la imagen de la marca, ya que el consumidor final tiende a culpar al producto más que al establecimiento. En cuanto a sus medios de comunicación, se apoya principalmente en WhatsApp y llamadas telefónicas para coordinar pedidos y dar seguimiento a los clientes. Sebastián considera que una plataforma digital especializada sería de gran utilidad, ya que permitiría a los proveedores compartir fichas técnicas, recomendaciones de almacenamiento y alertas sobre vencimientos de manera más clara y accesible. Está convencido de que la digitalización es clave para fortalecer la relación con los clientes y garantizar que los productos lleguen al consumidor final en las mejores condiciones posibles. Utiliza como navegadores Google Chrome y Edge, y trabaja con un celular Android y una laptop con sistema operativo Windows. |
 
 Entrevista 6:
@@ -134,7 +134,7 @@ Entrevista 6:
 | Entrevista | Registro |
 | ----- | ----- |
 | <p align="center"><img src="../img/Chapter II/Yadhir-Interview.png"/></p>   | **Distrito:** Santiago de Surco <br>**Entrevistado:** Yadhir Churampi |
-| [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313453_upc_edu_pe/Eb-vbEBlot9NuplC3ctO3DQBWPnUaHOPc3PzEV897U8vUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=s0lOaP)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
+| [https://tinyurl.com/3zvvmdhp](https://tinyurl.com/3zvvmdhp)|  **Entrevistador:** Didier Sebastián Meza Solórzano |
 | Timing: Minuto 0:10-3:39| **Resumen:** Yadhir Churampi, de 24 años, trabaja en una empresa distribuidora especializada en vinos de pequeña producción. Su labor diaria no solo se centra en la venta, sino también en acompañar de manera cercana a sus clientes, brindándoles información importante sobre las mejores prácticas de almacenamiento para asegurar que los vinos conserven su calidad y ofrezcan una buena experiencia al consumidor final. Para comunicarse con los comercios que atiende, utiliza principalmente WhatsApp y llamadas telefónicas, lo que le permite mantener una comunicación constante y directa. Sin embargo, considera que sería de gran valor contar con una herramienta digital que centralice toda la información, facilite compartir recomendaciones y permita llevar un seguimiento personalizado de cada cliente. Yadhir está convencido de que los negocios deben adoptar soluciones tecnológicas si quieren mantenerse competitivos en un mercado cada vez más exigente. En su opinión, implementar herramientas digitales no solo agilizaría la gestión del inventario, sino que también mejoraría la relación entre proveedores y dueños de licorerías. Actualmente utiliza como navegadores Google Chrome y Safari, y trabaja con un iPhone y una laptop con sistema operativo MacOS. |
 
 ### 2.2.3. Análisis de entrevistas ###
@@ -150,13 +150,27 @@ Tanto como los proveedores como los dueños de licorerías comparten el desafío
 Para desarrollar la propuesta de solución, se realizarán un User Persona para cada segmento objetivo está basado en la entrevista realizada y resume los puntos más importantes sobre el negocio, sus metas y los desafíos que enfrenta. La idea es tener una visión clara de quién es el usuario, qué lo motiva y qué dificultades encuentra, para así orientar mejor las soluciones que se propongan.
 
 **User Persona 1: Dueños de Licorerías** <br/>
-<img src="../img/Chapter II/UserPersona1.png" alt ="user_persona1">
-> <p align="center">User Persona del primer segmento objetivo</p>
+
+<figure align="center">
+  <img 
+    src="../img/Chapter II/UserPersona1.png" 
+    alt="user_persona1" 
+    width="650"
+  >
+  <figcaption>Figura 4 — User Persona del primer segmento objetivo</figcaption>
+</figure>
 
 
 **User Persona 2: Proveedores de productos de licorerías** <br/>
-<img src="../img/Chapter II/UserPersona2.png" alt ="user_persona2">
-> <p align="center">User Persona del segundo segmento objetivo</p>
+
+<figure align="center">
+  <img 
+    src="../img/Chapter II/UserPersona2.png" 
+    alt="user_persona2" 
+    width="650"
+  >
+  <figcaption>Figura 5 — User Persona del segundo segmento objetivo</figcaption>
+</figure>
 
 ### 2.3.2. User Task Matrix ###
 
@@ -189,13 +203,26 @@ El User Journey Mapping nos permite visualizar de manera detallada las actividad
 
 En la siguiente imagen se presenta el journey map del primer user persona. En este se describe el proceso que atraviesa cuando detecta que sus productos comienzan a escasear y necesita reabastecerlos. Para resolverlo, recurre a su software de gestión, donde registra los artículos faltantes y, finalmente, actualiza de forma manual el stock.
 
-<img src="../img/Chapter II/CustomerJourneyMappingUser1.png" alt ="user_journey_mapping_1"> <br/>
-> <p align="center">User Journey Mapping del User Persona 1</p>
+<figure align="center">
+  <img 
+    src="../img/Chapter II/CustomerJourneyMappingUser1.png" 
+    alt="user_journey_mapping_1" 
+    width="750"
+  >
+  <figcaption>Figura 6 — User Journey Mapping del User Persona 1</figcaption>
+</figure>
 
 **User Persona 2**
 
-<img src="../img/Chapter II/CustomerJourneyMappingUser2.png" alt ="user_journey_mapping_2"> <br/>
-> <p align="center">User Journey Mapping del User Persona 1</p>
+<figure align="center">
+  <img 
+    src="../img/Chapter II/CustomerJourneyMappingUser2.png" 
+    alt="user_journey_mapping_2" 
+    width="750"
+  >
+  <figcaption>Figura 7 — User Journey Mapping del User Persona 1</figcaption>
+</figure>
+
 
 ### 2.3.4. Empathy Mapping ###
 
@@ -203,13 +230,24 @@ El Empathy Mapping es una herramienta que nos permite profundizar en la comprens
 
 **User Persona 1**
 
-<img src="../img/Chapter II/EmpathyMappingUser1.png" alt ="empathy_mapping_user1"><br/>
-> <p align="center">Empathy Mapping del User Persona 1</p>
+<figure align="center">
+  <img 
+    src="../img/Chapter II/EmpathyMappingUser1.png" 
+    alt="empathy_mapping_user1" 
+    width="750"
+  >
+  <figcaption>Figura 8 — Empathy Mapping del User Persona 1</figcaption>
+</figure>
 
 **User Persona 2**
 
-<img src="../img/Chapter II/EmpathyMappingUser2.png" alt ="mpathy_mapping_user2"><br/>
-> <p align="center">Empathy Mapping del User Persona 2</p>
+<figure align="center">
+  <img 
+    src="../img/Chapter II/EmpathyMappingUser2.png" alt ="mpathy_mapping_user2"
+    width="750"
+  >
+  <figcaption>Figura 9 — Empathy Mapping del User Persona 2</figcaption>
+</figure>
 
 ## _2.4. Big Picture Event Storming_ ##
 
@@ -219,44 +257,73 @@ El Big Picture Event Storming nos permite tener una visión clara y completa de 
 
 El proceso de autenticación incluye el registro y el inicio de sesión. Para mayor seguridad, se utilizan tokens y la verificación de cuenta a través de Gmail, asegurando que solo usuarios válidos accedan a la aplicación.
 
-<img src="../img/Chapter II/AuthenticationProcess.png" alt ="Authentication_Process"><br/>
-> <p align="center">Proceso de autenticación</p>
+<figure align="center">
+  <img 
+     src="../img/Chapter II/AuthenticationProcess.png" alt ="Authentication_Process"
+    width="750"
+  >
+  <figcaption>Figura 10 — Proceso de autenticación</figcaption>
+</figure>
 
 **Inventory Process**
 
 El proceso de inventario permite registrar nuevos vinos, actualizar existencias, consultar el stock disponible, entre otras funciones que facilitan el control de los productos en la gestión diaria.
 
-<img src="../img/Chapter II/InventoryProcess.png" alt ="Inventory_Process"><br/>
-> <p align="center">Proceso de la gestión del inventario</p>
+<figure align="center">
+  <img 
+     src="../img/Chapter II/InventoryProcess.png" alt ="Inventory_Process"
+    width="750"
+  >
+  <figcaption>Figura 11 — Proceso de la gestión del inventario</figcaption>
+</figure>
 
 **Report Process**
 
 El proceso de reportes incluye la generación de guías de remisión interna, guías de conservación y cuidados, además de reportes de pérdidas y facturas. Con ello, el usuario obtiene un mejor control y seguimiento de su negocio.
 
-<img src="../img/Chapter II/ReportProcess.png" alt ="Report_Process"><br/>
-> <p align="center">Proceso de un creación de algún reporte</p>
+<figure align="center">
+  <img 
+     src="../img/Chapter II/ReportProcess.png" alt ="Report_Process"
+    width="750"
+  >
+  <figcaption>Figura 12 — Proceso de un creación de algún reporte</figcaption>
+</figure>
 
 **Payment Process**
 
 El proceso de pago inicia con la selección de un plan y continúa con la pasarela de pago, donde se verifica la disponibilidad de sus fondos. Una vez realizado el cobro, el plan se activa o se renueva automáticamente. Por último, el usurio recibe un correo de verificación del pago realizado.
 
-<img src="../img/Chapter II/PaymentProcess.png" alt ="Payment_Process"><br/>
-> <p align="center">Proceso de pago</p>
+<figure align="center">
+  <img 
+     src="../img/Chapter II/PaymentProcess.png" alt ="Payment_Process"
+    width="750"
+  >
+  <figcaption>Figura 13 — Proceso de pago</figcaption>
+</figure>
 
 **Order Process**
 
 El proceso de ordenar le permite a un proveedor realizar planes de restablecimiento, aplicar descuentos y promociones, publicar catálogos y gestionar órdenes de venta. Desde el lado del comprador, abarca todo lo relacionado con la adquisición de productos al proveedor.
 
-<img src="../img/Chapter II/OrderProcess.png" alt ="Order_Process"><br/>
-> <p align="center">Proceso de realizar alguna orden</p>
+<figure align="center">
+  <img 
+    src="../img/Chapter II/OrderProcess.png" alt ="Order_Process"
+    width="750"
+  >
+  <figcaption>Figura 14 — Proceso de realizar alguna orden</figcaption>
+</figure>
 
 **Notification Process**
 
 El proceso de notificaciones informa al distribuidor sobre el estado de sus órdenes, alerta cuando los productos se quedan sin stock y comunica cuando un producto se ha vencido, manteniendo actualizado al distribuidor en todo momento.
 
-<img src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process"><br/>
-> <p align="center">Proceso de una notificación</p>
-  
+<figure align="center">
+  <img 
+    src="../img/Chapter II/NotificationProcess.png" alt ="Notification_Process"
+    width="750"
+  >
+  <figcaption>Figura 15 — Proceso de una notificación</figcaption>
+</figure>
 
 ## _2.5. Ubiquitous Language_ ##
 
@@ -319,6 +386,3 @@ Definición: Funcionalidad que permite verificar si un usuario autenticado tiene
 **Free Plan** (Plan Gratuito) </br>
 
 Definición: Modelo sin costo que brinda acceso a las funcionalidades básicas de la aplicación, como el registro de productos y ventas, con limitaciones en personalización, soporte e integraciones. Ideal para licorerías que están iniciando y buscan digitalizar su operación de manera sencilla.
-
-
-
