@@ -1505,7 +1505,7 @@ Asimismo, se logró que la aplicación frontend pueda consumir correctamente los
 
 A continuación, se presentan las capturas de pantalla correspondientes a las secciones implementadas tanto en la Landing Page como en la aplicación Frontend y en la aplicación Backend, las cuales evidencian el progreso alcanzado durante este sprint.
 
-- Video de ejecución de los tres productos para este sprint:  
+- Video de ejecución de los tres productos para este sprint:  [https://tinyurl.com/hs5v78jm](https://tinyurl.com/hs5v78jm)
 
 
 ## **Landing Page**
