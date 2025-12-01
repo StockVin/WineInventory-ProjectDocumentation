@@ -10,11 +10,13 @@ La marca "Wine Inventory" se posiciona como una solución inteligente y especial
 
 La paleta de colores se inspira en el mundo del vino, utilizando tonos oscuros y cálidos como el burdeos, el dorado suave y los marrones profundos. Estos colores no solo evocan la calidad y tradición asociadas a las bebidas selectas, sino que también refuerzan la elegancia de la marca.
 
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/logo.jpeg" alt="Logo de StockVin">
-  <br>
-  Logo de WineInventory
-</p>
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/logo.jpeg" alt="Logo de StockVin"
+    width="350"
+  >
+  <figcaption>Figura 18 —  Logo de WineInventory</figcaption>
+</figure>
 
 #### Guía de Tipografía del Proyecto
 
@@ -31,24 +33,28 @@ A continuación, se presenta un resumen de la tipografía seleccionada y su apli
 | **Botones y Microtextos** | **Fira Sans** | Diseñada para ser leída claramente en cualquier tamaño de pantalla, Fira Sans es una opción funcional y neutra. Es ideal para elementos de interacción como botones, ya que su claridad garantiza que las acciones del usuario sean fácilmente identificables. |
 | **Elementos Destacados** | **Variantes en negrita** | Para elementos que requieren un énfasis especial, se utilizan las variantes **bold** o **semi-bold** de las fuentes principales. Esto permite resaltar información importante, como datos o palabras clave, sin introducir nuevas fuentes que puedan sobrecargar el diseño. Es una manera sutil y coherente de guiar al ojo del usuario hacia lo más relevante. |
 
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/fonts.png" alt="Muestra de Tipografía del Proyecto">
-  <br>
-  **Guía de Tipografía del Proyecto**
-  <br>
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/fonts.png" alt="Muestra de Tipografía del Proyecto"
+    width="650"
+  >
+  <figcaption>Figura 19 —  Guía de Tipografía del Proyecto</figcaption>
+</figure>
+
   A continuación se presenta un resumen de la tipografía seleccionada y su aplicación en el proyecto, siguiendo un estilo moderno y elegante.
-</p>
 
 #### Colores
 Paleta principal:
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/colores.jpeg" alt="Paleta de Colores del Proyecto">
-  <br>
-  **Guía de Colores del Proyecto**
-  <br>
-  Esta paleta de colores ha sido seleccionada para reflejar la identidad de la marca y garantizar la coherencia visual en todos los elementos del proyecto.
-</p>
 
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/colores.jpeg" alt="Paleta de Colores del Proyecto"
+    width="650"
+  >
+  <figcaption>Figura 20 —  Guía de Colores del Proyecto</figcaption>
+</figure>
+
+  Esta paleta de colores ha sido seleccionada para reflejar la identidad de la marca y garantizar la coherencia visual en todos los elementos del proyecto.
 
 ### Guía de Estilo del Proyecto
 
@@ -56,7 +62,7 @@ Nuestra paleta de colores está diseñada para transmitir un sentimiento de **co
 
 ---
 
-#### 🎨 Paleta de Colores
+####  Paleta de Colores
 
 - **Gris Oscuro (#2C2129):** transmite seriedad y experiencia. Ideal para fondos, textos principales y elementos estáticos.  
 - **Blanco (#FFF8F7):** aporta limpieza, aire visual y mejora la legibilidad.  
@@ -64,11 +70,11 @@ Nuestra paleta de colores está diseñada para transmitir un sentimiento de **co
 - **Rojo Brillante (#C81D33):** energía y llamado a la acción, usado en botones y enlaces de conversión.  
 - **Crema (#FEEED4):** contraste suave y elegante en fondos oscuros, resalta textos e íconos con calidez.  
 
-✅ La armonía entre los neutros y los acentos cálidos genera un diseño **minimalista y elegante**, con elementos que captan la atención de manera efectiva, reflejando una marca **confiable y dinámica**.
+La armonía entre los neutros y los acentos cálidos genera un diseño **minimalista y elegante**, con elementos que captan la atención de manera efectiva, reflejando una marca **confiable y dinámica**.
 
 ---
 
-#### 📐 Espaciado
+####  Espaciado
 
 - **Claridad y organización:** diseño aireado y moderno, con prioridad en la legibilidad.  
 - **Espacio en blanco:** reduce la carga cognitiva y facilita el escaneo visual.  
@@ -77,7 +83,7 @@ Nuestra paleta de colores está diseñada para transmitir un sentimiento de **co
 
 ---
 
-#### 🗣️ Tono de la Comunicación
+####  Tono de la Comunicación
 
 - **Profesionalismo sin rigidez:** lenguaje claro, preciso y creíble, evitando jerga innecesaria.  
 - **Enfoque en el usuario:** tono respetuoso y empático, orientado a resolver problemas y ofrecer soluciones.  
@@ -85,7 +91,7 @@ Nuestra paleta de colores está diseñada para transmitir un sentimiento de **co
 
 ---
 
-📌 En conjunto, la paleta de colores, el espaciado y el tono de comunicación refuerzan una experiencia **profesional, confiable y accesible**, alineada con la identidad de la marca.
+ En conjunto, la paleta de colores, el espaciado y el tono de comunicación refuerzan una experiencia **profesional, confiable y accesible**, alineada con la identidad de la marca.
 
 
 # Botones: Diseño y Usabilidad
@@ -104,13 +110,16 @@ Su diseño robusto proporciona un **feedback visual claro** al ser seleccionados
 
 #### Botones
 Paleta principal:
-<p align="center">
-  <img src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/colores.jpeg" alt="Paleta de Colores del Proyecto">
-  <br>
-  **Guía de Colores del Proyecto**
-  <br>
-  Esta paleta de colores ha sido seleccionada para reflejar la identidad de la marca y garantizar la coherencia visual en todos los elementos del proyecto.
-</p>
+
+<figure align="center">
+  <img 
+    src="https://github.com/StockVin/WineInventory-ProjectDocumentation/raw/feature/chap4-style-guidelines/img/Chapter%20IV/colores.jpeg" alt="Paleta de Colores del Proyecto"
+    width="650"
+  >
+  <figcaption>Figura 21 —  Guía de Colores del Proyecto</figcaption>
+</figure>
+
+Esta paleta de colores ha sido seleccionada para reflejar la identidad de la marca y garantizar la coherencia visual en todos los elementos del proyecto.
 
 Patrón de Diseño Web
 Para la arquitectura visual de la página, hemos optado por el patrón de diseño en forma de Z. Este enfoque estratégico es ideal para mejorar la experiencia del usuario y maximizar la efectividad del contenido de nuestra aplicación.
@@ -181,18 +190,24 @@ Este enfoque responde a principios de arquitectura de la información que priori
 ## Conversión  
 - **Planes:** Presentación detallada de los diferentes planes de suscripción disponibles para los clientes.
 
-<p align="center">
-  <img src="../img/Chapter IV/landingpage.png">
-
-  > <p align="center">Organización en el landing page</p>
+  <figure align="center">
+  <img 
+    src="../img/Chapter IV/landingpage.png"
+    width="650"
+  >
+  <figcaption>Figura 22 —  Organización en el landing page</figcaption>
+</figure>
 
 La arquitectura jerárquica de la interfaz de la aplicación web **WineInventory** fue diseñada para facilitar el acceso y la gestión eficiente de sus múltiples funcionalidades.  
 Esta organización permite una distribución lógica del contenido, reduciendo la carga cognitiva de los usuarios y mejorando su capacidad para ubicar rápidamente las herramientas que necesitan.
 
-<p align="center">
-  <img src="../img/Chapter IV/frontend.png">
-
-  > <p align="center">Organización en la aplicación</p>
+  <figure align="center">
+  <img 
+    src="../img/Chapter IV/frontend.png"
+    width="650"
+  >
+  <figcaption>Figura 23 —  Organización en la aplicación</figcaption>
+</figure>
 
 ---
 
@@ -289,6 +304,7 @@ La página de aterrizaje de WineInventory comunica la propuesta de valor de la h
 **Landing Page**
 
 - **Title:** 
+
 <title>WineInventory</title>
 
 - **Meta Description:**
@@ -374,11 +390,14 @@ En la página de aterrizaje, StockSip incorpora una barra de navegación fija qu
 * **Planes**
 * **FAQ**
 * **Acerca de**
-
-<p align="center">
-  <img src="../img/Chapter IV/nav.png">
-
-  > <p align="center">Barra de navegación fija</p>
+  
+<figure align="center">
+  <img 
+    src="../img/Chapter IV/nav.png"
+    width="650"
+  >
+  <figcaption>Figura 24 —  Barra de navegación fija</figcaption>
+</figure>
 
 La barra se mantiene visible mientras el usuario explora la página para asegurar una navegación continua y directa hacia la información clave.
 
@@ -773,8 +792,8 @@ El prototipado web resulta fundamental, ya que facilita la visualización y prue
 ![prototype](https://raw.githubusercontent.com/StockVin/WineInventory-ProjectDocumentation/a172618fc5205eb85d9ea0f9cb3438ffe85b7c1e/img/Chapter%20IV/image-prototype.PNG)
 
 
-Enlace del video: 
-[Prototype WineInventory](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319950_upc_edu_pe/Ebsw4tQlNadClYxfQbts1GoBNaELoFKMii2SXz7rZG_dGQ?e=hVbX5c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace del video: [https://tinyurl.com/yjfy4rx7 ](https://tinyurl.com/yjfy4rx7)
+
 
 
 ## _4.6. Domain-Driven Software Architecture_ ##
@@ -842,5 +861,3 @@ El diagrama de clases representa un sistema para administrar usuarios, roles, pr
 El diagrama de base de datos muestra un sistema comercial relacional centrado en la tabla `users` (ID como PK), desde la cual se enlazan roles especializados mediante FKs: `producers`, `distributors` y `consumers` referencian a `users` para segregar responsabilidades. El catálogo se compone de `products` y `typeProducts` (cada producto referencia a su tipo vía `TypeProductID`), y la tabla `inventories` articula stock relacionando productos con `suppliers` y `producers` (ProductID, SupplierID, ProducerID) para controlar unidades y fechas de vencimiento. La gestión comercial y CRM se refleja en `clients` y `clientLists` (esta última almacena datos de contactos y se vincula a pedidos mediante la tabla intermedia `clientLists_orders`), mientras que `orders` registra las ventas y `orderHistories` guarda los eventos y cambios de estado asociados (relación 1:N). La tabla `supports` modela los tickets de soporte ligados a usuarios, y las suscripciones aparecen en `subscriptions` junto a tablas de features (`FreeFeature`, `PlusFeature`, `ProFeature`); dado que `subscriptions.Features` es un campo string, se recomienda normalizarlo en una relación many-to-many con las features. Para mejorar integridad y flexibilidad conviene crear `order_items` para pedidos con varios productos, renombrar y clarificar `clientLists`, convertir `subscriptions.Features` en una tabla relacional, estandarizar nombres de columnas (id, user_id, product_id), añadir timestamps y reglas de borrado en cascada, e indexar las FKs más utilizadas. En conjunto, el modelo cubre autenticación, catálogo, inventario, pedidos y soporte, pero ganaría normalización y escalabilidad corrigiendo campos desnormalizados y añadiendo tablas intermedias donde proceda.
 
 ![diagrama-erd](../img/Chapter%20IV/diagrama-erd.png)
-
-
