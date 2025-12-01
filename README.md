@@ -277,6 +277,9 @@ TB2: Elaboré la documentación correspondiente al backend, donde describí los 
                         <br><br>
         TF1: La calidad de su comunicación escrita fue efectiva, reflejada en comentarios de código, descripciones de pull requests y notas explicativas
         <br><br>
+        <br><br>
+TF: En el trabajo final se elaboró documentación clara y organizada que permitió a perfiles técnicos y no técnicos comprender el funcionamiento del sistema. La calidad y estructura de los documentos facilitó la revisión, integración y continuidad del proyecto.
+        <br><br>
         <strong>Matias Sebastian, Diaz Quispe</strong><br><br>
         TB1: Me encarge del desarrollo del capítulo 3, enfocado principalmente en el desarrollo de los user stories, impact mapping, product backlog, colaborando en la puntos del capitulo 4
         <br>
