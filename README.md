@@ -1,21 +1,22 @@
-<div align="center">
+<div class="cover-page" align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png">
+<img class="cover-logo" src="https://imgur.com/PDn5gf6.png" alt="Logo UPC">
+
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 ### Facultad: Ingenieria
-### Carrera: Ingeniería de Software 
-### Periodo: 202520 
-### Codigo del curso: A1SI0729 
-### Nombre del curso: Desarrollo de Aplicaciones Open Source 
-### NRC: 7351  
-### Nombre del profesor: Rafael Oswaldo Castro Veramendi  
-### "Informe de Trabajo Final"  
-### Nombre del startup: StockVin  
-### Nombre del producto: WineInventory  
+### Carrera: Ingeniería de Software
+### Periodo: 202520
+### Codigo del curso: A1SI0729
+### Nombre del curso: Desarrollo de Aplicaciones Open Source
+### NRC: 7351
+### Nombre del profesor: Rafael Oswaldo Castro Veramendi
+### "Informe de Trabajo Final"
+### Nombre del startup: StockVin
+### Nombre del producto: WineInventory
 ### Relación de integrantes:
 
-<table align="center" style="margin-left: auto; margin-right: auto;">
+<table class="cover-table">
   <tr>
     <th>Apellidos y Nombres</th>
     <th>Código</th>
@@ -38,7 +39,8 @@
   </tr>
 </table>
 
-###### Diciembre, 2025
+<div class="cover-date">Diciembre, 2025</div>
+</div>
 
 # Registro de Versiones del Informe
 
